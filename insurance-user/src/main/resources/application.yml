@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: insurance-user-wb
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.100.79.206:8848
+server:
+  port: 18884

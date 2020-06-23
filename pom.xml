@@ -10,6 +10,7 @@
     <modules>
         <module>insurance-commcon-api</module>
         <module>insurance-user</module>
+        <module>insurance-order</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>
