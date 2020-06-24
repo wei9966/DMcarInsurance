@@ -8,10 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="insurance-commcon-api" />
-        <module name="insurance-user" />
-        <module name="insurance-type" />
         <module name="insurance-order" />
-        <module name="insurance-city" />
+        <module name="insurance-type" />
+        <module name="insurance-user" />
       </profile>
     </annotationProcessing>
   </component>
