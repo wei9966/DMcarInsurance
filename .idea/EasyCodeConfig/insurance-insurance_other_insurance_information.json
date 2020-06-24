@@ -1,0 +1,52 @@
+{
+  "name" : "InsuranceOtherInsuranceInformation",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "otherInsuranceInformationId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "otherInsuranceInformationDateBegin",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "otherInsuranceInformationDateFinish",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "otherInsuranceInformationName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "otherInsuranceInformationCard",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "otherInsuranceInformationEmail",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.dm.insurance",
+  "savePath" : "E:/Springboot/DMcarInsurance/insurance-other-insure-info/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-other-insure-info"
+}

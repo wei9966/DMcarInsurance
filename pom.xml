@@ -12,6 +12,7 @@
         <module>insurance-user</module>
         <module>insurance-order</module>
         <module>insurance-type</module>
+        <module>insurance-other-insure-info</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>

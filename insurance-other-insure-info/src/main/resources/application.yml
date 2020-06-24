@@ -1,0 +1,15 @@
+server:
+  port: 9200
+spring:
+  application:
+    name: insurance-other-insure-info
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.100.79.206:8848
+  datasource:
+    url: jdbc:mysql://47.100.79.206:3306/insurance
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
