@@ -7,15 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insurance_car_insur" />
         <module name="insurance-commcon-api" />
-        <module name="insurance-user" />
         <module name="insurance-order" />
-        <module name="insurance-car-insur" />
+        <module name="insurance-user" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="insurance_car_insur" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

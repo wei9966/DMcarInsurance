@@ -1,4 +1,4 @@
-package com.dt.insurance.controller;
+package com.dm.insurance.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
