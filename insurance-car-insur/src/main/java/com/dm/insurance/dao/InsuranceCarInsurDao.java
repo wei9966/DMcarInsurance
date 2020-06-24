@@ -2,6 +2,8 @@ package com.dm.insurance.dao;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.web.bind.annotation.Mapping;
+
 import java.util.List;
 
 /**
@@ -10,6 +12,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-06-24 16:35:42
  */
+
 public interface InsuranceCarInsurDao {
 
     /**

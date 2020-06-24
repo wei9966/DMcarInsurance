@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-car-insur" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-gateway" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,6 +94,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.insuranceCarInsur">
+    <configuration name="GateWaySpringBootApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.GateWaySpringBootApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
@@ -170,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592983031880</updated>
       <workItem from="1592983035654" duration="2461000" />
-      <workItem from="1592986193102" duration="1516000" />
+      <workItem from="1592986193102" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="wd 1">
       <created>1592987186792</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592987186792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wd 1">
+      <created>1592987839884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987839884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,14 +205,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987676028" />
-    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592987185918">
+    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592987838982">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592987185918" />
-    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1592987299391">
+    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592987838982" />
+    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1592987960271">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592987299391" />
+    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592987960271" />
     <state width="1111" height="242" key="GridCell.Tab.0.bottom" timestamp="1592987062225">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -238,26 +245,26 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1111" height="242" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592987056788" />
-    <state x="138" y="75" key="MergeDialog" timestamp="1592987222754">
+    <state x="138" y="75" key="MergeDialog" timestamp="1592987916060">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="138" y="75" key="MergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987222754" />
-    <state x="431" y="177" key="MultipleFileMergeDialog" timestamp="1592987222762">
+    <state x="138" y="75" key="MergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987916060" />
+    <state x="431" y="177" key="MultipleFileMergeDialog" timestamp="1592987916068">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="431" y="177" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987222762" />
-    <state x="390" y="202" key="NewModule_or_Project.wizard" timestamp="1592987300442">
+    <state x="431" y="177" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987916068" />
+    <state x="390" y="202" key="NewModule_or_Project.wizard" timestamp="1592987963751">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="390" y="202" key="NewModule_or_Project.wizard/0.0.1440.920@0.0.1440.920" timestamp="1592987300442" />
-    <state x="224" y="76" key="SettingsEditor" timestamp="1592987715270">
+    <state x="390" y="202" key="NewModule_or_Project.wizard/0.0.1440.920@0.0.1440.920" timestamp="1592987963751" />
+    <state x="224" y="76" key="SettingsEditor" timestamp="1592987965514">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="224" y="76" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592987715270" />
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592987343049">
+    <state x="224" y="76" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592987965514" />
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592987849240">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987343049" />
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987849240" />
     <state x="108" y="165" key="new project wizard" timestamp="1592986361021">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

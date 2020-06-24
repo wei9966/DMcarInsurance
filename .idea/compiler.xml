@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insurance-commcon-api" />
-        <module name="insurance-order" />
         <module name="insurance-type" />
         <module name="insurance-user" />
+        <module name="insurance-gateway" />
+        <module name="insurance-commcon-api" />
+        <module name="insurance-car-insur" />
+        <module name="insurance-order" />
       </profile>
     </annotationProcessing>
   </component>
