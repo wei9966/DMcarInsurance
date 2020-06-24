@@ -3,4 +3,11 @@ spring:
     nacos:
       discovery:
         server-addr: 47.100.79.206:8848
-        
+    gateway:
+      routes:
+        - id: insurance_user_route
+          uri: lb://insurance-user
+          predicates:
+              - Path=/api/user/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}

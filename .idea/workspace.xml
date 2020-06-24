@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dt/insurance/Common.class" beforeDir="false" />
-=======
-    <list default="true" id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3bb06d12-54df-43b7-b320-9eb46c4b7ce4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" beforeDir="false" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/OrderSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/OrderSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-type/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-type/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/insurance-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/insurance-type/target/" />
+    <ignored path="$PROJECT_DIR$/insurance-commcon-api/target/" />
+    <ignored path="$PROJECT_DIR$/insurance-user/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/insurance-car-insur/target/" />
+    <ignored path="$PROJECT_DIR$/insurance-order/target/" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +57,37 @@
     </expand>
     <select />
   </component>
-<<<<<<< HEAD
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GateWaySpringBootApplication80.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order2Service.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,55 +96,352 @@
     </option>
   </component>
   <component name="Git.Settings">
-=======
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="E:/谷歌下载最新/spring-framework-5.0.15.RELEASE/spring-framework-5.0.15.RELEASE" value="PREVIEW" />
       </map>
     </option>
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-<<<<<<< HEAD
-        <option name="localRepository" value="D:\Maven\maven_repository" />
-=======
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-<<<<<<< HEAD
-  </component>
-  <component name="ProjectId" id="1dkxjy9vsIK25UGTP2iGnSCsDEX" />
-=======
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-commcon-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-commcon-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dm" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-<<<<<<< HEAD
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-=======
-  </component>
-  <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -130,25 +451,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-gateway" />
-=======
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32413793" />
     <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
-=======
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -156,347 +471,582 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.20841064" />
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Spring Boot.insuranceCarInsur">
+  <component name="RunManager" selected="Spring Boot.GateWaySpringBootApplication80">
     <configuration name="GateWaySpringBootApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.GateWaySpringBootApplication80" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-=======
-  <component name="RunManager" selected="Spring Boot.OrderSpringBootApplication">
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TypeSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-type" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.TypeSpringBootApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="UserSpringBootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.UserSpringBootApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="insuranceCarInsur" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-insur" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.insuranceCarInsur" />
-=======
-    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="insurance-user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dt.insurance.UserSpringBootApplication" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-<<<<<<< HEAD
     <list>
       <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
+      <item itemvalue="Spring Boot.TypeSpringBootApplication" />
+      <item itemvalue="Spring Boot.UserSpringBootApplication" />
       <item itemvalue="Spring Boot.insuranceCarInsur" />
       <item itemvalue="Spring Boot.OrderSpringBootApplication" />
-      <item itemvalue="Spring Boot.TypeSpringBootApplication" />
-      <item itemvalue="Spring Boot.UserSpringBootApplication (1)" />
     </list>
-=======
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-<<<<<<< HEAD
-          <option name="contentProportion" value="0.21052632" />
-=======
-          <option name="contentProportion" value="0.24034002" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-<<<<<<< HEAD
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-=======
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@20a51be6" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@4edd704c" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@774b8c41" type="9fbbdea:ServiceModel$ServiceNode" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="" />
-      <created>1592983031880</created>
+      <changelist id="94d8b437-fe26-48f0-8c8e-b20f0121bb12" name="Default" comment="" />
+      <created>1592910154738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592983031880</updated>
-      <workItem from="1592983035654" duration="2461000" />
-      <workItem from="1592986193102" duration="2010000" />
+      <updated>1592910154738</updated>
+      <workItem from="1592910158468" duration="602000" />
+      <workItem from="1592910906314" duration="401000" />
+      <workItem from="1592915224770" duration="9336000" />
+      <workItem from="1592958661516" duration="11535000" />
+      <workItem from="1592999242639" duration="2405000" />
     </task>
-    <task id="LOCAL-00001" summary="wd 1">
-      <created>1592987186792</created>
+    <task id="LOCAL-00001" summary="init">
+      <created>1592910556897</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1592987186792</updated>
+      <updated>1592910556897</updated>
     </task>
-    <task id="LOCAL-00002" summary="wd 1">
-      <created>1592987839884</created>
+    <task id="LOCAL-00002" summary="first">
+      <created>1592918662220</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1592987839884</updated>
+      <updated>1592918662220</updated>
     </task>
-    <task id="LOCAL-00003" summary="wd 2">
-      <created>1592988099420</created>
+    <task id="LOCAL-00003" summary="2020/6/24 0:13">
+      <created>1592928846275</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1592988099420</updated>
+      <updated>1592928846275</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
-=======
-      <changelist id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="" />
-      <created>1592958413792</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1592958413792</updated>
-      <workItem from="1592958415540" duration="662000" />
-      <workItem from="1592959162232" duration="6865000" />
-    </task>
-    <task id="LOCAL-00001" summary="2020/06/24 Czx 本地">
-      <created>1592983253515</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00004" summary="2020/6/24 0:33">
+      <created>1592929989071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1592983253515</updated>
+      <updated>1592929989071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
+    <task id="LOCAL-00005" summary="2020/6/24 0:36">
+      <created>1592930185130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930185130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020/6/24 0:41">
+      <created>1592930518551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930518551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2020/6/24 wb 提交">
+      <created>1592981912543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592981912543</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2020/6/24 网关初始化 wb">
+      <created>1592987773047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987773047</updated>
+    </task>
+    <task id="LOCAL-00009" summary="整合网关+user服务">
+      <created>1592999599359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592999599359</updated>
+    </task>
+    <task id="LOCAL-00010" summary="整合网关+user服务">
+      <created>1593000381806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593000381806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="整合网关+user服务">
+      <created>1593000501734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593000501735</updated>
+    </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="525000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Codota" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" visible="true" weight="0.3501144" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.28032038" />
+      <window_info anchor="bottom" id="Sequence" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
     <MESSAGE value="wd 1" />
     <MESSAGE value="wd 2" />
     <option name="LAST_COMMIT_MESSAGE" value="wd 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="122" key="#Project_Structure" timestamp="1592987824877">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="313" y="122" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1592987824877" />
-    <state x="290" y="122" width="1150" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592988981627">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="290" y="122" width="1150" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988981627" />
-    <state x="526" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1592991151439">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="526" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592991151439" />
-    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592988380439">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592988380439" />
-    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1592987960271">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592987960271" />
-    <state width="1079" height="239" key="GridCell.Tab.0.bottom" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.0.center" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.0.left" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.0.right" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.1.bottom" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.1.center" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.1.left" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state width="1079" height="239" key="GridCell.Tab.1.right" timestamp="1592992624250">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1079" height="239" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
-    <state x="138" y="75" key="MergeDialog" timestamp="1592987916060">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="138" y="75" key="MergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987916060" />
-    <state x="431" y="177" key="MultipleFileMergeDialog" timestamp="1592987916068">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="431" y="177" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987916068" />
-    <state x="390" y="202" key="NewModule_or_Project.wizard" timestamp="1592987963751">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="390" y="202" key="NewModule_or_Project.wizard/0.0.1440.920@0.0.1440.920" timestamp="1592987963751" />
-    <state x="224" y="76" key="SettingsEditor" timestamp="1592987965514">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="224" y="76" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592987965514" />
-    <state x="93" y="93" width="1255" height="735" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1592988788440">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="93" y="93" width="1255" height="735" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988788440" />
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592988797350">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988797350" />
-    <state x="550" y="369" key="git4idea.ui.GitStashDialog" timestamp="1592988398519">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="550" y="369" key="git4idea.ui.GitStashDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988398519" />
-    <state x="108" y="165" key="new project wizard" timestamp="1592986361021">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="108" y="165" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1592986361021" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1592989689147">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1592989689147" />
-=======
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2020/06/24 Czx 本地" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/06/24 Czx 本地" />
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" />
+    <state x="295" y="0" key="CommitChangelistDialog2" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" />
+    <state x="381" y="145" key="FileChooserDialogImpl" />
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.0.bottom" />
+    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.0.center" />
+    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.0.left" />
+    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.0.right" />
+    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.1.bottom" />
+    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.1.center" />
+    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.1.left" />
+    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" />
+    <state width="982" height="182" key="GridCell.Tab.1.right" />
+    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" />
+    <state x="129" y="56" key="MergeDialog" />
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" />
+    <state x="186" y="14" key="SettingsEditor" />
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592984491380">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592984491380" />
-    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592992294437">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992294437" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1592992590132">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1592992590132" />
-    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1592958804360">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592958804360" />
-    <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.0.center" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.0.left" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.0.right" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.1.bottom" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.1.center" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.1.left" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="982" height="182" key="GridCell.Tab.1.right" timestamp="1592984664603">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1592984538690">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1592984538690" />
-    <state x="129" y="56" key="MergeDialog" timestamp="1592983317586">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317586" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1592983317596">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317596" />
-    <state x="186" y="14" key="SettingsEditor" timestamp="1592983422494">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592983422494" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1592992604053">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992604053" />
->>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dt/insurance/Abac.java" />
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsss" />
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/resources/mapper/InsuranceCarInsurDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/TypeSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/OrderSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.dm:insurance-gateway:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.dm:insurance-gateway:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dm:insurance-gateway:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.1.RELEASE/org.springframework.security:spring-security-crypto:jar:5.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.64</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.64/org.bouncycastle:bcprov-jdk15on:jar:1.64</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.2.1.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/jakarta.validation:jakarta.validation-api:jar:2.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/com.fasterxml:classmate:jar:1.5.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.springframework:spring-webflux:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.2.2.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0/org.synchronoss.cloud:nio-stream-storage:jar:1.1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.yaml:snakeyaml:jar:1.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.29</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2/jakarta.activation:jakarta.activation-api:jar:1.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.opentest4j:opentest4j:jar:1.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.assertj:assertj-core:jar:3.13.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.hamcrest:hamcrest:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy:jar:1.10.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy-agent:jar:1.10.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-test:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-devtools:jar:2.2.2.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.alibaba.nacos:nacos-common:jar:1.1.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.alibaba.nacos:nacos-common:jar:1.1.1/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.alibaba.nacos:nacos-common:jar:1.1.1/org.apache.commons:commons-lang3:jar:3.9</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.alibaba.nacos:nacos-api:jar:1.1.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.alibaba.nacos:nacos-api:jar:1.1.1/com.alibaba:fastjson:jar:1.2.47</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/commons-codec:commons-codec:jar:1.13</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.nacos:nacos-client:jar:1.1.1/io.prometheus:simpleclient:jar:0.5.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/org.apache.httpcomponents:httpclient:jar:4.5.10</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/org.apache.httpcomponents:httpclient:jar:4.5.10/org.apache.httpcomponents:httpcore:jar:4.4.12</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.1.0.RELEASE/com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.1.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.1.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.2.2.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.2.2.RELEASE/org.aspectj:aspectjweaver:jar:1.9.5</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0/io.github.openfeign.form:feign-form:jar:3.8.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.1.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0/commons-fileupload:commons-fileupload:jar:1.4</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-core:jar:10.4.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-slf4j:jar:10.4.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.archaius:archaius-core:jar:0.7.6/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.1.RELEASE/io.github.openfeign:feign-hystrix:jar:10.4.0/com.netflix.hystrix:hystrix-core:jar:1.5.18/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/com.zaxxer:HikariCP:jar:3.4.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/org.springframework:spring-jdbc:jar:5.2.2.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/org.springframework:spring-jdbc:jar:5.2.2.RELEASE/org.springframework:spring-tx:jar:5.2.2.RELEASE</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.0</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis:jar:3.4.4</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.47</node>
+            <node x="" y="">com.dm:insurance-commcon-api:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.1.16</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final/io.netty:netty-resolver:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-codec-http2:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-handler:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-handler-proxy:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.43.Final/io.netty:netty-transport-native-unix-common:jar:4.1.43.Final</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.projectreactor:reactor-core:jar:3.3.1.RELEASE</node>
+            <node x="" y="">io.projectreactor.netty:reactor-netty:jar:0.9.4.RELEASE/io.projectreactor:reactor-core:jar:3.3.1.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9095642933049944" x="950.0" y="1253.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
