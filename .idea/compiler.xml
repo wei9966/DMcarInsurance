@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="insurance-commcon-api" />
+        <module name="insurance-gateway" />
         <module name="insurance-order" />
         <module name="insurance-type" />
         <module name="insurance-user" />
