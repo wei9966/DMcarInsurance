@@ -75,6 +75,11 @@
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.dm.insurance",
+<<<<<<< HEAD
   "savePath" : "./insurance-car-insur/src/main/java/com/dm/insurance",
   "saveModelName" : "insurance-car-insur"
+=======
+  "savePath" : "./insurance-type/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-type"
+>>>>>>> d6c2d589ed97aac524caba617cea954d5fcf61a2
 }
