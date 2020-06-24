@@ -11,6 +11,8 @@
         <module>insurance-commcon-api</module>
         <module>insurance-user</module>
         <module>insurance-order</module>
+        <module>insurance_car_insur</module>
+        <module>insurance-car-insur</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>

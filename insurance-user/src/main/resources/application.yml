@@ -1,6 +1,6 @@
 spring:
   application:
-    name: insurance-user-wb
+    name: insurance-user
   cloud:
     nacos:
       discovery:
