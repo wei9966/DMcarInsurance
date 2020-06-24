@@ -1,8 +1,8 @@
 package com.dm.insurance.dao;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-06-24 16:35:42
  */
-
+@Mapper
 public interface InsuranceCarInsurDao {
 
     /**
@@ -24,10 +24,19 @@ public interface InsuranceCarInsurDao {
     InsuranceCarInsur queryById(Integer ciId);
 
     /**
+     * 通过ciType和ciState查询所有的商业险
+     *
+     * @param ciType  保险类型
+     * @param ciState 保险状态（0待审核，1上架，2下架）
+     * @return
+     */
+    List<InsuranceCarInsur> queryAllType(String ciType, Integer ciState);
+
+    /**
      * 查询指定行数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     List<InsuranceCarInsur> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);

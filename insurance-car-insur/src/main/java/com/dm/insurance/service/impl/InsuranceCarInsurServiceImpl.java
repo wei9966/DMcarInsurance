@@ -31,10 +31,22 @@ public class InsuranceCarInsurServiceImpl implements InsuranceCarInsurService {
     }
 
     /**
+     * 通过ciType和ciState查询所有的商业险
+     *
+     * @param ciType  保险类型
+     * @param ciState 保险状态（0待审核，1上架，2下架）
+     * @return
+     */
+    @Override
+    public List<InsuranceCarInsur> queryAllType(String ciType, Integer ciState) {
+        return this.insuranceCarInsurDao.queryAllType(ciType, ciState);
+    }
+
+    /**
      * 查询多条数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     @Override

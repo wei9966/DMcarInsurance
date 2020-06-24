@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dt/insurance/Common.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="insurance-user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dt.insurance.UserSpringBootApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="insuranceCarInsur" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-insur" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.insuranceCarInsur" />
@@ -138,12 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
+      <item itemvalue="Spring Boot.insuranceCarInsur" />
+      <item itemvalue="Spring Boot.OrderSpringBootApplication" />
+      <item itemvalue="Spring Boot.TypeSpringBootApplication" />
+      <item itemvalue="Spring Boot.UserSpringBootApplication (1)" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.1871345" />
+          <option name="contentProportion" value="0.21052632" />
           <treeState>
             <expand>
               <path>
@@ -152,7 +161,13 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -211,50 +226,54 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="122" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1592987824877" />
-    <state x="313" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592987676028">
+    <state x="290" y="122" width="1150" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592988981627">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987676028" />
-    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592988213484">
+    <state x="290" y="122" width="1150" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988981627" />
+    <state x="526" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1592991151439">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592988213484" />
+    <state x="526" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592991151439" />
+    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592988380439">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592988380439" />
     <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1592987960271">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592987960271" />
-    <state width="1111" height="242" key="GridCell.Tab.0.bottom" timestamp="1592987062225">
+    <state width="1079" height="239" key="GridCell.Tab.0.bottom" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
-    <state width="1111" height="242" key="GridCell.Tab.0.center" timestamp="1592987062225">
+    <state width="1079" height="239" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.0.center" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
-    <state width="1111" height="242" key="GridCell.Tab.0.left" timestamp="1592987062224">
+    <state width="1079" height="239" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.0.left" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592987062224" />
-    <state width="1111" height="242" key="GridCell.Tab.0.right" timestamp="1592987062225">
+    <state width="1079" height="239" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.0.right" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
-    <state width="1111" height="242" key="GridCell.Tab.1.bottom" timestamp="1592987056788">
+    <state width="1079" height="239" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.1.bottom" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592987056788" />
-    <state width="1111" height="242" key="GridCell.Tab.1.center" timestamp="1592987056787">
+    <state width="1079" height="239" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.1.center" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1592987056787" />
-    <state width="1111" height="242" key="GridCell.Tab.1.left" timestamp="1592987056787">
+    <state width="1079" height="239" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.1.left" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1592987056787" />
-    <state width="1111" height="242" key="GridCell.Tab.1.right" timestamp="1592987056788">
+    <state width="1079" height="239" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
+    <state width="1079" height="239" key="GridCell.Tab.1.right" timestamp="1592992624250">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1111" height="242" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592987056788" />
+    <state width="1079" height="239" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592992624250" />
     <state x="138" y="75" key="MergeDialog" timestamp="1592987916060">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -271,13 +290,25 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="224" y="76" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592987965514" />
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592988340750">
+    <state x="93" y="93" width="1255" height="735" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1592988788440">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988340750" />
+    <state x="93" y="93" width="1255" height="735" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988788440" />
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592988797350">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988797350" />
+    <state x="550" y="369" key="git4idea.ui.GitStashDialog" timestamp="1592988398519">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="550" y="369" key="git4idea.ui.GitStashDialog/0.0.1440.920@0.0.1440.920" timestamp="1592988398519" />
     <state x="108" y="165" key="new project wizard" timestamp="1592986361021">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="108" y="165" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1592986361021" />
+    <state x="377" y="211" key="run.anything.popup" timestamp="1592989689147">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1592989689147" />
   </component>
 </project>
