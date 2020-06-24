@@ -1,6 +1,10 @@
 spring:
   application:
+<<<<<<< HEAD
     name: insurance-user
+=======
+    name: insurance-user-wb
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   cloud:
     nacos:
       discovery:

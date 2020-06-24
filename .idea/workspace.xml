@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" afterDir="false" />
@@ -12,6 +13,20 @@
       <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dt/insurance/Common.class" beforeDir="false" />
+=======
+    <list default="true" id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" beforeDir="false" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +63,7 @@
     </expand>
     <select />
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,25 +72,55 @@
     </option>
   </component>
   <component name="Git.Settings">
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+<<<<<<< HEAD
         <option name="localRepository" value="D:\Maven\maven_repository" />
+=======
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
         <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="ProjectId" id="1dkxjy9vsIK25UGTP2iGnSCsDEX" />
+=======
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+<<<<<<< HEAD
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+=======
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -84,18 +130,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-gateway" />
+=======
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32413793" />
     <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
+=======
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -104,6 +157,7 @@
       </set>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Spring Boot.insuranceCarInsur">
     <configuration name="GateWaySpringBootApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-gateway" />
@@ -112,6 +166,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager" selected="Spring Boot.OrderSpringBootApplication">
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
@@ -133,13 +190,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="insuranceCarInsur" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-insur" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.insuranceCarInsur" />
+=======
+    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dt.insurance.UserSpringBootApplication" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <list>
       <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
       <item itemvalue="Spring Boot.insuranceCarInsur" />
@@ -147,12 +211,18 @@
       <item itemvalue="Spring Boot.TypeSpringBootApplication" />
       <item itemvalue="Spring Boot.UserSpringBootApplication (1)" />
     </list>
+=======
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+<<<<<<< HEAD
           <option name="contentProportion" value="0.21052632" />
+=======
+          <option name="contentProportion" value="0.24034002" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
           <treeState>
             <expand>
               <path>
@@ -166,8 +236,31 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+<<<<<<< HEAD
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+=======
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@20a51be6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4edd704c" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@774b8c41" type="9fbbdea:ServiceModel$ServiceNode" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
               </path>
             </expand>
             <select />
@@ -181,6 +274,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="" />
       <created>1592983031880</created>
       <option name="number" value="Default" />
@@ -211,12 +305,31 @@
       <updated>1592988099420</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+=======
+      <changelist id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="" />
+      <created>1592958413792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592958413792</updated>
+      <workItem from="1592958415540" duration="662000" />
+      <workItem from="1592959162232" duration="6865000" />
+    </task>
+    <task id="LOCAL-00001" summary="2020/06/24 Czx 本地">
+      <created>1592983253515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592983253515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="wd 1" />
     <MESSAGE value="wd 2" />
     <option name="LAST_COMMIT_MESSAGE" value="wd 2" />
@@ -310,5 +423,80 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1592989689147" />
+=======
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2020/06/24 Czx 本地" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/06/24 Czx 本地" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592984491380">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592984491380" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592992294437">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992294437" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1592992590132">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1592992590132" />
+    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1592958804360">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592958804360" />
+    <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.center" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.left" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.right" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.bottom" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.center" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.left" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.right" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1592984538690">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1592984538690" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1592983317586">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317586" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1592983317596">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317596" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1592983422494">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592983422494" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1592992604053">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992604053" />
+>>>>>>> e5f74f7119095082e7dff25675b6ee4f26ce98e1
   </component>
 </project>
