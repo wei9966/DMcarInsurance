@@ -22,7 +22,7 @@ public class OrderController {
     public String test1() {
         String s = orderService.testUser();
         System.out.println("服务端调用的内容" + s);
-        return "调用成功";
+        return "调用成功111";
     }
 
     @RequestMapping("/order/test1")
