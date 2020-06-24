@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="insurance: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\maven_repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dkxjy9vsIK25UGTP2iGnSCsDEX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-car-insur" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32413793" />
+    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.insuranceCarInsur">
+    <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-type" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.TypeSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSpringBootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.UserSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dt.insurance.UserSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insuranceCarInsur" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-car-insur" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.insuranceCarInsur" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1871345" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="" />
+      <created>1592983031880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592983031880</updated>
+      <workItem from="1592983035654" duration="2461000" />
+      <workItem from="1592986193102" duration="1516000" />
+    </task>
+    <task id="LOCAL-00001" summary="wd 1">
+      <created>1592987186792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987186792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wd 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="wd 1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="122" key="#Project_Structure" timestamp="1592987824877">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="122" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1592987824877" />
+    <state x="313" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592987676028">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987676028" />
+    <state x="269" y="55" key="CommitChangelistDialog2" timestamp="1592987185918">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="269" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592987185918" />
+    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1592987299391">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592987299391" />
+    <state width="1111" height="242" key="GridCell.Tab.0.bottom" timestamp="1592987062225">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
+    <state width="1111" height="242" key="GridCell.Tab.0.center" timestamp="1592987062225">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
+    <state width="1111" height="242" key="GridCell.Tab.0.left" timestamp="1592987062224">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592987062224" />
+    <state width="1111" height="242" key="GridCell.Tab.0.right" timestamp="1592987062225">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592987062225" />
+    <state width="1111" height="242" key="GridCell.Tab.1.bottom" timestamp="1592987056788">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592987056788" />
+    <state width="1111" height="242" key="GridCell.Tab.1.center" timestamp="1592987056787">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1592987056787" />
+    <state width="1111" height="242" key="GridCell.Tab.1.left" timestamp="1592987056787">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1592987056787" />
+    <state width="1111" height="242" key="GridCell.Tab.1.right" timestamp="1592987056788">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1111" height="242" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592987056788" />
+    <state x="138" y="75" key="MergeDialog" timestamp="1592987222754">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="138" y="75" key="MergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987222754" />
+    <state x="431" y="177" key="MultipleFileMergeDialog" timestamp="1592987222762">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="431" y="177" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987222762" />
+    <state x="390" y="202" key="NewModule_or_Project.wizard" timestamp="1592987300442">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="390" y="202" key="NewModule_or_Project.wizard/0.0.1440.920@0.0.1440.920" timestamp="1592987300442" />
+    <state x="224" y="76" key="SettingsEditor" timestamp="1592987715270">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="224" y="76" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592987715270" />
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog" timestamp="1592987343049">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="415" y="263" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987343049" />
+    <state x="108" y="165" key="new project wizard" timestamp="1592986361021">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="108" y="165" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1592986361021" />
+  </component>
+</project>

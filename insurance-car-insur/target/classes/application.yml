@@ -1,0 +1,10 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: insurance-car-insur
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://47.100.79.206:8848/
