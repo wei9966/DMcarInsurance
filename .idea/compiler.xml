@@ -10,6 +10,7 @@
         <module name="insurance-car-insur" />
         <module name="insurance-commcon-api" />
         <module name="insurance-gateway" />
+        <module name="insurance-information-policy-person" />
         <module name="insurance-order" />
         <module name="insurance-type" />
         <module name="insurance-user" />

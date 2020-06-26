@@ -11,3 +11,10 @@ spring:
               - Path=/api/user/**
           filters:
               - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_policy_person
+          uri: lb://insurance-policy-person
+          predicates:
+              - Path=/api/policy/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}

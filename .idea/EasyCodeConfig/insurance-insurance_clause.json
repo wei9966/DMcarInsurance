@@ -1,0 +1,31 @@
+{
+  "name" : "InsuranceClause",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "clauseId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "clauseType",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "clauseContent",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.dm.insurance",
+  "savePath" : "./insurance-information-policy-person/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-information-policy-person"
+}

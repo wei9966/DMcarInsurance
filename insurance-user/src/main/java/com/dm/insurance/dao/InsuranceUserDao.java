@@ -1,7 +1,10 @@
 package com.dm.insurance.dao;
 
 import com.dm.insurance.entity.InsuranceUser;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.mybatis.spring.annotation.MapperScan;
+
 import java.util.List;
 
 /**
@@ -10,6 +13,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-06-24 17:51:46
  */
+@Mapper
 public interface InsuranceUserDao {
 
     /**
