@@ -32,4 +32,5 @@ public class InsuranceDistributionController {
         return this.insuranceDistributionService.queryById(id);
     }
 
+
 }

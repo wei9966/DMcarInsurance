@@ -34,4 +34,5 @@ public class InsuranceClauseController {
         return R.ok().put("data",insuranceClauseService.queryAllByLimit(0,10));
     }
 
+
 }

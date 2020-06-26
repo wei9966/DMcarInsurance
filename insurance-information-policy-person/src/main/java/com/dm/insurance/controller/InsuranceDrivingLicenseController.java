@@ -1,6 +1,7 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceDrivingLicense;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceDrivingLicenseService;
 import org.springframework.web.bind.annotation.*;
 
@@ -32,4 +33,9 @@ public class InsuranceDrivingLicenseController {
         return this.insuranceDrivingLicenseService.queryById(id);
     }
 
+    @PostMapping("insertOne")
+    public R insertDrivingLicense(@RequestBody InsuranceDrivingLicense insuranceDrivingLicense){
+        InsuranceDrivingLicense drivingLicense = insuranceDrivingLicenseService.insert(insuranceDrivingLicense);
+        return R.ok().put("data",drivingLicense);
+    }
 }

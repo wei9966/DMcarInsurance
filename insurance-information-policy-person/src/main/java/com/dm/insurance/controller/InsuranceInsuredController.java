@@ -1,6 +1,7 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceInsured;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceInsuredService;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,7 +24,6 @@ public class InsuranceInsuredController {
 
     /**
      * 通过主键查询单条数据
-     *
      * @param id 主键
      * @return 单条数据
      */
@@ -32,4 +32,9 @@ public class InsuranceInsuredController {
         return this.insuranceInsuredService.queryById(id);
     }
 
+    @PostMapping("insertOne")
+    public R insertOne(@RequestBody InsuranceInsured insuranceInsured){
+        InsuranceInsured insert = insuranceInsuredService.insert(insuranceInsured);
+        return R.ok().put("data",insert);
+    }
 }
