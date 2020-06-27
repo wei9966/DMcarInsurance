@@ -1,0 +1,31 @@
+{
+  "name" : "InsuranceDrivingLicense",
+  "comment" : "行驶证车主表",
+  "fullColumn" : [ {
+    "name" : "drivingLicenseId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "drivingLicenseName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "drivingLicenseCard",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.dm.insurance",
+  "savePath" : "./insurance-information-policy-person/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-information-policy-person"
+}
