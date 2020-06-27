@@ -10,6 +10,7 @@
         <module name="insurance-type" />
         <module name="insurance-user" />
         <module name="insurance-information-policy-person" />
+        <module name="insurance-city" />
         <module name="insurance-gateway" />
         <module name="insurance-third-party" />
         <module name="insurance-commcon-api" />
@@ -17,5 +18,8 @@
         <module name="insurance-order" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="insurance-third-party" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
