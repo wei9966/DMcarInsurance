@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Create By WeiBin on 2020/6/23 22:46
  */
 @RestController
+@RequestMapping("/user")
 public class UserController {
     @RequestMapping("/user")
     public String test(){
