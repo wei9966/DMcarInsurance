@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsuranceClauseDao">
+
+    <resultMap type="com.dm.insurance.entity.InsuranceClause" id="InsuranceClauseMap">
+        <result property="clauseId" column="clause_id" jdbcType="INTEGER"/>
+        <result property="clauseType" column="clause_type" jdbcType="VARCHAR"/>
+        <result property="clauseContent" column="clause_content" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsuranceClauseMap">
+        select
+          clause_id, clause_type, clause_content
+        from insurance.insurance_clause
+        where clause_id = #{clauseId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsuranceClauseMap">
+        select
+          clause_id, clause_type, clause_content
+        from insurance.insurance_clause
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsuranceClauseMap">
+        select
+          clause_id, clause_type, clause_content
+        from insurance.insurance_clause
+        <where>
+            <if test="clauseId != null">
+                and clause_id = #{clauseId}
+            </if>
+            <if test="clauseType != null and clauseType != ''">
+                and clause_type = #{clauseType}
+            </if>
+            <if test="clauseContent != null and clauseContent != ''">
+                and clause_content = #{clauseContent}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="clauseId" useGeneratedKeys="true">
+        insert into insurance.insurance_clause(clause_type, clause_content)
+        values (#{clauseType}, #{clauseContent})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_clause
+        <set>
+            <if test="clauseType != null and clauseType != ''">
+                clause_type = #{clauseType},
+            </if>
+            <if test="clauseContent != null and clauseContent != ''">
+                clause_content = #{clauseContent},
+            </if>
+        </set>
+        where clause_id = #{clauseId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_clause where clause_id = #{clauseId}
+    </delete>
+
+</mapper>
