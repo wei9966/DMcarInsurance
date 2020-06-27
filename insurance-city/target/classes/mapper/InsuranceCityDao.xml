@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsuranceCityDao">
+
+    <resultMap type="com.dm.insurance.entity.InsuranceCity" id="InsuranceCityMap">
+        <result property="baseAreaid" column="base_areaid" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="parentid" column="parentid" jdbcType="INTEGER"/>
+        <result property="vieworder" column="vieworder" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsuranceCityMap">
+        select
+          base_areaid, name, parentid, vieworder
+        from insurance.insurance_city
+        where base_areaid = #{baseAreaid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsuranceCityMap">
+        select
+          base_areaid, name, parentid, vieworder
+        from insurance.insurance_city
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsuranceCityMap">
+        select
+          base_areaid, name, parentid, vieworder
+        from insurance.insurance_city
+        <where>
+            <if test="baseAreaid != null">
+                and base_areaid = #{baseAreaid}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="parentid != null">
+                and parentid = #{parentid}
+            </if>
+            <if test="vieworder != null">
+                and vieworder = #{vieworder}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="baseAreaid" useGeneratedKeys="true">
+        insert into insurance.insurance_city(name, parentid, vieworder)
+        values (#{name}, #{parentid}, #{vieworder})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_city
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="parentid != null">
+                parentid = #{parentid},
+            </if>
+            <if test="vieworder != null">
+                vieworder = #{vieworder},
+            </if>
+        </set>
+        where base_areaid = #{baseAreaid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_city where base_areaid = #{baseAreaid}
+    </delete>
+
+</mapper>

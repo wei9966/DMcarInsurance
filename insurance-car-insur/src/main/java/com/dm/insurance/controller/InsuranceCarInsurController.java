@@ -1,6 +1,7 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceCarInsurService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +17,7 @@ import java.util.List;
  */
 @Slf4j
 @RestController
+@RequestMapping("/insurance/insur")
 public class InsuranceCarInsurController {
     /**
      * 服务对象
@@ -35,10 +37,10 @@ public class InsuranceCarInsurController {
     }
 
     @GetMapping("/selectAllType")
-    public List<InsuranceCarInsur> queryAllType(String ciType, Integer ciState) {
+    public R queryAllType(@RequestParam("ciType") String ciType,
+                          @RequestParam("ciState") Integer ciState) {
         List<InsuranceCarInsur> insuranceCarInsurs = insuranceCarInsurService.queryAllType(ciType, ciState);
-        log.info("结果",insuranceCarInsurs);
-        return insuranceCarInsurs;
+        return R.ok().put("data",insuranceCarInsurs);
     }
 
 }

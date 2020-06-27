@@ -8,9 +8,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance-type/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-car-insur/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/insurance-city/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

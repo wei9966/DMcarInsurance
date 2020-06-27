@@ -2,6 +2,7 @@ package com.dm.insurance.service.impl;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
 import com.dm.insurance.dao.InsuranceCarInsurDao;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceCarInsurService;
 import org.springframework.stereotype.Service;
 
@@ -39,7 +40,7 @@ public class InsuranceCarInsurServiceImpl implements InsuranceCarInsurService {
      */
     @Override
     public List<InsuranceCarInsur> queryAllType(String ciType, Integer ciState) {
-        return this.insuranceCarInsurDao.queryAllType(ciType, ciState);
+        return insuranceCarInsurDao.queryAllType(ciType, ciState);
     }
 
     /**

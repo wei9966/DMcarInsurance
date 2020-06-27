@@ -13,8 +13,6 @@
         <module>insurance-order</module>
         <module>insurance-type</module>
         <module>insurance-gateway</module>
-        <module>insurance-information-policy-person</module>
-        <module>insurance-third-party</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>
