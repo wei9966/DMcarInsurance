@@ -13,3 +13,5 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 server:
   port: 15555
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

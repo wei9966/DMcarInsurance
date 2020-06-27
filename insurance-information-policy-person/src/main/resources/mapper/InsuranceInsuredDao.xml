@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsuranceInsuredDao">
+
+    <resultMap type="com.dm.insurance.entity.InsuranceInsured" id="InsuranceInsuredMap">
+        <result property="insuredId" column="insured_id" jdbcType="INTEGER"/>
+        <result property="insuredName" column="insured_name" jdbcType="VARCHAR"/>
+        <result property="insuredCard" column="insured_card" jdbcType="VARCHAR"/>
+        <result property="insuredAddress" column="insured_address" jdbcType="VARCHAR"/>
+        <result property="insuredEmail" column="insured_email" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsuranceInsuredMap">
+        select
+          insured_id, insured_name, insured_card, insured_address, insured_email
+        from insurance.insurance_insured
+        where insured_id = #{insuredId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsuranceInsuredMap">
+        select
+          insured_id, insured_name, insured_card, insured_address, insured_email
+        from insurance.insurance_insured
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsuranceInsuredMap">
+        select
+          insured_id, insured_name, insured_card, insured_address, insured_email
+        from insurance.insurance_insured
+        <where>
+            <if test="insuredId != null">
+                and insured_id = #{insuredId}
+            </if>
+            <if test="insuredName != null and insuredName != ''">
+                and insured_name = #{insuredName}
+            </if>
+            <if test="insuredCard != null and insuredCard != ''">
+                and insured_card = #{insuredCard}
+            </if>
+            <if test="insuredAddress != null and insuredAddress != ''">
+                and insured_address = #{insuredAddress}
+            </if>
+            <if test="insuredEmail != null and insuredEmail != ''">
+                and insured_email = #{insuredEmail}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="insuredId" useGeneratedKeys="true">
+        insert into insurance.insurance_insured(insured_name, insured_card, insured_address, insured_email)
+        values (#{insuredName}, #{insuredCard}, #{insuredAddress}, #{insuredEmail})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_insured
+        <set>
+            <if test="insuredName != null and insuredName != ''">
+                insured_name = #{insuredName},
+            </if>
+            <if test="insuredCard != null and insuredCard != ''">
+                insured_card = #{insuredCard},
+            </if>
+            <if test="insuredAddress != null and insuredAddress != ''">
+                insured_address = #{insuredAddress},
+            </if>
+            <if test="insuredEmail != null and insuredEmail != ''">
+                insured_email = #{insuredEmail},
+            </if>
+        </set>
+        where insured_id = #{insuredId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_insured where insured_id = #{insuredId}
+    </delete>
+
+</mapper>

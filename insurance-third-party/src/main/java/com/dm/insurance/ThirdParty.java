@@ -4,17 +4,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.context.annotation.PropertySource;
 
 /**
- * Create By WeiBin on 2020/6/23 22:30
+ * Create By WeiBin on 2020/6/26 23:17
+ *
+ * @author WB
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableDiscoveryClient
-@EnableFeignClients
-public class OrderSpringBootApplication {
+public class ThirdParty {
     public static void main(String[] args) {
-        SpringApplication.run(OrderSpringBootApplication.class, args);
+        SpringApplication.run(ThirdParty.class, args);
     }
 }
