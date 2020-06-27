@@ -1,7 +1,9 @@
 package com.dm.insurance.service;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
+import com.dm.insurance.entity.R;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

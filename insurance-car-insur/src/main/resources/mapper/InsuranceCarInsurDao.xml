@@ -3,16 +3,16 @@
 <mapper namespace="com.dm.insurance.dao.InsuranceCarInsurDao">
 
     <resultMap type="com.dm.insurance.entity.InsuranceCarInsur" id="InsuranceCarInsurMap">
-        <result property="ciId" column="ci_id" jdbcType="INTEGER"/>
-        <result property="ciName" column="ci_name" jdbcType="VARCHAR"/>
-        <result property="ciType" column="ci_type" jdbcType="VARCHAR"/>
-        <result property="compRate" column="comp_rate" jdbcType="OTHER"/>
-        <result property="maxmoney" column="maxmoney" jdbcType="NUMERIC"/>
-        <result property="insRale" column="ins_rale" jdbcType="OTHER"/>
-        <result property="ciState" column="ci_state" jdbcType="INTEGER"/>
-        <result property="unId" column="un_id" jdbcType="INTEGER"/>
-        <result property="ciAddtime" column="ci_addtime" jdbcType="TIMESTAMP"/>
-        <result property="ciMoney" column="ci_money" jdbcType="NUMERIC"/>
+        <result property="ciId" column="ci_id"/>
+        <result property="ciName" column="ci_name"/>
+        <result property="ciType" column="ci_type"/>
+        <result property="compRate" column="comp_rate"/>
+        <result property="maxmoney" column="maxmoney"/>
+        <result property="insRale" column="ins_rale"/>
+        <result property="ciState" column="ci_state"/>
+        <result property="unId" column="un_id"/>
+        <result property="ciAddtime" column="ci_addtime"/>
+        <result property="ciMoney" column="ci_money"/>
     </resultMap>
 
     <!--查询单个-->
@@ -26,10 +26,10 @@
     <!-- 通过ciType和ciState查询所有的商业险 -->
     <select id="queryAllType" resultMap="InsuranceCarInsurMap">
         SELECT
-            ici.*
+            *
         FROM
-            insurance_car_insur ici
-        WHERE ci_type = #{ciType} AND ci_state = #{ciState}
+            insurance_car_insur
+        WHERE ci_type =#{ciType} AND ci_state =#{ciState}
     </select>
 
     <!--查询指定行数据-->
