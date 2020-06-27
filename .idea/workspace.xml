@@ -393,10 +393,10 @@
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593251831469">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593251912957">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593251831469" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593251912957" />
     <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593251801098" />
     <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1593251801098" />
@@ -425,12 +425,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593251817790" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593251871778">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593251926186">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593251871778" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593251801098" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593251926186" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593251955545">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251955545" />
   </component>
   <component name="masterDetails">
     <states>
