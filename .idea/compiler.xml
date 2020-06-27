@@ -18,8 +18,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="insurance-information-policy-person" target="1.8" />
-      <module name="insurance-third-party" target="1.8" />
       <module name="insurance-type" target="1.8" />
     </bytecodeTargetLevel>
   </component>
