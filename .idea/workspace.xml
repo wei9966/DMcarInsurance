@@ -393,10 +393,10 @@
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593251912957">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593251977083">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593251912957" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593251977083" />
     <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593251801098" />
     <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1593251801098" />
@@ -419,20 +419,22 @@
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state x="129" y="56" key="MergeDialog" timestamp="1593251801098" />
     <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1593251801098" />
-    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1593252021194">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593252021194" />
     <state x="186" y="14" key="SettingsEditor" timestamp="1593251817790">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593251817790" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593251926186">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593252039832">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593251926186" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593251955545">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593252039832" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593251984193">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251955545" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251984193" />
   </component>
   <component name="masterDetails">
     <states>
