@@ -1,6 +1,7 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceUser;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceUserService;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,6 +31,73 @@ public class InsuranceUserController {
     @GetMapping("selectOne")
     public InsuranceUser selectOne(Integer id) {
         return this.insuranceUserService.queryById(id);
+    }
+
+    /**
+     * 通过手机号验证码登录
+     *
+     * @param userPhone
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/phoneCodeLogin")
+    public R phoneCodeLogin(String userPhone){
+        InsuranceUser insuranceUser = this.insuranceUserService.phoneCodeLogin(userPhone);
+        if (insuranceUser!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","用户名密码错误");
+        }
+    }
+
+    /**
+     * 通过手机号登录
+     *
+     * @param userPhone
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/phoneLogin")
+    public R phoneLogin(String userPhone,String userPass){
+        InsuranceUser insuranceUser = this.insuranceUserService.phoneLogin(userPhone, userPass);
+        if (insuranceUser!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","用户名密码错误");
+        }
+    }
+
+    /**
+     * 通过用户名登录
+     *
+     * @param userName
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/nameLogin")
+    public R nameLogin(String userName,String userPass){
+        InsuranceUser insuranceUser = this.insuranceUserService.nameLogin(userName, userPass);
+        if (insuranceUser!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","用户名密码错误");
+        }
+    }
+
+    /**
+     * 通过邮箱登录
+     *
+     * @param userEmail
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/emailLogin")
+    public R emailLogin(String userEmail,String userPass){
+        InsuranceUser insuranceUser = this.insuranceUserService.emailLogin(userEmail, userPass);
+        if (insuranceUser!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","用户名密码错误");
+        }
     }
 
 }

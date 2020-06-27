@@ -1,5 +1,6 @@
 package com.dm.insurance.controller;
 
+import com.dm.insurance.dao.InsuranceUserDao;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
