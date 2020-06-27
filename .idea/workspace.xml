@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="bd0fa0a3-0ae9-4520-b575-b0a0d5267cbd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/insurance-insurance_city.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
@@ -38,6 +39,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+    <list default="true" id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" beforeDir="false" />
+>>>>>>> origin/dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +86,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="insurance: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+<<<<<<< HEAD
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
@@ -91,6 +107,11 @@
       </list>
     </option>
   </component>
+=======
+    </expand>
+    <select />
+  </component>
+>>>>>>> origin/dev
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -99,6 +120,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="insurance-commcon-api/invalid/Web" />
@@ -113,11 +135,19 @@
         <option name="localRepository" value="D:\Maven\maven_repository" />
         <option name="mavenHome" value="D:/Maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+=======
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+>>>>>>> origin/dev
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+<<<<<<< HEAD
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xms1248m -Xmx2048m" />
       </MavenImportingSettings>
@@ -125,10 +155,25 @@
   </component>
   <component name="ProjectId" id="1dkNWCsxxX0sFljK2PJuSi9JBcf" />
   <component name="ProjectViewState">
+=======
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+>>>>>>> origin/dev
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+>>>>>>> origin/dev
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -138,11 +183,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-city" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+>>>>>>> origin/dev
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -151,6 +206,7 @@
       </set>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Spring Boot.InsuranceCityDmt">
     <configuration name="InsuranceCityDmt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="insurance-city" />
@@ -165,6 +221,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager" selected="Spring Boot.OrderSpringBootApplication">
+>>>>>>> origin/dev
     <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
@@ -193,17 +252,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.InsuranceCityDmt" />
       </list>
     </recent_temporary>
+=======
+>>>>>>> origin/dev
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+<<<<<<< HEAD
           <option name="contentProportion" value="0.18989071" />
+=======
+          <option name="contentProportion" value="0.24034002" />
+>>>>>>> origin/dev
           <treeState>
             <expand>
               <path>
@@ -213,7 +279,34 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+<<<<<<< HEAD
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+=======
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@20a51be6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4edd704c" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@774b8c41" type="9fbbdea:ServiceModel$ServiceNode" />
+>>>>>>> origin/dev
               </path>
             </expand>
             <select />
@@ -227,6 +320,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="bd0fa0a3-0ae9-4520-b575-b0a0d5267cbd" name="Default Changelist" comment="" />
       <created>1592965160279</created>
       <option name="number" value="Default" />
@@ -247,6 +341,22 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1592984485276</updated>
+=======
+      <changelist id="fbf8761b-0517-479b-8398-ba8d80185980" name="Default Changelist" comment="" />
+      <created>1592958413792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592958413792</updated>
+      <workItem from="1592958415540" duration="662000" />
+      <workItem from="1592959162232" duration="6865000" />
+    </task>
+    <task id="LOCAL-00001" summary="2020/06/24 Czx 本地">
+      <created>1592983253515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592983253515</updated>
+>>>>>>> origin/dev
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -255,6 +365,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="dr" />
     <option name="LAST_COMMIT_MESSAGE" value="dr" />
   </component>
@@ -351,5 +462,80 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592992002809" />
+=======
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2020/06/24 Czx 本地" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/06/24 Czx 本地" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592984491380">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592984491380" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592992294437">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992294437" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1592992590132">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1592992590132" />
+    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1592958804360">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592958804360" />
+    <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.center" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.left" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.0.right" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.bottom" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.center" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.left" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="982" height="182" key="GridCell.Tab.1.right" timestamp="1592984664603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592984664603" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1592984538690">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1592984538690" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1592983317586">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317586" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1592983317596">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1592983317596" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1592983422494">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592983422494" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1592992604053">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1592992604053" />
+>>>>>>> origin/dev
   </component>
 </project>
