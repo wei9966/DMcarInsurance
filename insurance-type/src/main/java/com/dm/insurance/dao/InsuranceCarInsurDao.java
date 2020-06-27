@@ -1,6 +1,7 @@
 package com.dm.insurance.dao;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-06-24 14:40:21
  */
+@Mapper
 public interface InsuranceCarInsurDao {
 
     /**
