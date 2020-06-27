@@ -14,11 +14,12 @@ public interface InsuranceCityService {
     /**
      * 通过ID查询单条数据
      *
-     * @param baseAreaid 主键
+     * @param parentid
      * @return 实例对象
      */
-    InsuranceCity queryById(Integer baseAreaid);
+    InsuranceCity queryById(Integer parentid);
 
+    List<InsuranceCity> ListqueryById(Integer parentid);
     /**
      * 查询多条数据
      *

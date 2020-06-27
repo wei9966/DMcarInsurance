@@ -3,6 +3,8 @@ package com.dm.insurance.dao;
 import com.dm.insurance.entity.InsuranceCity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
 import java.util.List;
 
 /**
@@ -17,11 +19,12 @@ public interface InsuranceCityDao {
     /**
      * 通过ID查询单条数据
      *
-     * @param baseAreaid 主键
+     * @param parentid
      * @return 实例对象
      */
-    InsuranceCity queryById(Integer baseAreaid);
+    InsuranceCity queryById(Integer parentid);
 
+    List<InsuranceCity> ListqueryById(@Param("parentid")Integer parentid);
     /**
      * 查询指定行数据
      *
