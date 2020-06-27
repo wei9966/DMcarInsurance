@@ -21,10 +21,11 @@ import javax.annotation.Resource;
 @SpringBootTest(classes = InsuranceCarInsur.class)
 @Slf4j
 public class CarTest {
-    @Resource
-   private InsuranceCarInsurService service;
+    @Autowired
+    private InsuranceCarInsurService insuranceCarInsurService;
+
     @Test
     public void test1() {
-        log.info(service.queryAllByLimit(0,11).toString());
+        log.info(insuranceCarInsurService.queryAllByLimit(0, 11).toString());
     }
 }

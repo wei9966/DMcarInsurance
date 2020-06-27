@@ -30,7 +30,6 @@ public class InsuranceClauseController {
      */
     @GetMapping("select")
     public R selectOne() {
-        log.info(insuranceClauseService.queryAllByLimit(0,10).toString());
         return R.ok().put("data",insuranceClauseService.queryAllByLimit(0,10));
     }
 

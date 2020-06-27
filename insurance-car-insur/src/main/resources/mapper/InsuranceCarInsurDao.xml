@@ -29,7 +29,7 @@
             *
         FROM
             insurance_car_insur
-        WHERE ci_type = #{ciType} AND ci_state = #{ciState}
+        WHERE ci_type =#{ciType} AND ci_state =#{ciState}
     </select>
 
     <!--查询指定行数据-->
