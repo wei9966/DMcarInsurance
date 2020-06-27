@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insurance-car-insur" />
-        <module name="insurance-commcon-api" />
-        <module name="insurance-gateway" />
-        <module name="insurance-information-policy-person" />
-        <module name="insurance-order" />
-        <module name="insurance-third-party" />
         <module name="insurance-type" />
         <module name="insurance-user" />
+        <module name="insurance-information-policy-person" />
+        <module name="insurance-gateway" />
+        <module name="insurance-third-party" />
+        <module name="insurance-commcon-api" />
+        <module name="insurance-car-insur" />
+        <module name="insurance-order" />
       </profile>
     </annotationProcessing>
   </component>
