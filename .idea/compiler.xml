@@ -9,13 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="insurance-type" />
         <module name="insurance-user" />
+        <module name="insurance-information-policy-person" />
+        <module name="insurance-car-insur" />
         <module name="insurance-gateway" />
         <module name="insurance-commcon-api" />
-        <module name="insurance-other-insur-info" />
+        <module name="insurance-third-party" />
+        <module name="insurance-other-insur-info2" />
         <module name="insurance-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="insurance-other-insur-info" target="1.8" />
       <module name="insurance-other-insure-info" target="1.8" />
     </bytecodeTargetLevel>
   </component>
