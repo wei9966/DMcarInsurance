@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/insurance-car-insur/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-information-policy-person/pom.xml" />
+        <option value="$PROJECT_DIR$/insurance-city/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

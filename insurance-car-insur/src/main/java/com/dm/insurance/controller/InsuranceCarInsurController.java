@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Slf4j
 @RestController
-@RequestMapping("/insurance/insur")
+@RequestMapping("/carInsur/insur")
 public class InsuranceCarInsurController {
     /**
      * 服务对象
