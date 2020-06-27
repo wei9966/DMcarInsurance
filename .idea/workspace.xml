@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="网关整合城市模块" />
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -337,26 +337,26 @@
       <option name="project" value="LOCAL" />
       <updated>1593237994855</updated>
     </task>
-    <task id="LOCAL-00007" summary="2020/6/24 wb 提交">
-      <created>1592981912543</created>
+    <task id="LOCAL-00007" summary="2020/06/27 CZX">
+      <created>1593251914937</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1592981912543</updated>
+      <updated>1593251914937</updated>
     </task>
-    <task id="LOCAL-00008" summary="2020/6/24 网关初始化 wb">
-      <created>1592987773047</created>
+    <task id="LOCAL-00008" summary="网关整合城市模块">
+      <created>1593251978393</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1592987773047</updated>
+      <updated>1593251978393</updated>
     </task>
-    <task id="LOCAL-00009" summary="整合网关+user服务">
-      <created>1592999599359</created>
+    <task id="LOCAL-00009" summary="2020/06/27  CZX">
+      <created>1593252067121</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1592999599359</updated>
+      <updated>1593252067121</updated>
     </task>
     <task id="LOCAL-00010" summary="整合网关+user服务">
       <created>1593000381806</created>
@@ -372,7 +372,7 @@
       <option name="project" value="LOCAL" />
       <updated>1593000501735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,28 +385,38 @@
     <MESSAGE value="网关整合投保人信息服务,配置接口统一返回类型" />
     <MESSAGE value="添加第三方模块的邮箱功能并整合入网关" />
     <MESSAGE value="wb提交" />
+    <MESSAGE value="2020/06/27 CZX" />
     <MESSAGE value="网关整合城市模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="网关整合城市模块" />
+    <MESSAGE value="2020/06/27  CZX" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/06/27  CZX" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593251801098" />
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593251801098" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593251977083">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593252064171">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593251977083" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593252064171" />
     <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593251801098" />
     <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.bottom" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.center" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.left" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.right" timestamp="1593251801098" />
-    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1593252074460">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593252074460" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1593252074460">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593252074460" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1593252074460">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593252074460" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1593252074460">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593252074460" />
     <state width="982" height="182" key="GridCell.Tab.1.bottom" timestamp="1593251801098" />
     <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593251801098" />
     <state width="982" height="182" key="GridCell.Tab.1.center" timestamp="1593251801098" />
@@ -427,10 +437,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593251817790" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593252039832">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593252070550">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593252039832" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593252070550" />
     <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593251984193">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
