@@ -1,6 +1,7 @@
 package com.dm.insurance.dao;
 
 import com.dm.insurance.entity.InsuranceCarInsur;
+import com.dm.insurance.entity.R;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -30,7 +31,8 @@ public interface InsuranceCarInsurDao {
      * @param ciState 保险状态（0待审核，1上架，2下架）
      * @return
      */
-    List<InsuranceCarInsur> queryAllType(String ciType, Integer ciState);
+    List<InsuranceCarInsur> queryAllType(@Param("ciType") String ciType,
+                   @Param("ciState") Integer ciState);
 
     /**
      * 查询指定行数据
