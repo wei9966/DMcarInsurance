@@ -1,0 +1,34 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.100.79.206:8848
+    gateway:
+      routes:
+        - id: insurance_user_route
+          uri: lb://insurance-user
+          predicates:
+              - Path=/api/user/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_policy_person
+          uri: lb://insurance-policy-person
+          predicates:
+              - Path=/api/policy/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_third_party
+          uri: lb://insurance-third-party
+          predicates:
+              - Path=/api/third/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_city
+          uri: lb://insurance-city
+          predicates:
+              - Path=/api/insuranceCity/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}

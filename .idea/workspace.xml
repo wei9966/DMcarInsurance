@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="wb提交">
+    <list default="true" id="803cbb8b-5253-45bc-bfaf-67bd8b327e2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insurance-type/insurance-type.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/insurance-third-party.iml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/insurance-third-party.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/insurance-gateway/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-type/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-commcon-api/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-user/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-car-insur/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-order/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-information-policy-person/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-third-party/target/" />
-    <ignored path="$PROJECT_DIR$/insurance-city/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,31 +40,10 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="insurance: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="insurance: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="insurance_billing: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="insurance: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,60 +55,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="E:/谷歌下载最新/spring-framework-5.0.15.RELEASE/spring-framework-5.0.15.RELEASE" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/insurance-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" />
-        <option value="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/PolicyPersonInformation.java" />
-        <option value="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java" />
-        <option value="$PROJECT_DIR$/insurance-commcon-api/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDistributionController.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceBillingController.java" />
-        <option value="$PROJECT_DIR$/insurance-third-party/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/ThirdParty.java" />
-        <option value="$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/controller/EmailController.java" />
-        <option value="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java" />
-        <option value="$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java" />
-        <option value="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" />
-        <option value="$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -153,54 +71,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="64" />
-    <option name="width" value="1107" />
-    <option name="height" value="946" />
-  </component>
   <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -248,17 +121,6 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.20841064" />
   </component>
   <component name="RunManager" selected="Spring Boot.insuranceCarInsur">
     <configuration name="CarTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -269,20 +131,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.dm.test" />
       <option name="MAIN_CLASS_NAME" value="com.dm.test.CarTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DriveLicenseTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="insurance-information-policy-person" />
@@ -292,32 +149,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.dm.test" />
       <option name="MAIN_CLASS_NAME" value="com.dm.test.DriveLicenseTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GateWaySpringBootApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.GateWaySpringBootApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="InsuranceCityDmt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-city" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.InsuranceCityDmt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="OrderSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OrderSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PolicyPersonInformation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="insurance-information-policy-person" />
@@ -328,6 +189,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.PolicyPersonInformation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ThirdParty" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="insurance-third-party" />
@@ -338,30 +202,42 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.ThirdParty" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TypeSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-type" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.TypeSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.UserSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="insuranceCarInsur" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-insur" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.insuranceCarInsur" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.DriveLicenseTest.test1" />
+      <item itemvalue="JUnit.CarTest.test1" />
       <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
       <item itemvalue="Spring Boot.TypeSpringBootApplication" />
       <item itemvalue="Spring Boot.UserSpringBootApplication" />
       <item itemvalue="Spring Boot.insuranceCarInsur" />
       <item itemvalue="Spring Boot.OrderSpringBootApplication" />
-      <item itemvalue="Spring Boot.PolicyPersonInformation" />
-      <item itemvalue="JUnit.DriveLicenseTest.test1" />
-      <item itemvalue="Spring Boot.ThirdParty" />
-      <item itemvalue="JUnit.CarTest.test1" />
       <item itemvalue="Spring Boot.InsuranceCityDmt" />
+      <item itemvalue="Spring Boot.PolicyPersonInformation" />
+      <item itemvalue="Spring Boot.ThirdParty" />
     </list>
     <recent_temporary>
       <list>
@@ -371,6 +247,34 @@
         <item itemvalue="Spring Boot.ThirdParty" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16959064" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -470,104 +374,8 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 52m 24s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 53m 43s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 57m 57s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 23h 01m 32s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 23h 02m 28s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest_test1 - 2020.06.27 at 09h 59m 37s.xml">
-      <configuration name="CarTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriveLicenseTest_test1 - 2020.06.27 at 10h 00m 27s.xml">
-      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18603000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.500334" side_tool="true" visible="true" weight="0.32951945" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.499666" visible="true" weight="0.32951945" />
-      <window_info anchor="right" id="Codota" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" weight="0.3089245" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49833" weight="0.38787186" />
-      <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.30549198" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" visible="true" weight="0.3089245" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="10" weight="0.32951945" />
-      <window_info anchor="right" id="Codota" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wd 1" />
@@ -579,497 +387,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="wb提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" />
-    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" />
-    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" />
-    <state x="295" y="0" key="CommitChangelistDialog2" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" />
-    <state x="381" y="145" key="FileChooserDialogImpl" />
-    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.0.bottom" />
-    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.0.center" />
-    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.0.left" />
-    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.0.right" />
-    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.1.bottom" />
-    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.1.center" />
-    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.1.left" />
-    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" />
-    <state width="982" height="182" key="GridCell.Tab.1.right" />
-    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" />
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" />
-    <state x="129" y="56" key="MergeDialog" />
-    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" />
-    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" />
-    <state x="186" y="14" key="SettingsEditor" />
-    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/resources/mapper/InsuranceCarInsurDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cc6d7280-4309-4296-b19c-d1b4e952704a/schema/insurance/table/insurance_insured">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceBillingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDrivingLicenseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsuredDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceBillingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDistributionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/ThirdParty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/controller/EmailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/PolicyPersonInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/insuranceCarInsur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="84" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceCarInsurService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-967">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="n#select#3;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-car-insur/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>insurance-city</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.32413793" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593249153584" />
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593249153584" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593249153584" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="138" y="75" key="DiffContextDialog" timestamp="1593250248050">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="138" y="75" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250248050" />
+    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593249153584" />
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.0.bottom" timestamp="1593250219688">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
+    <state width="1135" height="209" key="GridCell.Tab.0.center" timestamp="1593250219688">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
+    <state width="1135" height="209" key="GridCell.Tab.0.left" timestamp="1593250219688">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
+    <state width="1135" height="209" key="GridCell.Tab.0.right" timestamp="1593250219688">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
+    <state width="1135" height="209" key="GridCell.Tab.1.bottom" timestamp="1593250219689">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
+    <state width="1135" height="209" key="GridCell.Tab.1.center" timestamp="1593250219689">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
+    <state width="1135" height="209" key="GridCell.Tab.1.left" timestamp="1593250219688">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
+    <state width="1135" height="209" key="GridCell.Tab.1.right" timestamp="1593250219689">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state width="1135" height="209" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1593249153584" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1593249153584" />
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1593249153584" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1593249153584" />
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="313" y="197" key="Vcs.Push.Dialog.v2" timestamp="1593249201978">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="197" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593249201978" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593250261245">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250261245" />
   </component>
 </project>

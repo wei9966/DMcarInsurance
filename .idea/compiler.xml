@@ -19,7 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="insurance-third-party" target="1.8" />
+      <module name="insurance-type" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
