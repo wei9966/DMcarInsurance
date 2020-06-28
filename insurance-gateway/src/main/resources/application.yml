@@ -25,3 +25,17 @@ spring:
               - Path=/api/third/**
           filters:
               - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_city
+          uri: lb://insurance-city
+          predicates:
+              - Path=/api/insuranceCity/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_car_insur
+          uri: lb://insurance-car-insur
+          predicates:
+              - Path=/api/carInsur/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}

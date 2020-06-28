@@ -2,8 +2,12 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/insurance-car-info/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/insurance-car-info/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-car-insur/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-car-insur/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/insurance-city/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/insurance-city/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-commcon-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-gateway/src/main/java" charset="UTF-8" />
@@ -18,7 +22,6 @@
     <file url="file://$PROJECT_DIR$/insurance-third-party/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-third-party/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-type/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/insurance-type/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance-user/src/main/resources" charset="UTF-8" />

@@ -953,6 +953,7 @@
     <table id="241" parent="3" name="insurance_other_insurance_information"/>
     <table id="242" parent="3" name="insurance_user">
       <Comment>用户表</Comment>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="243" parent="3" name="insurance_vehicle_and_vessel_tax">
       <Comment>车船税表</Comment>
@@ -1231,6 +1232,7 @@ vieworder</ColNames>
       <Comment>条款id</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="288" parent="235" name="clause_type">
@@ -1238,11 +1240,12 @@ vieworder</ColNames>
       <Comment>条款类型</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
     </column>
     <column id="289" parent="235" name="clause_content">
       <Position>3</Position>
       <Comment>条款内容</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
@@ -1265,6 +1268,7 @@ vieworder</ColNames>
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
     </column>
     <key id="293" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
@@ -1285,6 +1289,7 @@ vieworder</ColNames>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
     </column>
     <column id="296" parent="237" name="driving_license_card">
       <Position>3</Position>
@@ -1292,6 +1297,7 @@ vieworder</ColNames>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
     </column>
     <key id="297" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
@@ -1586,6 +1592,7 @@ vieworder</ColNames>
       <Comment>其他投保信息id</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="343" parent="241" name="other_insurance_information_date_begin">
@@ -1637,6 +1644,7 @@ vieworder</ColNames>
       <Comment>用户姓名</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
+      <Collation>latin1_swedish_ci</Collation>
     </column>
     <column id="351" parent="242" name="user_pass">
       <Position>3</Position>
@@ -1655,11 +1663,12 @@ vieworder</ColNames>
       <Comment>邮箱</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
+      <Collation>latin1_swedish_ci</Collation>
     </column>
     <column id="354" parent="242" name="user_sex">
       <Position>6</Position>
       <Comment>性别</Comment>
-      <DataType>char(2)|0s</DataType>
+      <DataType>varchar(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="355" parent="242" name="user_address">
