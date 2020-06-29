@@ -1,57 +1,43 @@
 {
-  "name" : "InsuranceUser",
-  "comment" : "用户表",
+  "name" : "InsuranceOtherInsuranceInformation",
+  "comment" : null,
   "fullColumn" : [ {
-    "name" : "userId",
+    "name" : "otherInsuranceInformationId",
     "comment" : null,
     "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
   }, {
-    "name" : "userName",
+    "name" : "otherInsuranceInformationDateBegin",
     "comment" : null,
     "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
   }, {
-    "name" : "userPass",
+    "name" : "otherInsuranceInformationDateFinish",
     "comment" : null,
     "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
   }, {
-    "name" : "userPhone",
+    "name" : "otherInsuranceInformationName",
     "comment" : null,
     "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
   }, {
-    "name" : "userEmail",
+    "name" : "otherInsuranceInformationCard",
     "comment" : null,
     "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
   }, {
-    "name" : "userSex",
-    "comment" : null,
-    "type" : null,
-    "shortType" : null,
-    "custom" : false,
-    "ext" : { }
-  }, {
-    "name" : "userAddress",
-    "comment" : null,
-    "type" : null,
-    "shortType" : null,
-    "custom" : false,
-    "ext" : { }
-  }, {
-    "name" : "userCard",
+    "name" : "otherInsuranceInformationEmail",
     "comment" : null,
     "type" : null,
     "shortType" : null,
@@ -61,6 +47,6 @@
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.dm.insurance",
-  "savePath" : "./insurance-other-insur-info2/src/main/java/com/dm/insurance",
-  "saveModelName" : "insurance-other-insur-info2"
+  "savePath" : "E:/Springboot/DMcarInsurance/insurance-other-insur-info/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-other-insur-info"
 }
