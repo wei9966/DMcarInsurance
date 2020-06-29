@@ -14,7 +14,14 @@
         select
           base_areaid, name, parentid, vieworder
         from insurance.insurance_city
-        where base_areaid = #{baseAreaid}
+        where parentid = #{parentid}
+    </select>
+
+    <select id="ListqueryById" resultMap="InsuranceCityMap">
+        select
+          base_areaid, name, parentid, vieworder
+        from insurance.insurance_city
+        where parentid = #{parentid}
     </select>
 
     <!--查询指定行数据-->
