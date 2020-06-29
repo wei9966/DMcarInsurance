@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803cbb8b-5253-45bc-bfaf-67bd8b327e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/insurance-type/insurance-type.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/test/java/com/dm/test/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/insurance-third-party.iml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/insurance-third-party.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +29,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="insurance: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -59,8 +46,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="D:\Maven\maven_repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -94,7 +82,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-city" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-type" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,7 +92,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32413793" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -281,6 +269,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="803cbb8b-5253-45bc-bfaf-67bd8b327e2a" name="Default Changelist" comment="" />
       <created>1592910154738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -293,6 +282,8 @@
       <workItem from="1593146217895" duration="5695000" />
       <workItem from="1593179949925" duration="5166000" />
       <workItem from="1593217658840" duration="3129000" />
+      <workItem from="1593304103117" duration="308000" />
+      <workItem from="1593304437608" duration="4655000" />
     </task>
     <task id="LOCAL-00001" summary="网关整合用户服务">
       <created>1593001753758</created>
@@ -322,12 +313,12 @@
       <option name="project" value="LOCAL" />
       <updated>1593234943270</updated>
     </task>
-    <task id="LOCAL-00005" summary="2020/6/24 0:36">
-      <created>1592930185130</created>
+    <task id="LOCAL-00005" summary="wd提交">
+      <created>1593250278924</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1592930185130</updated>
+      <updated>1593250278924</updated>
     </task>
     <task id="LOCAL-00006" summary="2020/6/24 0:41">
       <created>1592930518551</created>
@@ -371,90 +362,109 @@
       <option name="project" value="LOCAL" />
       <updated>1593000501735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="wd 1" />
     <MESSAGE value="wd 2" />
     <MESSAGE value="网关整合用户服务" />
     <MESSAGE value="网关整合投保人信息服务,配置接口统一返回类型" />
     <MESSAGE value="添加第三方模块的邮箱功能并整合入网关" />
     <MESSAGE value="wb提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="wb提交" />
+    <MESSAGE value="wd提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="wd提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593249153584" />
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593249153584" />
     <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593249153584" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1593250278075">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593250278075" />
     <state x="138" y="75" key="DiffContextDialog" timestamp="1593250248050">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="138" y="75" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250248050" />
-    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593249153584" />
+    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593304558829">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
     <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.0.bottom" timestamp="1593250219688">
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1593304558829" />
+    <state width="1135" height="211" key="GridCell.Tab.0.bottom" timestamp="1593326593366">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
-    <state width="1135" height="209" key="GridCell.Tab.0.center" timestamp="1593250219688">
+    <state width="1135" height="211" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593326593366" />
+    <state width="1135" height="211" key="GridCell.Tab.0.center" timestamp="1593326593366">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
-    <state width="1135" height="209" key="GridCell.Tab.0.left" timestamp="1593250219688">
+    <state width="1135" height="211" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593326593366" />
+    <state width="1135" height="211" key="GridCell.Tab.0.left" timestamp="1593326593366">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
-    <state width="1135" height="209" key="GridCell.Tab.0.right" timestamp="1593250219688">
+    <state width="1135" height="211" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593326593366" />
+    <state width="1135" height="211" key="GridCell.Tab.0.right" timestamp="1593326593366">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
-    <state width="1135" height="209" key="GridCell.Tab.1.bottom" timestamp="1593250219689">
+    <state width="1135" height="211" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593326593366" />
+    <state width="1135" height="211" key="GridCell.Tab.1.bottom" timestamp="1593326593382">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
-    <state width="1135" height="209" key="GridCell.Tab.1.center" timestamp="1593250219689">
+    <state width="1135" height="211" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593326593382" />
+    <state width="1135" height="211" key="GridCell.Tab.1.center" timestamp="1593326593382">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
-    <state width="1135" height="209" key="GridCell.Tab.1.left" timestamp="1593250219688">
+    <state width="1135" height="211" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593326593382" />
+    <state width="1135" height="211" key="GridCell.Tab.1.left" timestamp="1593326593382">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593250219688" />
-    <state width="1135" height="209" key="GridCell.Tab.1.right" timestamp="1593250219689">
+    <state width="1135" height="211" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593326593382" />
+    <state width="1135" height="211" key="GridCell.Tab.1.right" timestamp="1593326593382">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state width="1135" height="209" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593250219689" />
+    <state width="1135" height="211" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593326593382" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1593249153584" />
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
     <state x="129" y="56" key="MergeDialog" timestamp="1593249153584" />
     <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1593249153584" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1593250291170">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
     <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state x="186" y="14" key="SettingsEditor" timestamp="1593249153584" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250291170" />
+    <state x="352" y="140" key="NewModule_or_Project.wizard" timestamp="1593304563019">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="352" y="140" key="NewModule_or_Project.wizard/0.0.1440.920@0.0.1440.920" timestamp="1593304563019" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1593304565557">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
+    <state x="186" y="14" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1593304565557" />
     <state x="313" y="197" key="Vcs.Push.Dialog.v2" timestamp="1593249201978">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="197" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593249201978" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593250261245">
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1593250286761">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593249153584" />
-    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250261245" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1593250286761" />
   </component>
 </project>
