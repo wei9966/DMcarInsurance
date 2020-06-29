@@ -11,7 +11,7 @@
         <module>insurance-commcon-api</module>
         <module>insurance-user</module>
         <module>insurance-order</module>
-        <module>insurance-type</module>
+
         <module>insurance-city</module>
         <module>insurance-other-insur-info2</module>
         <module>insurance-car-info</module>
