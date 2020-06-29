@@ -1,10 +1,12 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceCity;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceCityService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * 统一地区库(InsuranceCity)表控制层
@@ -24,13 +26,17 @@ public class InsuranceCityController {
     /**
      * 通过主键查询单条数据
      *
-     * @param id 主键
+     * @param parentid
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public InsuranceCity selectOne(Integer id) {
-
-        return this.insuranceCityService.queryById(id);
+    public InsuranceCity selectOne(Integer parentid) {
+        return this.insuranceCityService.queryById(parentid);
     }
 
+    @GetMapping("selectOne2")
+    public R selectOne2(Integer parentid) {
+        List<InsuranceCity> list = this.insuranceCityService.ListqueryById(parentid);
+        return R.ok().put("data",list);
+    }
 }

@@ -61,6 +61,6 @@
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.dm.insurance",
-  "savePath" : "./insurance-user/src/main/java/com/dm/insurance",
-  "saveModelName" : "insurance-user"
+  "savePath" : "./insurance-other-insur-info2/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-other-insur-info2"
 }

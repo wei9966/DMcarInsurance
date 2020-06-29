@@ -22,12 +22,17 @@ public class InsuranceCityServiceImpl implements InsuranceCityService {
     /**
      * 通过ID查询单条数据
      *
-     * @param baseAreaid 主键
+     * @param parentid
      * @return 实例对象
      */
     @Override
-    public InsuranceCity queryById(Integer baseAreaid) {
-        return this.insuranceCityDao.queryById(baseAreaid);
+    public InsuranceCity queryById(Integer parentid) {
+        return this.insuranceCityDao.queryById(parentid);
+    }
+
+    @Override
+    public List<InsuranceCity> ListqueryById(Integer parentid) {
+        return this.insuranceCityDao.ListqueryById(parentid);
     }
 
     /**
