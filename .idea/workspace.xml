@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70662f4e-c045-482f-b6de-4b9cd5a778ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-type/insurance-type.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,6 +258,7 @@
       <workItem from="1593305487461" duration="3602000" />
       <workItem from="1593333885198" duration="787000" />
       <workItem from="1593339367090" duration="27000" />
+      <workItem from="1593390578212" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="zly6/24">
       <created>1592960444901</created>
@@ -314,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593334035634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zly  6.29">
+      <created>1593390763808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593390763808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +340,8 @@
     <MESSAGE value="zly6/27 03" />
     <MESSAGE value="Merge branch 'dev' of https://github.com/wei9966/DMcarInsurance into dev&#10;&#10; Conflicts:&#10;&#9;.idea/.gitignore&#10;&#9;.idea/compiler.xml&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/dataSources/1fe033bd-1b45-4f76-b3ac-309c89bcdf8c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/dataSources/3bb06d12-54df-43b7-b320-9eb46c4b7ce4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/dataSources/cc6d7280-4309-4296-b19c-d1b4e952704a.corrupted.20200624-060430.xml&#10;&#9;.idea/dataSources/cc6d7280-4309-4296-b19c-d1b4e952704a.xml&#10;&#9;.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml&#10;&#9;.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/encodings.xml&#10;&#9;.idea/insurance.iml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/workspace.xml&#10;&#9;insurance-gateway/target/classes/application.yml&#10;&#9;insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java&#10;&#9;pom.xml" />
     <MESSAGE value="zly" />
-    <option name="LAST_COMMIT_MESSAGE" value="zly" />
+    <MESSAGE value="zly  6.29" />
+    <option name="LAST_COMMIT_MESSAGE" value="zly  6.29" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1593334056809">
@@ -358,10 +368,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="376" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593220478987" />
-    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1593334034311">
+    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1593390757896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593334034311" />
+    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593390757896" />
     <state x="889" y="278" width="438" height="426" key="FileChooserDialogImpl" timestamp="1593307005014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -430,10 +440,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593334049477">
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593390806750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593334049477" />
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593390806750" />
     <state x="246" y="145" key="new project wizard" timestamp="1593305838559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
