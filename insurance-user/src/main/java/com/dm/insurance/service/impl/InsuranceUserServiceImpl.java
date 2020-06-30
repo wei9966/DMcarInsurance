@@ -76,4 +76,55 @@ public class InsuranceUserServiceImpl implements InsuranceUserService {
     public boolean deleteById(Integer userId) {
         return this.insuranceUserDao.deleteById(userId) > 0;
     }
+
+    /**
+     * 通过手机号验证码登录
+     *
+     *@param userPhone
+     *@return 是否登录成功
+     */
+    @Override
+    public InsuranceUser phoneCodeLogin(String userPhone) {
+        InsuranceUser insuranceUser = this.insuranceUserDao.phoneCodeLogin(userPhone);
+        return insuranceUser;
+    }
+
+     /**
+     * 通过手机号登录
+     *
+     *@param userPhone
+     *@param userPass
+     *@return 是否登录成功
+     */
+    @Override
+    public InsuranceUser phoneLogin(String userPhone, String userPass) {
+        InsuranceUser insuranceUser = this.insuranceUserDao.phoneLogin(userPhone, userPass);
+        return insuranceUser;
+    }
+
+    /**
+     * 通过用户名登录
+     *
+     * @param userName
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    @Override
+    public InsuranceUser nameLogin(String userName, String userPass) {
+        InsuranceUser insuranceUser = this.insuranceUserDao.nameLogin(userName, userPass);
+        return insuranceUser;
+    }
+
+    /**
+     * 通过邮箱登录
+     *
+     * @param userEmail
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    @Override
+    public InsuranceUser emailLogin(String userEmail, String userPass) {
+        InsuranceUser insuranceUser = this.insuranceUserDao.emailLogin(userEmail, userPass);
+        return insuranceUser;
+    }
 }

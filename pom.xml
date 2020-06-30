@@ -11,11 +11,13 @@
         <module>insurance-commcon-api</module>
         <module>insurance-user</module>
         <module>insurance-order</module>
-        <module>insurance-gateway</module>
-        <module>insurance-car-insur</module>
         <module>insurance-city</module>
+        <module>insurance-other-insur-info2</module>
+        <module>insurance-car-info</module>
+        <module>insurance-gateway</module>
         <module>insurance-information-policy-person</module>
         <module>insurance-third-party</module>
+        <module>insurance-car-insur</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>
