@@ -6,7 +6,7 @@ spring:
       discovery:
         server-addr: 47.100.79.206:8848
   datasource:
-    url: jdbc:mysql://47.100.79.206:3306/insurance
+    url: jdbc:mysql://47.100.79.206:3306/insurance?characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root

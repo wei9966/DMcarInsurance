@@ -32,7 +32,7 @@ public class InsuranceCarInfoController {
         return this.insuranceCarInfoService.queryById(id);
     }
 
-    @PostMapping("selectOne2")
+    @PostMapping("insertOne")
     public R selectOne2(@RequestBody InsuranceCarInfo insuranceCarInfo) {
         return R.ok().put("data",this.insuranceCarInfoService.insert(insuranceCarInfo));
     }
