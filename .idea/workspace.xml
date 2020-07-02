@@ -1,54 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="网关整合城市模块">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="网关整合车辆信息服务">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/insurance-car-info.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/CarInfoSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/controller/InsuranceCarInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/dao/InsuranceCarInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/entity/InsuranceCarInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/InsuranceCarInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/mapper/InsuranceCarInfoDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/TypeSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/controller/InsuranceCarInsurController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/dao/InsuranceCarInsurDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/entity/InsuranceCarInsur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/InsuranceCarInsurService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCarInsurDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCityDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/Common.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/entity/InsuranceCity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/com/dm/GateWaySpringBootApplication80.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/OrderSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/service/Order2Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/insurance-other-insur-info2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/OtherSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/controller/InsuranceInsurContractController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/dao/InsuranceInsurContractDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/entity/InsuranceInsurContract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/entity/InsuranceUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/service/InsuranceInsurContractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-type/insurance-type.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/insurance-gateway/target/" />
     <ignored path="$PROJECT_DIR$/insurance-type/target/" />
@@ -107,17 +62,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -247,211 +192,6 @@
             <path>
               <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
               <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-car-info" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dm" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insurance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Insurance" type="462c0819:PsiDirectoryNode" />
-              <item name="insurance-other-insur-info2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -648,6 +388,8 @@
       <workItem from="1593179949925" duration="5166000" />
       <workItem from="1593217658840" duration="3129000" />
       <workItem from="1593240546970" duration="6131000" />
+      <workItem from="1593479058276" duration="3152000" />
+      <workItem from="1593650468407" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="网关整合用户服务">
       <created>1593001753758</created>
@@ -691,12 +433,12 @@
       <option name="project" value="LOCAL" />
       <updated>1593237994855</updated>
     </task>
-    <task id="LOCAL-00007" summary="2020/6/24 wb 提交">
-      <created>1592981912543</created>
+    <task id="LOCAL-00007" summary="网关整合车辆信息服务">
+      <created>1593392172441</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1592981912543</updated>
+      <updated>1593392172442</updated>
     </task>
     <task id="LOCAL-00008" summary="2020/6/24 网关初始化 wb">
       <created>1592987773047</created>
@@ -726,7 +468,7 @@
       <option name="project" value="LOCAL" />
       <updated>1593000501735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -753,15 +495,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27088000" />
+    <option name="totallyTimeSpent" value="31562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50235057" side_tool="true" weight="0.32837528" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Designer" order="2" />
@@ -776,49 +517,23 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" weight="0.38100687" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49764943" weight="0.32837528" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" visible="true" weight="0.30549198" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.30549198" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" visible="true" weight="0.30549198" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" weight="0.38100687" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32951945" />
-      <window_info anchor="right" id="Codota" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,7 +550,8 @@
     <MESSAGE value="添加第三方模块的邮箱功能并整合入网关" />
     <MESSAGE value="wb提交" />
     <MESSAGE value="网关整合城市模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="网关整合城市模块" />
+    <MESSAGE value="网关整合车辆信息服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="网关整合车辆信息服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -902,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -962,11 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,16 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="n#select#3;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1076,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,32 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1056" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51256">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/insurance-car-info/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1223,8 +892,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        <state relative-caret-position="320">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceBillingDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
