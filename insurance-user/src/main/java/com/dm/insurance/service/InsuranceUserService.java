@@ -1,6 +1,8 @@
 package com.dm.insurance.service;
 
 import com.dm.insurance.entity.InsuranceUser;
+import org.apache.ibatis.annotations.Param;
+
 import java.util.List;
 
 /**
@@ -51,5 +53,40 @@ public interface InsuranceUserService {
      * @return 是否成功
      */
     boolean deleteById(Integer userId);
+
+    /**
+     * 通过手机号验证码登录
+     *
+     * @param userPhone
+     * @return 是否登录成功
+     * */
+    InsuranceUser phoneCodeLogin( String userPhone);
+
+    /**
+     * 通过手机号登录
+     *
+     * @param userPhone
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser phoneLogin( String userPhone,  String userPass);
+
+    /**
+     * 通过用户名登录
+     *
+     * @param userName
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser nameLogin(String userName, String userPass);
+
+    /**
+     * 通过邮箱登录
+     *
+     * @param userEmail
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser emailLogin( String userEmail,String userPass);
 
 }

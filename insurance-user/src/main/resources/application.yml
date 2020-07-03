@@ -9,7 +9,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     password: root
     username: root
-    url: jdbc:mysql://47.100.79.203:3306/insurance
+    url: jdbc:mysql://47.100.79.206:3306/insurance
     driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 18884

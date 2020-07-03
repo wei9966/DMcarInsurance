@@ -66,4 +66,38 @@ public interface InsuranceUserDao {
      */
     int deleteById(Integer userId);
 
+    /**
+     * 通过手机号验证码登录
+     *
+     * @param userPhone
+     * @return 是否登录成功
+     * */
+    InsuranceUser phoneCodeLogin(String userPhone);
+
+    /**
+     * 通过手机号登录
+     *
+     * @param userPhone
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser phoneLogin(@Param("userPhone") String userPhone,@Param("userPass") String userPass);
+
+    /**
+     * 通过用户名登录
+     *
+     * @param userName
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser nameLogin(@Param("userName") String userName,@Param("userPass") String userPass);
+
+    /**
+     * 通过邮箱登录
+     *
+     * @param userEmail
+     * @param userPass
+     * @return 是否登录成功
+     * */
+    InsuranceUser emailLogin(@Param("userEmail") String userEmail,@Param("userPass") String userPass);
 }

@@ -16,6 +16,13 @@
     "custom" : false,
     "ext" : { }
   }, {
+    "name" : "carInfoRegisterDate",
+    "comment" : null,
+    "type" : "java.util.Date",
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
     "name" : "cityId",
     "comment" : null,
     "type" : null,
@@ -53,7 +60,7 @@
   }, {
     "name" : "carInfoDateFirst",
     "comment" : null,
-    "type" : null,
+    "type" : "java.util.Date",
     "shortType" : null,
     "custom" : false,
     "ext" : { }
@@ -67,7 +74,7 @@
   }, {
     "name" : "carInfoTransferDate",
     "comment" : null,
-    "type" : null,
+    "type" : "java.util.Date",
     "shortType" : null,
     "custom" : false,
     "ext" : { }
@@ -82,6 +89,6 @@
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.dm.insurance",
-  "savePath" : "./insurance-car-info/src/main/java/com/dm/insurance",
-  "saveModelName" : "insurance-car-info"
+  "savePath" : "./insurance-city/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-city"
 }

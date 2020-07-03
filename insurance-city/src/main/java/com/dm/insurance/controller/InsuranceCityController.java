@@ -15,7 +15,7 @@ import java.util.List;
  * @since 2020-06-24 16:23:33
  */
 @RestController
-@RequestMapping("insuranceCity")
+@RequestMapping("/insuranceCity/insuranceCity")
 public class InsuranceCityController {
     /**
      * 服务对象

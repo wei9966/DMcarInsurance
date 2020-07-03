@@ -20,8 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="insurance-other-insur-info" target="1.8" />
-      <module name="insurance-other-insure-info" target="1.8" />
+      <module name="insurance-type" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
