@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  * @since 2020-06-24 17:51:48
  */
 @RestController
-@RequestMapping("insuranceUser")
+@RequestMapping("user/insuranceUser")
 public class InsuranceUserController {
     /**
      * 服务对象
@@ -29,8 +29,38 @@ public class InsuranceUserController {
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public InsuranceUser selectOne(Integer id) {
-        return this.insuranceUserService.queryById(id);
+    public R selectOne(Integer id) {
+        InsuranceUser insuranceUser = this.insuranceUserService.queryById(id);
+        return R.ok().put("data",insuranceUser);
+    }
+
+
+    /**
+     * 新增用户数据
+     *
+     * @param insuranceuser 对象
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/insert")
+    public R insert(@RequestBody InsuranceUser insuranceuser){
+        InsuranceUser insert = this.insuranceUserService.insert(insuranceuser);
+        return R.ok();
+    }
+
+    /**
+     * 更新用户数据
+     *
+     * @param insuranceuser 对象
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/update")
+    public R update(@RequestBody InsuranceUser insuranceuser){
+        InsuranceUser update = this.insuranceUserService.update(insuranceuser);
+        if (update!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","用户名密码错误");
+        }
     }
 
     /**

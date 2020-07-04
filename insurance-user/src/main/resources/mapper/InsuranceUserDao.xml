@@ -119,4 +119,10 @@
     <select id="emailLogin" resultMap="InsuranceUserMap">
         select * from insurance_user where user_email=#{userEmail} and user_pass =#{userPass}
     </select>
+
+    <!--添加新用户手机号-->
+    <select id="insertphone" resultMap="InsuranceUserMap">
+        insert into insurance.insurance_user(user_phone)
+        values (#{userPhone},)
+    </select>
 </mapper>
