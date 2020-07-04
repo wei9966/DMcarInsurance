@@ -120,9 +120,11 @@
         select * from insurance_user where user_email=#{userEmail} and user_pass =#{userPass}
     </select>
 
-    <!--添加新用户手机号-->
-    <select id="insertphone" resultMap="InsuranceUserMap">
-        insert into insurance.insurance_user(user_phone)
-        values (#{userPhone},)
+    <!--查询用户手机号是否存在-->
+    <select id="queryPhone" resultMap="InsuranceUserMap">
+        select
+          user_id,user_phone
+        from insurance.insurance_user
+        where user_Phone = #{userPhone}
     </select>
 </mapper>

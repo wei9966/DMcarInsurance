@@ -102,10 +102,10 @@ public interface InsuranceUserDao {
     InsuranceUser emailLogin(@Param("userEmail") String userEmail,@Param("userPass") String userPass);
 
     /**
-     * 通过邮箱登录
+     * 查询是否存在该手机号
      *
      * @param userPhone
-     * @return 是否登录成功
+     * @return 是否存在
      * */
-    InsuranceUser insertphone(@Param("userphone") String userPhone);
+    InsuranceUser queryPhone(@Param("userPhone") String userPhone);
 }

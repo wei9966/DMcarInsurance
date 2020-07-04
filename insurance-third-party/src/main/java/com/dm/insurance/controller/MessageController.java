@@ -26,7 +26,7 @@ public class MessageController {
         messageService.SendMessage(phoneNumber);
         System.out.println("手机号码"+phoneNumber);
         if (!StringUtils.isBlank(MessageService.pNumber)) {
-            return R.ok().put("验证码", MessageService.pNumber);
+            return R.ok().put("data", MessageService.pNumber);
         } else {
             return R.error("服务器繁忙，请稍后重试");
         }
