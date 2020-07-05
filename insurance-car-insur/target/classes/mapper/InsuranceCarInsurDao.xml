@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsuranceCarInsurDao">
+
+    <resultMap type="com.dm.insurance.entity.InsuranceCarInsur" id="InsuranceCarInsurMap">
+        <result property="ciId" column="ci_id"/>
+        <result property="ciName" column="ci_name"/>
+        <result property="ciType" column="ci_type"/>
+        <result property="compRate" column="comp_rate"/>
+        <result property="maxmoney" column="maxmoney"/>
+        <result property="insRale" column="ins_rale"/>
+        <result property="ciState" column="ci_state"/>
+        <result property="unId" column="un_id"/>
+        <result property="ciAddtime" column="ci_addtime"/>
+        <result property="ciMoney" column="ci_money"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsuranceCarInsurMap">
+        select
+          ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
+        from insurance.insurance_car_insur
+        where ci_id = #{ciId}
+    </select>
+
+    <!-- 通过ciType和ciState查询所有的商业险 -->
+    <select id="queryAllType" resultMap="InsuranceCarInsurMap">
+        SELECT
+            *
+        FROM
+            insurance_car_insur
+        WHERE ci_type =#{ciType} AND ci_state =#{ciState}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsuranceCarInsurMap">
+        select
+          ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
+        from insurance.insurance_car_insur
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsuranceCarInsurMap">
+        select
+        ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
+        from insurance.insurance_car_insur
+        <where>
+            <if test="ciId != null">
+                and ci_id = #{ciId}
+            </if>
+            <if test="ciName != null and ciName != ''">
+                and ci_name = #{ciName}
+            </if>
+            <if test="ciType != null and ciType != ''">
+                and ci_type = #{ciType}
+            </if>
+            <if test="compRate != null">
+                and comp_rate = #{compRate}
+            </if>
+            <if test="maxmoney != null">
+                and maxmoney = #{maxmoney}
+            </if>
+            <if test="insRale != null">
+                and ins_rale = #{insRale}
+            </if>
+            <if test="ciState != null">
+                and ci_state = #{ciState}
+            </if>
+            <if test="unId != null">
+                and un_id = #{unId}
+            </if>
+            <if test="ciAddtime != null">
+                and ci_addtime = #{ciAddtime}
+            </if>
+            <if test="ciMoney != null">
+                and ci_money = #{ciMoney}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="ciId" useGeneratedKeys="true">
+        insert into insurance.insurance_car_insur(ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money)
+        values (#{ciName}, #{ciType}, #{compRate}, #{maxmoney}, #{insRale}, #{ciState}, #{unId}, #{ciAddtime}, #{ciMoney})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_car_insur
+        <set>
+            <if test="ciName != null and ciName != ''">
+                ci_name = #{ciName},
+            </if>
+            <if test="ciType != null and ciType != ''">
+                ci_type = #{ciType},
+            </if>
+            <if test="compRate != null">
+                comp_rate = #{compRate},
+            </if>
+            <if test="maxmoney != null">
+                maxmoney = #{maxmoney},
+            </if>
+            <if test="insRale != null">
+                ins_rale = #{insRale},
+            </if>
+            <if test="ciState != null">
+                ci_state = #{ciState},
+            </if>
+            <if test="unId != null">
+                un_id = #{unId},
+            </if>
+            <if test="ciAddtime != null">
+                ci_addtime = #{ciAddtime},
+            </if>
+            <if test="ciMoney != null">
+                ci_money = #{ciMoney},
+            </if>
+        </set>
+        where ci_id = #{ciId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_car_insur where ci_id = #{ciId}
+    </delete>
+
+</mapper>

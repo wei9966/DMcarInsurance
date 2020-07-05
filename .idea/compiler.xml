@@ -8,21 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="insurance-car-info" />
+        <module name="insurance-pay2" />
         <module name="insurance-city" />
         <module name="insurance-user" />
         <module name="insurance-information-policy-person" />
         <module name="insurance-car-insur" />
-        <module name="insurance-gateway" />
-        <module name="insurance-commcon-api" />
-        <module name="insurance-other-insur-info2" />
-        <module name="insurance-third-party" />
+        <module name="insurance-pay" />
         <module name="insurance-order" />
+        <module name="insurance-commcon-api" />
+        <module name="insurance-third-party" />
+        <module name="insurance-gateway" />
+        <module name="insurance-other-insur-info2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="insurance-other-insur-info" target="1.8" />
-      <module name="insurance-other-insure-info" target="1.8" />
-      <module name="insurance-type" target="1.8" />
+      <module name="DMcarInsurance" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

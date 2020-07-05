@@ -188,7 +188,7 @@
 
     </resultMap>
     <select id="selectByinfo" resultMap="insuranceInsurContract1" parameterType="int">
-                    SELECT
+            SELECT
               b.user_name,
               b.user_card,
               b.user_email

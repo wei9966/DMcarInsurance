@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/insurance-pay" />
+    <file type="web" url="file://$PROJECT_DIR$/insurance-pay2" />
+    <file type="web" url="file://$PROJECT_DIR$/zhifu/zhifu" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -12,11 +17,14 @@
         <option value="$PROJECT_DIR$/insurance-car-insur/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-information-policy-person/pom.xml" />
         <option value="$PROJECT_DIR$/insurance-third-party/pom.xml" />
+        <option value="$PROJECT_DIR$/zhifu/zhifu/pom.xml" />
+        <option value="$PROJECT_DIR$/zhifu/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/insurance-other-insur-info/pom.xml" />
+        <option value="$PROJECT_DIR$/insurance-pay2/pom.xml" />
       </set>
     </option>
   </component>
