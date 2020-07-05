@@ -43,8 +43,11 @@ public class InsuranceUserController {
      * */
     @RequestMapping("/insert")
     public R insert(@RequestBody InsuranceUser insuranceuser){
+
         InsuranceUser insert = this.insuranceUserService.insert(insuranceuser);
-        return R.ok();
+
+            return R.ok().put("data",insert);
+
     }
 
     /**
@@ -59,7 +62,7 @@ public class InsuranceUserController {
         if (update!=null){
             return R.ok();
         }else {
-            return R.error().put("msg","用户名密码错误");
+            return R.error().put("msg","连接服务器超时，请稍后重试");
         }
     }
 
@@ -116,18 +119,19 @@ public class InsuranceUserController {
     /**
      * 通过邮箱登录
      *
-     * @param userEmail
-     * @param userPass
+     * @param userPhone
      * @return 是否登录成功
      * */
-    @RequestMapping("/emailLogin")
-    public R emailLogin(String userEmail,String userPass){
-        InsuranceUser insuranceUser = this.insuranceUserService.emailLogin(userEmail, userPass);
+    @RequestMapping("/queryPhone")
+    public R queryPhone(String userPhone){
+        InsuranceUser insuranceUser = this.insuranceUserService.queryPhone(userPhone);
         if (insuranceUser!=null){
             return R.ok();
         }else {
-            return R.error().put("msg","用户名密码错误");
+            return R.error().put("msg","已存在该手机号");
         }
     }
+
+
 
 }
