@@ -89,4 +89,11 @@ public interface InsuranceUserService {
      * */
     InsuranceUser emailLogin( String userEmail,String userPass);
 
+    /**
+     * 查询是否存在该手机号
+     *
+     * @param userPhone
+     * @return 是否登录成功
+     * */
+    InsuranceUser queryPhone(String userPhone);
 }

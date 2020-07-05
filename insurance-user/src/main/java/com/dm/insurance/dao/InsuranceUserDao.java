@@ -100,4 +100,12 @@ public interface InsuranceUserDao {
      * @return 是否登录成功
      * */
     InsuranceUser emailLogin(@Param("userEmail") String userEmail,@Param("userPass") String userPass);
+
+    /**
+     * 查询是否存在该手机号
+     *
+     * @param userPhone
+     * @return 是否存在
+     * */
+    InsuranceUser queryPhone(@Param("userPhone") String userPhone);
 }
