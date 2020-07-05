@@ -24,7 +24,6 @@ public class MessageController {
     @PostMapping("/sendMessage")
     public R sendMessage(String phoneNumber) {
         messageService.SendMessage(phoneNumber);
-        System.out.println("手机号码"+phoneNumber);
         if (!StringUtils.isBlank(MessageService.pNumber)) {
             return R.ok().put("data", MessageService.pNumber);
         } else {
