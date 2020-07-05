@@ -18,6 +18,7 @@
         <module>insurance-information-policy-person</module>
         <module>insurance-third-party</module>
         <module>insurance-car-insur</module>
+        <module>insurance-pay</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>

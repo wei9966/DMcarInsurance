@@ -10,13 +10,14 @@
         <module name="insurance-car-info" />
         <module name="insurance-city" />
         <module name="insurance-user" />
+        <module name="insurance-pay" />
         <module name="insurance-information-policy-person" />
-        <module name="insurance-car-insur" />
-        <module name="insurance-gateway" />
-        <module name="insurance-commcon-api" />
-        <module name="insurance-other-insur-info2" />
-        <module name="insurance-third-party" />
         <module name="insurance-order" />
+        <module name="insurance-gateway" />
+        <module name="insurance-third-party" />
+        <module name="insurance-commcon-api" />
+        <module name="insurance-car-insur" />
+        <module name="insurance-other-insur-info2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
