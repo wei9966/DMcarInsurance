@@ -14,7 +14,10 @@
         <module>insurance-city</module>
         <module>insurance-other-insur-info2</module>
         <module>insurance-car-info</module>
-        <module>insurance-pay</module>
+        <module>insurance-gateway</module>
+        <module>insurance-information-policy-person</module>
+        <module>insurance-third-party</module>
+        <module>insurance-car-insur</module>
     </modules>
     <packaging>pom</packaging>
     <name>Maven</name>
