@@ -1,7 +1,5 @@
 package com.dm.insurance.entity;
 
-import lombok.Data;
-
 import java.util.Date;
 import java.io.Serializable;
 
@@ -9,11 +7,10 @@ import java.io.Serializable;
  * 车辆信息表(InsuranceCarInfo)实体类
  *
  * @author makejava
- * @since 2020-06-30 11:45:30
+ * @since 2020-07-06 15:03:06
  */
-@Data
 public class InsuranceCarInfo implements Serializable {
-    private static final long serialVersionUID = -35270133038857327L;
+    private static final long serialVersionUID = -61096044013925181L;
     /**
     * 车辆id
     */
@@ -34,6 +31,10 @@ public class InsuranceCarInfo implements Serializable {
     * 车辆车牌号
     */
     private String carInfoCard;
+    /**
+    * 车辆所有人
+    */
+    private String carInfoOwner;
     /**
     * 车辆车架号
     */
@@ -102,6 +103,14 @@ public class InsuranceCarInfo implements Serializable {
 
     public void setCarInfoCard(String carInfoCard) {
         this.carInfoCard = carInfoCard;
+    }
+
+    public String getCarInfoOwner() {
+        return carInfoOwner;
+    }
+
+    public void setCarInfoOwner(String carInfoOwner) {
+        this.carInfoOwner = carInfoOwner;
     }
 
     public String getCarInfoFrameNo() {

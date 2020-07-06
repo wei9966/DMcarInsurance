@@ -1,9 +1,9 @@
 package com.dm;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+        import org.springframework.boot.SpringApplication;
+        import org.springframework.boot.autoconfigure.SpringBootApplication;
+        import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+        import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * Create By WeiBin on 2020/6/24 16:30
