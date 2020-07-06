@@ -7,15 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insurance-car-info" />
+        <module name="insurance-order" />
         <module name="insurance-city" />
         <module name="insurance-user" />
+        <module name="insurance-car-info" />
         <module name="insurance-information-policy-person" />
-        <module name="insurance-order" />
-        <module name="insurance-gateway" />
-        <module name="insurance-third-party" />
-        <module name="insurance-commcon-api" />
         <module name="insurance-car-insur" />
+        <module name="insurance-pay" />
+        <module name="insurance-commcon-api" />
+        <module name="insurance-third-party" />
+        <module name="insurance-gateway" />
         <module name="insurance-other-insur-info2" />
       </profile>
     </annotationProcessing>
