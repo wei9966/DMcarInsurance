@@ -42,6 +42,10 @@ public class InsuranceInsurContractController {
     @GetMapping("/selectTwo")
     public R selectTwo(Integer id){
         List<InsuranceUser> insuranceUserList = insuranceInsurContractService.selectByinfo(id);
-        return R.ok().put("data",insuranceUserList);
+        if (insuranceUserList == null || insuranceUserList.size()<=0){
+            return R.error(10001,"沒有保单");
+        } else {
+            return R.ok().put("data",insuranceUserList);
+        }
     }
 }
