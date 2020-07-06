@@ -102,4 +102,29 @@
         delete from insurance.insurance_user where user_id = #{userId}
     </delete>
 
+    <!--账号登录-->
+    <!--通过手机号验证码登录-->
+    <select id="phoneCodeLogin" resultMap="InsuranceUserMap">
+        select * from insurance_user where user_phone=#{userPhone}
+    </select>
+    <!--通过手机号登录-->
+    <select id="phoneLogin" resultMap="InsuranceUserMap">
+        select * from insurance_user where user_phone=#{userPhone} and user_pass =#{userPass}
+    </select>
+    <!--通过用户名登录-->
+    <select id="nameLogin" resultMap="InsuranceUserMap">
+        select * from insurance_user where user_name=#{userName} and user_pass =#{userPass}
+    </select>
+    <!--通过邮箱登录-->
+    <select id="emailLogin" resultMap="InsuranceUserMap">
+        select * from insurance_user where user_email=#{userEmail} and user_pass =#{userPass}
+    </select>
+
+    <!--查询用户手机号是否存在-->
+    <select id="queryPhone" resultMap="InsuranceUserMap">
+        select
+          user_id,user_phone
+        from insurance.insurance_user
+        where user_Phone = #{userPhone}
+    </select>
 </mapper>

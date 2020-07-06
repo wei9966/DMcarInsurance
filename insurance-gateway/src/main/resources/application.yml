@@ -39,3 +39,17 @@ spring:
               - Path=/api/carInsur/**
           filters:
               - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_car_info
+          uri: lb://insurance-car-info
+          predicates:
+              - Path=/api/insuranceCarInfo/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance_other_insur_info2
+          uri: lb://insurance-other-insur-info2
+          predicates:
+              - Path=/api/otherInsur/**
+          filters:
+              - RewritePath=/api/(?<segment>.*),/$\{segment}

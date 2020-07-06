@@ -3,6 +3,7 @@ package com.dm.insurance.service.impl;
 import com.dm.insurance.entity.InsuranceInsurContract;
 import com.dm.insurance.dao.InsuranceInsurContractDao;
 import com.dm.insurance.entity.InsuranceUser;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceInsurContractService;
 import org.springframework.stereotype.Service;
 
@@ -82,7 +83,6 @@ public class InsuranceInsurContractServiceImpl implements InsuranceInsurContract
      * */
     @Override
     public List<InsuranceUser> selectByinfo(Integer userId) {
-
-        return this.insuranceInsurContractDao.selectByinfo(userId);
+           return this.insuranceInsurContractDao.selectByinfo(userId);
     }
 }
