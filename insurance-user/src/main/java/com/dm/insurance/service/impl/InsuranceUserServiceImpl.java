@@ -143,4 +143,19 @@ public class InsuranceUserServiceImpl implements InsuranceUserService {
     InsuranceUser insuranceUser = this.insuranceUserDao.queryPhone(userPhone);
     return insuranceUser;
   }
+
+  /**
+   * 查询账号
+   *
+   * @param userPhone
+   * @param userEmail
+   * @param userName
+   * @return ID
+   * */
+  @Override
+  public InsuranceUser queryId(String userPhone, String userEmail, String userName) {
+    InsuranceUser insuranceUser=this.insuranceUserDao.queryId(userPhone,userEmail,userName);
+
+    return insuranceUser;
+  }
 }
