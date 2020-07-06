@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="第三方整合短信服务">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/insurance_pay.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/PaySpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/config/AlipayTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayAsyncVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-pay/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/Common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/Common.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/entity/InsuranceCity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/UserSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/dao/InsuranceUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/entity/InsuranceUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/InsuranceUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/impl/InsuranceUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/mapper/InsuranceUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/test-classes/com/dm/est/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/insurance-gateway/target/" />
     <ignored path="$PROJECT_DIR$/insurance-type/target/" />
@@ -82,7 +44,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,9 +162,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="655" />
-    <option name="width" value="988" />
-    <option name="height" value="853" />
+    <option name="x" value="-4" />
+    <option name="y" value="64" />
+    <option name="width" value="1107" />
+    <option name="height" value="946" />
   </component>
   <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -224,8 +187,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -284,7 +247,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.21567267" />
+    <option name="contentProportion" value="0.26708508" />
   </component>
   <component name="RunManager" selected="Spring Boot.GateWaySpringBootApplication80">
     <configuration name="CarTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -397,13 +360,13 @@
       <item itemvalue="Spring Boot.insuranceCarInsur" />
       <item itemvalue="Spring Boot.OrderSpringBootApplication" />
       <item itemvalue="Spring Boot.InsuranceCityDmt" />
+      <item itemvalue="Spring Boot.OtherSpringBootApplication" />
+      <item itemvalue="Spring Boot.CarInfoSpringBootApplication" />
+      <item itemvalue="Spring Boot.PaySpringBootApplication" />
       <item itemvalue="Spring Boot.PolicyPersonInformation" />
       <item itemvalue="JUnit.DriveLicenseTest.test1" />
       <item itemvalue="Spring Boot.ThirdParty" />
       <item itemvalue="JUnit.CarTest.test1" />
-      <item itemvalue="Spring Boot.OtherSpringBootApplication" />
-      <item itemvalue="Spring Boot.CarInfoSpringBootApplication" />
-      <item itemvalue="Spring Boot.PaySpringBootApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -438,6 +401,7 @@
       <workItem from="1593823037080" duration="5795000" />
       <workItem from="1593840247492" duration="8042000" />
       <workItem from="1593916217231" duration="3399000" />
+      <workItem from="1593996405004" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="网关整合用户服务">
       <created>1593001753758</created>
@@ -509,14 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593770812290</updated>
     </task>
-    <task id="LOCAL-00011" summary="整合网关+user服务">
-      <created>1593000501734</created>
+    <task id="LOCAL-00011" summary="7/5 wb提交">
+      <created>1593935159559</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1593000501735</updated>
+      <updated>1593935159559</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -543,15 +507,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57857000" />
+    <option name="totallyTimeSpent" value="63090000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32921347" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32921347" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Designer" order="2" />
@@ -566,50 +530,23 @@
       <window_info anchor="right" id="Codota" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" weight="0.36179775" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.3280899" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" visible="true" weight="0.30449438" />
-      <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.30549198" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" visible="true" weight="0.36179775" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016567" side_tool="true" weight="0.3501144" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49834326" visible="true" weight="0.36179775" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.32837528" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="10" weight="0.32951945" />
-      <window_info anchor="right" id="Codota" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.30549198" />
+      <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="10" weight="0.32951945" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +567,8 @@
     <MESSAGE value="wb 7/2" />
     <MESSAGE value="第三方服务整合短信服务" />
     <MESSAGE value="第三方整合短信服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三方整合短信服务" />
+    <MESSAGE value="7/5 wb提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/5 wb提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -669,20 +607,6 @@
     <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/InsuranceCityDmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCityDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -979,9 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,9 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,12 +941,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/Common.java">
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/Common.java" />
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="1984">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1082,11 +1010,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|insurance-city</last-edited>
+          <last-edited>insurance-commcon-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32413793" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1094,7 +1023,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
