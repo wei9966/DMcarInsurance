@@ -46,8 +46,8 @@ public class InsuranceCarInfoController {
     @PostMapping("insertOne")
     public R selectOne2(@RequestBody InsuranceCarInfo insuranceCarInfo) {
         stringRedisTemplate.opsForValue().set("insuranceCarInfo", JSON.toJSONString(insuranceCarInfo, SerializerFeature.DisableCircularReferenceDetect), 1, TimeUnit.DAYS);
-//        return R.ok().put("data",this.insuranceCarInfoService.insert(insuranceCarInfo));
-        return R.ok();
+        return R.ok().put("data",this.insuranceCarInfoService.insert(insuranceCarInfo));
+        //return R.ok();
     }
 
     @GetMapping("getRedisCarInfo")

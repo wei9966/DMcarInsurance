@@ -18,7 +18,7 @@
   }, {
     "name" : "carInfoRegisterDate",
     "comment" : null,
-    "type" : "java.util.Date",
+    "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
@@ -31,6 +31,13 @@
     "ext" : { }
   }, {
     "name" : "carInfoCard",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "carInfoOwner",
     "comment" : null,
     "type" : null,
     "shortType" : null,
@@ -60,7 +67,7 @@
   }, {
     "name" : "carInfoDateFirst",
     "comment" : null,
-    "type" : "java.util.Date",
+    "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
@@ -74,7 +81,7 @@
   }, {
     "name" : "carInfoTransferDate",
     "comment" : null,
-    "type" : "java.util.Date",
+    "type" : null,
     "shortType" : null,
     "custom" : false,
     "ext" : { }
