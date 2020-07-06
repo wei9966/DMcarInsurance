@@ -118,9 +118,25 @@ public class InsuranceUserController {
 
     /**
      * 通过邮箱登录
+     * @param userPass
+     * @param userEmail
+     * @return 是否登录成功
+     * */
+    @RequestMapping("/emailLogin")
+    public R emailLogin(String userEmail,String userPass){
+        InsuranceUser insuranceUser = this.insuranceUserService.emailLogin(userEmail, userPass);
+        if (insuranceUser!=null){
+            return R.ok();
+        }else {
+            return R.error().put("msg","登录失败");
+        }
+    }
+
+    /**
+     *
      *
      * @param userPhone
-     * @return 是否登录成功
+     * @return
      * */
     @RequestMapping("/queryPhone")
     public R queryPhone(String userPhone){
@@ -132,6 +148,23 @@ public class InsuranceUserController {
         }
     }
 
+    /**
+     * 查询账号
+     *
+     * @param userPhone
+     * @param userEmail
+     * @param userName
+     * @return ID
+     * */
+        @RequestMapping("/queryId")
+    public R queryId(String userPhone,String userEmail,String userName){
+        InsuranceUser queryId = this.insuranceUserService.queryId(userPhone,userEmail,userName);
+        if (queryId!=null){
+            return R.ok().put("data",queryId);
+        }else {
+            return R.error().put("data",0);
+        }
 
+    }
 
 }
