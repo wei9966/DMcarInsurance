@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsuranceBillingDao">
+
+    <resultMap type="com.dm.insurance.entity.InsuranceBilling" id="InsuranceBillingMap">
+        <result property="billingId" column="billing_id" jdbcType="INTEGER"/>
+        <result property="billingCustomerType" column="billing_customer_type" jdbcType="VARCHAR"/>
+        <result property="billingTaxpayerType" column="billing_taxpayer_type" jdbcType="VARCHAR"/>
+        <result property="billingInvoiceType" column="billing_invoice_type" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsuranceBillingMap">
+        select
+          billing_id, billing_customer_type, billing_taxpayer_type, billing_invoice_type
+        from insurance.insurance_billing
+        where billing_id = #{billingId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsuranceBillingMap">
+        select
+          billing_id, billing_customer_type, billing_taxpayer_type, billing_invoice_type
+        from insurance.insurance_billing
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsuranceBillingMap">
+        select
+          billing_id, billing_customer_type, billing_taxpayer_type, billing_invoice_type
+        from insurance.insurance_billing
+        <where>
+            <if test="billingId != null">
+                and billing_id = #{billingId}
+            </if>
+            <if test="billingCustomerType != null and billingCustomerType != ''">
+                and billing_customer_type = #{billingCustomerType}
+            </if>
+            <if test="billingTaxpayerType != null and billingTaxpayerType != ''">
+                and billing_taxpayer_type = #{billingTaxpayerType}
+            </if>
+            <if test="billingInvoiceType != null and billingInvoiceType != ''">
+                and billing_invoice_type = #{billingInvoiceType}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="billingId" useGeneratedKeys="true">
+        insert into insurance.insurance_billing(billing_customer_type, billing_taxpayer_type, billing_invoice_type)
+        values (#{billingCustomerType}, #{billingTaxpayerType}, #{billingInvoiceType})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_billing
+        <set>
+            <if test="billingCustomerType != null and billingCustomerType != ''">
+                billing_customer_type = #{billingCustomerType},
+            </if>
+            <if test="billingTaxpayerType != null and billingTaxpayerType != ''">
+                billing_taxpayer_type = #{billingTaxpayerType},
+            </if>
+            <if test="billingInvoiceType != null and billingInvoiceType != ''">
+                billing_invoice_type = #{billingInvoiceType},
+            </if>
+        </set>
+        where billing_id = #{billingId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_billing where billing_id = #{billingId}
+    </delete>
+
+</mapper>
