@@ -8,6 +8,7 @@
         <result property="carInfoRegisterDate" column="car_info_register_date" jdbcType="TIMESTAMP"/>
         <result property="cityId" column="city_id" jdbcType="INTEGER"/>
         <result property="carInfoCard" column="car_info_card" jdbcType="VARCHAR"/>
+        <result property="carInfoOwner" column="car_info_owner" jdbcType="VARCHAR"/>
         <result property="carInfoFrameNo" column="car_info_frame_no" jdbcType="VARCHAR"/>
         <result property="carInfoEnigneNumber" column="car_info_enigne_number" jdbcType="VARCHAR"/>
         <result property="carInfoConfigurationModel" column="car_info_configuration_model" jdbcType="VARCHAR"/>
@@ -20,7 +21,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
         from insurance.insurance_car_info
         where car_info_id = #{carInfoId}
     </select>
@@ -28,7 +29,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
         from insurance.insurance_car_info
         limit #{offset}, #{limit}
     </select>
@@ -36,7 +37,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
         from insurance.insurance_car_info
         <where>
             <if test="carInfoId != null">
@@ -53,6 +54,9 @@
             </if>
             <if test="carInfoCard != null and carInfoCard != ''">
                 and car_info_card = #{carInfoCard}
+            </if>
+            <if test="carInfoOwner != null and carInfoOwner != ''">
+                and car_info_owner = #{carInfoOwner}
             </if>
             <if test="carInfoFrameNo != null and carInfoFrameNo != ''">
                 and car_info_frame_no = #{carInfoFrameNo}
@@ -80,8 +84,8 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="carInfoId" useGeneratedKeys="true">
-        insert into insurance.insurance_car_info(car_info_brand, car_info_register_date, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id)
-        values (#{carInfoBrand}, #{carInfoRegisterDate}, #{cityId}, #{carInfoCard}, #{carInfoFrameNo}, #{carInfoEnigneNumber}, #{carInfoConfigurationModel}, #{carInfoDateFirst}, #{carInfoTransfer}, #{carInfoTransferDate}, #{userId})
+        insert into insurance.insurance_car_info(car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id)
+        values (#{carInfoBrand}, #{carInfoRegisterDate}, #{cityId}, #{carInfoCard}, #{carInfoOwner}, #{carInfoFrameNo}, #{carInfoEnigneNumber}, #{carInfoConfigurationModel}, #{carInfoDateFirst}, #{carInfoTransfer}, #{carInfoTransferDate}, #{userId})
     </insert>
 
     <!--通过主键修改数据-->
@@ -99,6 +103,9 @@
             </if>
             <if test="carInfoCard != null and carInfoCard != ''">
                 car_info_card = #{carInfoCard},
+            </if>
+            <if test="carInfoOwner != null and carInfoOwner != ''">
+                car_info_owner = #{carInfoOwner},
             </if>
             <if test="carInfoFrameNo != null and carInfoFrameNo != ''">
                 car_info_frame_no = #{carInfoFrameNo},

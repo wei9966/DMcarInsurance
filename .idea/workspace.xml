@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="zhifu:war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70662f4e-c045-482f-b6de-4b9cd5a778ab" name="Default Changelist" comment="">
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/InsuranceCityDmt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/controller/InsuranceCarInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/controller/InsuranceCityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/dao/InsuranceCarInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/dao/InsuranceCityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/entity/InsuranceCarInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/entity/InsuranceCity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/InsuranceCarInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/InsuranceCityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/impl/InsuranceCityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCityDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/insurance-insurance_car_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/insurance-insurance_car_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/35371a65-b16d-454d-a504-ddfdfc67dede.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/35371a65-b16d-454d-a504-ddfdfc67dede.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,50 +63,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\linux_ruanjian\maven\maven_repository" />
-        <option name="mavenHome" value="$MAVEN_REPOSITORY$/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\linux_ruanjian\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\yingyongziliao\Maven\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\yingyongziliao\Maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1dkBgHP0zoSZ87y8ZuFCHtKvJNb" />
+  <component name="ProjectId" id="1dk9qQCzhRPSaXtAvkvufaWd9yM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -102,8 +107,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-pay/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/insurance-city" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,22 +117,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.1112347" />
-    <property name="project.structure.side.proportion" value="0.29161453" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32413793" />
+    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\resources\templates" />
-      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\java\com\dm\insurance\vo" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dm.insurance.pojo" />
-      <recent name="com.dm.insurance.controller" />
-      <recent name="com.dm.insurance.config" />
+      <recent name="com.dm.insurance.entity" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习文件\Insurance\insurance-order\src\main\java\com\dm\insurance\service" />
+      <recent name="F:\学习文件\Insurance\insurance-gateway\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,6 +138,42 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InsuranceCityDmt">
+    <configuration name="CarTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-car-insur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dm.test.CarTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriveLicenseTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance-information-policy-person" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dm.test.DriveLicenseTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarInfoSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-info" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.CarInfoSpringBootApplication" />
@@ -165,14 +202,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherSpringBootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OtherSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-other-insur-info2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dm.insurance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.OtherSpringBootApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,21 +216,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolicyPersonInformation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="PolicyPersonInformation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="insurance-information-policy-person" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dm.insurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.PolicyPersonInformation" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdParty" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ThirdParty" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="insurance-third-party" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dm.insurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.ThirdParty" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserSpringBootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="TypeSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="insurance-type" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.TypeSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.UserSpringBootApplication" />
       <method v="2">
@@ -213,99 +263,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <file path="$PROJECT_DIR$/zhifu/zhifu">
-          <settings>
-            <option name="CONTEXT_PATH" value="/zhifu" />
-          </settings>
-        </file>
-        <artifact name="insurance-pay2:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/insurance_pay2_war" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_insurance" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="29598" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="zhifu:war" />
-        </option>
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.DriveLicenseTest.test1" />
+      <item itemvalue="JUnit.CarTest.test1" />
+      <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
+      <item itemvalue="Spring Boot.TypeSpringBootApplication" />
+      <item itemvalue="Spring Boot.UserSpringBootApplication" />
+      <item itemvalue="Spring Boot.insuranceCarInsur" />
       <item itemvalue="Spring Boot.OrderSpringBootApplication" />
       <item itemvalue="Spring Boot.InsuranceCityDmt" />
-      <item itemvalue="Spring Boot.UserSpringBootApplication (1)" />
-      <item itemvalue="Spring Boot.GateWaySpringBootApplication80" />
-      <item itemvalue="Spring Boot.insuranceCarInsur" />
-      <item itemvalue="Spring Boot.PolicyPersonInformation" />
-      <item itemvalue="Spring Boot.ThirdParty" />
+      <item itemvalue="Spring Boot.OtherSpringBootApplication" />
       <item itemvalue="Spring Boot.CarInfoSpringBootApplication" />
       <item itemvalue="Spring Boot.PaySpringBootApplication" />
-      <item itemvalue="Spring Boot.OtherSpringBootApplication (1)" />
+      <item itemvalue="Spring Boot.PolicyPersonInformation" />
+      <item itemvalue="Spring Boot.ThirdParty" />
       <item itemvalue="Tomcat Server.insurance-pay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OtherSpringBootApplication (1)" />
+        <item itemvalue="Spring Boot.PolicyPersonInformation" />
+        <item itemvalue="JUnit.DriveLicenseTest.test1" />
+        <item itemvalue="JUnit.CarTest.test1" />
+        <item itemvalue="Spring Boot.ThirdParty" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +292,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.26608187" />
+          <option name="contentProportion" value="0.23770492" />
           <treeState>
             <expand>
               <path>
@@ -323,12 +302,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:insurance@47.100.79.206" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -342,308 +325,292 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70662f4e-c045-482f-b6de-4b9cd5a778ab" name="Default Changelist" comment="" />
-      <created>1592959319153</created>
+      <changelist id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="wb提交" />
+      <created>1592910154738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592959319153</updated>
-      <workItem from="1592959320879" duration="2858000" />
-      <workItem from="1592983513670" duration="5630000" />
-      <workItem from="1592989957105" duration="2282000" />
-      <workItem from="1593068672161" duration="2298000" />
-      <workItem from="1593217925567" duration="3076000" />
-      <workItem from="1593223958093" duration="15851000" />
-      <workItem from="1593305487461" duration="3602000" />
-      <workItem from="1593333885198" duration="787000" />
-      <workItem from="1593339367090" duration="27000" />
-      <workItem from="1593390578212" duration="2207000" />
-      <workItem from="1593477842125" duration="1784000" />
-      <workItem from="1593584310925" duration="26000" />
-      <workItem from="1593650741350" duration="8351000" />
-      <workItem from="1593674265955" duration="51000" />
-      <workItem from="1593827544178" duration="9000" />
-      <workItem from="1593857475898" duration="624000" />
-      <workItem from="1593909135398" duration="10215000" />
-      <workItem from="1594022294420" duration="2725000" />
+      <updated>1592910154738</updated>
+      <workItem from="1592910158468" duration="602000" />
+      <workItem from="1592910906314" duration="401000" />
+      <workItem from="1592915224770" duration="9336000" />
+      <workItem from="1592958661516" duration="11535000" />
+      <workItem from="1592999242639" duration="2555000" />
+      <workItem from="1593146217895" duration="5695000" />
+      <workItem from="1593179949925" duration="5166000" />
+      <workItem from="1593217658840" duration="3129000" />
+      <workItem from="1593240546970" duration="6131000" />
+      <workItem from="1593835671792" duration="89000" />
+      <workItem from="1593914685597" duration="2537000" />
+      <workItem from="1593929284628" duration="1653000" />
+      <workItem from="1593932848006" duration="4015000" />
+      <workItem from="1593994829327" duration="14129000" />
     </task>
-    <task id="LOCAL-00001" summary="zly6/24">
-      <created>1592960444901</created>
+    <task id="LOCAL-00001" summary="网关整合用户服务">
+      <created>1593001753758</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1592960444901</updated>
+      <updated>1593001753758</updated>
     </task>
-    <task id="LOCAL-00002" summary="zly6/24">
-      <created>1592960716678</created>
+    <task id="LOCAL-00002" summary="网关整合投保人信息服务,配置接口统一返回类型">
+      <created>1593153327457</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1592960716678</updated>
+      <updated>1593153327457</updated>
     </task>
-    <task id="LOCAL-00003" summary="zly6/24">
-      <created>1592985736871</created>
+    <task id="LOCAL-00003" summary="添加第三方模块的邮箱功能并整合入网关">
+      <created>1593185685087</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1592985736871</updated>
+      <updated>1593185685087</updated>
     </task>
-    <task id="LOCAL-00004" summary="zly6/24 01">
-      <created>1592989169521</created>
+    <task id="LOCAL-00004" summary="wb提交">
+      <created>1593234943270</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1592989169521</updated>
+      <updated>1593234943270</updated>
     </task>
-    <task id="LOCAL-00005" summary="zly6/27 01">
-      <created>1593218016005</created>
+    <task id="LOCAL-00005" summary="wb提交">
+      <created>1593235068026</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1593218016005</updated>
+      <updated>1593235068026</updated>
     </task>
-    <task id="LOCAL-00006" summary="zly6/27 02">
-      <created>1593218128840</created>
+    <task id="LOCAL-00006" summary="网关整合城市模块">
+      <created>1593237994855</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1593218128840</updated>
+      <updated>1593237994855</updated>
     </task>
-    <task id="LOCAL-00007" summary="zly6/27 03">
-      <created>1593263600398</created>
+    <task id="LOCAL-00007" summary="网关整合城市模块">
+      <created>1593936961167</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1593263600398</updated>
+      <updated>1593936961167</updated>
     </task>
-    <task id="LOCAL-00008" summary="zly">
-      <created>1593334035633</created>
+    <task id="LOCAL-00008" summary="大木头  整合redis模块">
+      <created>1594005650858</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1593334035634</updated>
+      <updated>1594005650859</updated>
     </task>
-    <task id="LOCAL-00009" summary="zly  6.29">
-      <created>1593390763808</created>
+    <task id="LOCAL-00009" summary="整合网关+user服务">
+      <created>1592999599359</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1593390763808</updated>
+      <updated>1592999599359</updated>
     </task>
-    <task id="LOCAL-00010" summary="zly  6.29 01">
-      <created>1593390892307</created>
+    <task id="LOCAL-00010" summary="整合网关+user服务">
+      <created>1593000381806</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1593390892307</updated>
+      <updated>1593000381806</updated>
     </task>
-    <task id="LOCAL-00011" summary="zly  7.5 01">
-      <created>1593933520969</created>
+    <task id="LOCAL-00011" summary="整合网关+user服务">
+      <created>1593000501734</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1593933520969</updated>
+      <updated>1593000501735</updated>
     </task>
-    <task id="LOCAL-00012" summary="zly  7.5 01">
-      <created>1593933582594</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1593933582594</updated>
-    </task>
-    <task id="LOCAL-00013" summary="zly  7.5 01">
-      <created>1593933848469</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1593933848469</updated>
-    </task>
-    <task id="LOCAL-00014" summary="wd 0.2">
-      <created>1594022338712</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1594022338712</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 52m 24s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 53m 43s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 22h 57m 57s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 23h 01m 32s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.26 at 23h 02m 28s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_test1 - 2020.06.27 at 09h 59m 37s.xml">
+      <configuration name="CarTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveLicenseTest_test1 - 2020.06.27 at 10h 00m 27s.xml">
+      <configuration name="DriveLicenseTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="zly6/24" />
-    <MESSAGE value="zly6/24 01" />
-    <MESSAGE value="zly6/27 01" />
-    <MESSAGE value="zly6/27 02" />
-    <MESSAGE value="zly6/27 03" />
-    <MESSAGE value="Merge branch 'dev' of https://github.com/wei9966/DMcarInsurance into dev&#10;&#10; Conflicts:&#10;&#9;.idea/.gitignore&#10;&#9;.idea/compiler.xml&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/dataSources/1fe033bd-1b45-4f76-b3ac-309c89bcdf8c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/dataSources/3bb06d12-54df-43b7-b320-9eb46c4b7ce4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/dataSources/cc6d7280-4309-4296-b19c-d1b4e952704a.corrupted.20200624-060430.xml&#10;&#9;.idea/dataSources/cc6d7280-4309-4296-b19c-d1b4e952704a.xml&#10;&#9;.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml&#10;&#9;.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta&#10;&#9;.idea/encodings.xml&#10;&#9;.idea/insurance.iml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/workspace.xml&#10;&#9;insurance-gateway/target/classes/application.yml&#10;&#9;insurance-type/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java&#10;&#9;pom.xml" />
-    <MESSAGE value="zly" />
-    <MESSAGE value="zly  6.29" />
-    <MESSAGE value="zly  6.29 01" />
-    <MESSAGE value="zly  7.5 01" />
-    <MESSAGE value="wd 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="wd 0.2" />
+    <MESSAGE value="wd 1" />
+    <MESSAGE value="wd 2" />
+    <MESSAGE value="网关整合用户服务" />
+    <MESSAGE value="网关整合投保人信息服务,配置接口统一返回类型" />
+    <MESSAGE value="添加第三方模块的邮箱功能并整合入网关" />
+    <MESSAGE value="wb提交" />
+    <MESSAGE value="网关整合城市模块" />
+    <MESSAGE value="大木头  整合redis模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="大木头  整合redis模块" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Project_Structure" timestamp="1593927927978">
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593845084728" />
+    <state x="275" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593845084728" />
+    <state x="413" y="149" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="203" y="8" key="CommitChangelistDialog2" timestamp="1594005647796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593927927978" />
-    <state x="209" y="78" width="1150" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593996964487">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="209" y="78" width="1150" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1593996964487" />
-    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593658732331" />
-    <state x="504" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593928453698">
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="203" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594005647796" />
+    <state x="381" y="145" key="FileChooserDialogImpl" timestamp="1593845084728" />
+    <state x="381" y="145" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.0.bottom" timestamp="1594020325787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="504" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593928453698" />
-    <state x="723" y="295" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1593306747851">
+    <state width="982" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594020325787" />
+    <state width="1115" height="296" key="GridCell.Tab.0.center" timestamp="1594020325787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="723" y="295" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.824@0.0.1536.824" timestamp="1593306747851" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1593249326464">
+    <state width="982" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594020325787" />
+    <state width="1115" height="296" key="GridCell.Tab.0.left" timestamp="1594020325787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593249326464" />
-    <state x="531" y="199" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592987992289">
+    <state width="982" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594020325787" />
+    <state width="1115" height="296" key="GridCell.Tab.0.right" timestamp="1594020325787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="531" y="199" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1592987992289" />
-    <state x="706" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1593658916209">
+    <state width="982" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594020325787" />
+    <state width="1115" height="296" key="GridCell.Tab.1.bottom" timestamp="1594020325790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="706" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1593658916209" />
-    <state x="748" y="129" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1593656097744">
+    <state width="982" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594020325790" />
+    <state width="1115" height="296" key="GridCell.Tab.1.center" timestamp="1594020325790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="748" y="129" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1593656097744" />
-    <state x="376" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593220478987">
+    <state width="982" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594020325790" />
+    <state width="1115" height="296" key="GridCell.Tab.1.left" timestamp="1594020325789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593220478987" />
-    <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593655893487">
+    <state width="982" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594020325789" />
+    <state width="1115" height="296" key="GridCell.Tab.1.right" timestamp="1594020325790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655893487" />
-    <state x="45" y="0" key="CommitChangelistDialog2" timestamp="1594022337601">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="45" y="0" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1594022337601" />
-    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593933844620" />
-    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl" timestamp="1593915130882">
+    <state width="982" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state width="1115" height="296" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594020325790" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1593845084728" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1593845084728" />
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1594005769557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593915130882" />
-    <state width="1003" height="201" key="GridCell.Tab.0.bottom" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.0.center" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.0.left" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.0.right" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.1.bottom" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.1.center" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.1.left" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1003" height="201" key="GridCell.Tab.1.right" timestamp="1594029126290">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1003" height="201" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1594029126290" />
-    <state width="1123" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="1197" height="351" key="GridCell.Tab.2.bottom" timestamp="1593658741534">
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594005769557" />
+    <state x="271" y="39" key="SettingsEditor" timestamp="1594018806129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1197" height="351" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593658741534" />
-    <state width="1197" height="351" key="GridCell.Tab.2.center" timestamp="1593658741534">
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="271" y="39" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594018806129" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1594005803756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1197" height="351" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593658741534" />
-    <state width="1197" height="351" key="GridCell.Tab.2.left" timestamp="1593658741534">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594005803756" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog" timestamp="1594005665888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1197" height="351" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593658741534" />
-    <state width="1197" height="351" key="GridCell.Tab.2.right" timestamp="1593658741534">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1197" height="351" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593658741534" />
-    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1593306003574">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1593306003574" />
-    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1593655801335">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655801335" />
-    <state x="138" y="73" key="MergeDialog" timestamp="1594022391783">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="138" y="73" key="MergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1594022391783" />
-    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593218181448" />
-    <state x="447" y="144" key="MultipleFileMergeDialog" timestamp="1594022391788">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="447" y="144" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1594022391788" />
-    <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593933657007" />
-    <state x="463" y="116" key="NewModule_or_Project.wizard" timestamp="1593658627899">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="463" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1593658627899" />
-    <state x="380" y="0" width="1075" height="824" key="SettingsEditor" timestamp="1593658997153">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="380" y="0" width="1075" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593658997153" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1593933871106">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593933871106" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593674269185">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593674269185" />
-    <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593251320140">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="442" y="239" key="git4idea.merge.GitPullDialog" timestamp="1594022346027">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="442" y="239" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1594022346027" />
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593933589983" />
-    <state x="246" y="145" key="new project wizard" timestamp="1593909266813">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="246" y="145" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593909266813" />
-    <state x="274" y="104" key="spring file set editor" timestamp="1593307008232">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="274" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1593307008232" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593845084728" />
+    <state x="376" y="171" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594005665888" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|insurance-city</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32413793" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
