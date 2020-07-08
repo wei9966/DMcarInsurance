@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70662f4e-c045-482f-b6de-4b9cd5a778ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f6875b3f-4b27-4051-910f-97ef6a9ef3a9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/35371a65-b16d-454d-a504-ddfdfc67dede.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/35371a65-b16d-454d-a504-ddfdfc67dede.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,6 +398,8 @@
       <workItem from="1593857475898" duration="624000" />
       <workItem from="1593909135398" duration="10903000" />
       <workItem from="1593958719590" duration="422000" />
+      <workItem from="1594022760494" duration="5106000" />
+      <workItem from="1594041980104" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="zly6/24">
       <created>1592960444901</created>
@@ -496,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593937106506</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="zly  7.6 01">
+      <created>1594022798244</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594022798244</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +527,8 @@
     <MESSAGE value="zly  6.29 01" />
     <MESSAGE value="zly  7.5 01" />
     <MESSAGE value="zly  7.5 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="zly  7.5 02" />
+    <MESSAGE value="zly  7.6 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="zly  7.6 01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1593927927978">
@@ -560,46 +571,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655893487" />
-    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1593937105490">
+    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1594022797223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593937105490" />
-    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl" timestamp="1593959122445">
+    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594022797223" />
+    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl" timestamp="1594041996435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593959122445" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1593937822893">
+    <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594041996435" />
+    <state width="1123" height="242" key="GridCell.Tab.0.bottom" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593937822893" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1593937822893">
+    <state width="1123" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.0.center" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593937822893" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1593937822893">
+    <state width="1123" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.0.left" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593937822893" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1593937822893">
+    <state width="1123" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.0.right" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593937822893" />
-    <state width="1123" height="92" key="GridCell.Tab.1.bottom" timestamp="1593937822892">
+    <state width="1123" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.1.bottom" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="92" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593937822892" />
-    <state width="1123" height="92" key="GridCell.Tab.1.center" timestamp="1593937822891">
+    <state width="1123" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.1.center" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="92" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593937822891" />
-    <state width="1123" height="92" key="GridCell.Tab.1.left" timestamp="1593937822891">
+    <state width="1123" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.1.left" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="92" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593937822891" />
-    <state width="1123" height="92" key="GridCell.Tab.1.right" timestamp="1593937822892">
+    <state width="1123" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
+    <state width="1123" height="242" key="GridCell.Tab.1.right" timestamp="1594032353250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="92" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593937822892" />
+    <state width="1123" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594032353250" />
     <state width="1197" height="351" key="GridCell.Tab.2.bottom" timestamp="1593658741534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -628,10 +639,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593218181448" />
-    <state x="477" y="129" key="MultipleFileMergeDialog" timestamp="1593937142552">
+    <state x="477" y="129" key="MultipleFileMergeDialog" timestamp="1594022843062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593937142552" />
+    <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594022843062" />
     <state x="463" y="116" key="NewModule_or_Project.wizard" timestamp="1593658627899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -644,18 +655,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593937168596" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593958720876">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594041980258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593958720876" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594041980258" />
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593251320140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593937122337">
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1594022815909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593937122337" />
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594022815909" />
     <state x="246" y="145" key="new project wizard" timestamp="1593909266813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
