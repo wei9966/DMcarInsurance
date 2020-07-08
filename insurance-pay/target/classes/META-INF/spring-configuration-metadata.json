@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "name": "alipay",
+      "type": "com.dm.insurance.config.AlipayTemplate",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alipay.alipay-public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuDO3yqHKvFi3Gk3pVzKvwNXUvUCfObQisOvxezLRt4pB5rXhVhhqgpcfu3tx7\/pTAAOyEKnaRl2bF5sKwCT42qix7cH\/\/8lFSnQClm+Z6yJXQwQp\/4pS2BhBhd3OO1gsB7Qm+Xmwo4uiqO\/hhbN1lKtyAHLP43t1FXz4nZRaJf2FB4XrJx49eSZTThLjxF3tLDQc\/fkDBhyr5RVVzebRoTgYX7u3iiUX5y09MyDd1dEhRYfrL+lSUfJsgBzOuQjbuREBMxk\/V60uNdg14n30DD53ZTfN0H0LM799prJEDZX8yLsBLNlVFeEdjeEfNE3CNpJRIzFHnflntuUp6IjMmQIDAQAB"
+    },
+    {
+      "name": "alipay.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "2016102900776003"
+    },
+    {
+      "name": "alipay.charset",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "utf-8"
+    },
+    {
+      "name": "alipay.gateway-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "https:\/\/openapi.alipaydev.com\/gateway.do"
+    },
+    {
+      "name": "alipay.log-path",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "C:\\"
+    },
+    {
+      "name": "alipay.merchant-private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4M7fKocq8WLcaTelXMq\/A1dS9QJ85tCKw6\/F7MtG3ikHmteFWGGqClx+7e3Hv+lMAA7IQqdpGXZsXmwrAJPjaqLHtwf\/\/yUVKdAKWb5nrIldDBCn\/ilLYGEGF3c47WCwHtCb5ebCji6Ko7+GFs3WUq3IAcs\/je3UVfPidlFol\/YUHhesnHj15JlNOEuPEXe0sNBz9+QMGHKvlFVXN5tGhOBhfu7eKJRfnLT0zIN3V0SFFh+sv6VJR8myAHM65CNu5EQEzGT9XrS412DXiffQMPndlN83QfQszv32mskQNlfzIuwEs2VUV4R2N4R80TcI2klEjMUed+We25SnoiMyZAgMBAAECggEAfqMPuD+DIfnb6DmoMkqmiex4VaQX05QERZ3wZsKJa6WhqPth787Zau564mn76wAuD9R6lvovFjFEbvYobfD9JVbU\/KBjX3cALC+Vl9ch+oWheHFkbkqqqeYDJgVXw3Ta0HEKWnlO9yEIsxw377NxIsS7m5NTWRGHbT59rdhQIcz+B++lQC4UuD2zP6WdC0q092fB4kfRmkw3HCiWtahoa7gXEzmvN8zHZUFiEaewlQQ5ucbipWPdqVyOrrNVVynTmHXvD+6D9iDTjSpapmDIMbb09O8STWbtbnbMdDycTA6lewc5tA3+ZbMHOxb+L9Wc4J5oXS9FUYSrqGjm8eoAAQKBgQDsDALv4s0mjGn9Jm\/Bmd1qjfh2g8V2\/ro4c2wQfM4CtHdQJgFwNDwqcipQeBzMeD5Vdp+krZuPXP+2yxZIPzkTGWouGO2lgKP4IuPMFK2DGjx5D32q+Gry8iEiQfmR\/8Z+mTjGk\/5tdubcCjXDVg7tuEcgxJfB2SBekqNj3N2OxQKBgQDHxcwt53rJ+tAW5a2EEemZg+NTJchX1cK3Nu+G9o50oO6VnaHmsNd6Q4HKzd6Zv3SH0dAdKqFhbVg1pKaAmRbQPzvfbrrCuQI\/RGvSzL\/QHOv0oYW7Okp83K96DtoOXks2IW+\/Web7U8mjEgsIjn8fGCOAZQLH8j7etCPeQcEjxQKBgGEq6KKbOFwf\/RlqkyKdFhpg6uDOiaDcZwgJ63g2CA\/w\/hSOMJVhy0qlyGlrqF87OF2yATGnDZxMai9zFm8TJ4mHMsBbHqi8dcMVibRe5rZLPI2RJOgWbuAncCBMDFJfefRvWoHUNi4Vfh8iTNNmP6r36r\/AbcAsgzirIHthVgsJAoGAC4v3PT\/\/7OS+WlR0LwoKAoGJBilM5ybH1mcqeRaPLVaP873kubzG954nRl2X3DMgvSj3angoU8VKL++QYCZ5FxhQkZ2I1fBznMyLnueOvqytRrp\/TE8WNxlaWye4mtQAbOSJ3PmJTEWPhglo8dmqp1Vx193+xyfNUnn\/CL2sODECgYEAj46YvpYQCw6WyFKS3xVES6lk2zyxGWt7RVc7XbAE7RBr5fQrBwWjWLpiGkBbUWWm4mgdx2taX8bQop3Nmytm1xoKy6v1QajtsZEBGnycW1tMIu6hHfsmFsR\/IqCmh0gVdX4mdJGJATigNrbNi\/4uQ9iJqupmBx40LvZEr1v4X7E="
+    },
+    {
+      "name": "alipay.notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "http:\/\/store.free.idcfengye.com\/alipay.trade.page.pay-JAVA-UTF-8\/notify_url.jsp"
+    },
+    {
+      "name": "alipay.return-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "http:\/\/localhost:8080\/#\/login"
+    },
+    {
+      "name": "alipay.sign-type",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.insurance.config.AlipayTemplate",
+      "defaultValue": "RSA2"
+    }
+  ],
+  "hints": []
+}
