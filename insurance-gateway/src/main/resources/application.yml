@@ -1,9 +1,14 @@
 spring:
+  application:
+    name: insurance-gateway
   cloud:
     nacos:
       discovery:
         server-addr: 47.100.79.206:8848
     gateway:
+      discovery:
+        locator:
+          enabled: true #开启自动路由功能
       routes:
         - id: insurance_user_route
           uri: lb://insurance-user
@@ -53,3 +58,13 @@ spring:
               - Path=/api/otherInsur/**
           filters:
               - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: insurance-pay
+          uri: lb://insurance-pay
+          predicates:
+            - Path=/api/insurance/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+server:
+  port: 80
