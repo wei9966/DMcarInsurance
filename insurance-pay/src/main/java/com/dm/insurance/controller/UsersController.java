@@ -26,16 +26,16 @@ public class UsersController {
     }
     @ResponseBody
     @RequestMapping(value = "/payorder",produces = "text/html")
-    public String pay() throws AlipayApiException {
-        System.out.println("11");
-        PayVo payVo = new PayVo();
+    public String pay(@RequestParam PayVo payVo) throws AlipayApiException {
+
+       /* PayVo payVo = new PayVo();
         String Str1=UUID.randomUUID().toString().replace("-", "");
 
-        System.out.println(payVo.getOut_trade_no());
+        System.out.println(payVo.getOut_trade_no());*/
 
-        /*payVo.setOut_trade_no(Str1);
-        payVo.setTotal_amount("100");
-        payVo.setBody("熊大");*/
+       payVo.setOut_trade_no(payVo.getOut_trade_no());
+       payVo.setTotal_amount(payVo.getTotal_amount());
+       payVo.setBody("熊大");
         //payVo.setSubject("熊二");
         String pay = alipayTemplate.pay(payVo);
         System.out.println(pay);

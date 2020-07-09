@@ -7,97 +7,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70662f4e-c045-482f-b6de-4b9cd5a778ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/CarInfoSpringBootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/controller/InsuranceCarInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/dao/InsuranceCarInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/entity/InsuranceCarInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/InsuranceCarInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-info/target/classes/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/controller/InsuranceCarInsurController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/controller/InsuranceInserIncludeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/dao/InsuranceCarInsurDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/dao/InsuranceInserIncludeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/entity/InsuranceCarInsur.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/entity/InsuranceInserInclude.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/insuranceCarInsur.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/InsuranceCarInsurService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/InsuranceInserIncludeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/mapper/InsuranceCarInsurDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/classes/mapper/InsuranceInserIncludeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-car-insur/target/test-classes/com/dm/test/CarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/InsuranceCityDmt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/controller/InsuranceCarInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/controller/InsuranceCityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/dao/InsuranceCarInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/dao/InsuranceCityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/entity/InsuranceCarInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/entity/InsuranceCity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/InsuranceCarInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/InsuranceCityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/com/dm/insurance/service/impl/InsuranceCityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-city/target/classes/mapper/InsuranceCityDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/entity/InsuranceCity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-gateway/target/classes/com/dm/GateWaySpringBootApplication80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/PolicyPersonInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/FeignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceBillingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceClauseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceDistributionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceDrivingLicenseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceInsuredController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceBillingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceClauseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceDistributionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceDrivingLicenseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceInsuredDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceBilling.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceClause.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceDistribution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceDrivingLicense.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceInsured.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/feign/MyFeignClients.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceBillingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceClauseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceDistributionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceDrivingLicenseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceInsuredService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceBillingDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceClauseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceDistributionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceDrivingLicenseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceInsuredDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/target/test-classes/com/dm/test/DriveLicenseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/OtherSpringBootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/controller/InsuranceInsurContractController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/dao/InsuranceInsurContractDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/entity/InsuranceInsurContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/service/InsuranceInsurContractService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/PaySpringBootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/config/AlipayTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/vo/PayAsyncVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/vo/PayVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-pay/target/classes/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/ThirdParty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/MessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/UserSpringBootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/dao/InsuranceUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/InsuranceUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/impl/InsuranceUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/test-classes/com/dm/est/UserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/CarInfoSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/controller/InsuranceCarInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/dao/InsuranceCarInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/entity/InsuranceCarInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/InsuranceCarInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/target/classes/mapper/InsuranceCarInfoDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/controller/InsuranceCarInsurController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/controller/InsuranceInserIncludeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/dao/InsuranceCarInsurDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/dao/InsuranceInserIncludeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/entity/InsuranceCarInsur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/entity/InsuranceInserInclude.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/insuranceCarInsur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/InsuranceCarInsurService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/InsuranceInserIncludeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/impl/InsuranceCarInsurServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/mapper/InsuranceCarInsurDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/classes/mapper/InsuranceInserIncludeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/target/test-classes/com/dm/test/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/META-INF/insurance-commcon-api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/PolicyPersonInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/FeignController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceBillingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceClauseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceDistributionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceDrivingLicenseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/controller/InsuranceInsuredController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceBillingDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceClauseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceDistributionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceDrivingLicenseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/dao/InsuranceInsuredDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceBilling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceClause.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceDistribution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceDrivingLicense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/entity/InsuranceInsured.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/feign/MyFeignClients.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceBillingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceClauseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceDistributionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceDrivingLicenseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/InsuranceInsuredService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceBillingDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceClauseDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceDistributionDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceDrivingLicenseDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/classes/mapper/InsuranceInsuredDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/target/test-classes/com/dm/test/DriveLicenseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/OrderSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/service/Order2Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/target/classes/com/dm/insurance/service/OrderService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/PaySpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/config/AlipayTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/controller/UsersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/pojo/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/vo/PayAsyncVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/com/dm/insurance/vo/PayVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/target/classes/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/ThirdParty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/EmailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/MessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/EmailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/UserSpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/entity/InsuranceUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/target/test-classes/com/dm/est/UserTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -462,7 +487,7 @@
       <workItem from="1594022760494" duration="5106000" />
       <workItem from="1594041980104" duration="24000" />
       <workItem from="1594168300260" duration="12420000" />
-      <workItem from="1594256040163" duration="2113000" />
+      <workItem from="1594256040163" duration="9388000" />
     </task>
     <task id="LOCAL-00001" summary="zly6/24">
       <created>1592960444901</created>
@@ -583,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594197217446</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="zly  7/9">
+      <created>1594259481792</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594259481792</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +639,8 @@
     <MESSAGE value="zly  7.6 01" />
     <MESSAGE value="zly  7.8 01" />
     <MESSAGE value="zly  2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="zly  2.0" />
+    <MESSAGE value="zly  7/9" />
+    <option name="LAST_COMMIT_MESSAGE" value="zly  7/9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1594195869142">
@@ -650,46 +683,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655893487" />
-    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1594197215629">
+    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1594259480597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594197215629" />
+    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594259480597" />
     <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl" timestamp="1594041996435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594041996435" />
-    <state width="1123" height="25" key="GridCell.Tab.0.bottom" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.0.bottom" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.0.center" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.0.center" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.0.left" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.0.left" timestamp="1594278476122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.0.right" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594278476122" />
+    <state width="1123" height="9" key="GridCell.Tab.0.right" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.1.bottom" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.1.bottom" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.1.center" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.1.center" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.1.left" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.1.left" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
-    <state width="1123" height="25" key="GridCell.Tab.1.right" timestamp="1594259423515">
+    <state width="1123" height="9" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
+    <state width="1123" height="9" key="GridCell.Tab.1.right" timestamp="1594278476123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1123" height="25" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594259423515" />
+    <state width="1123" height="9" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594278476123" />
     <state width="1197" height="351" key="GridCell.Tab.2.bottom" timestamp="1593658741534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -730,10 +763,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="380" y="0" width="1075" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594257429163" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1593937168596">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1594259513361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593937168596" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594259513361" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594041980258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -742,10 +775,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1594197229579">
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1594259495399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594197229579" />
+    <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1594259495399" />
     <state x="246" y="145" key="new project wizard" timestamp="1593909266813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
