@@ -33,9 +33,9 @@ public class UsersController {
 
         System.out.println(payVo.getOut_trade_no());
 
-        payVo.setOut_trade_no(Str1);
+        /*payVo.setOut_trade_no(Str1);
         payVo.setTotal_amount("100");
-        payVo.setBody("熊大");
+        payVo.setBody("熊大");*/
         //payVo.setSubject("熊二");
         String pay = alipayTemplate.pay(payVo);
         System.out.println(pay);
