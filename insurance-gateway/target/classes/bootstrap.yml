@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: insurance-gateway
+server:
+    port: 80
