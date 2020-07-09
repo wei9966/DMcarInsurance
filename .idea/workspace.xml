@@ -6,26 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="zly  7.5 01">
-      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/META-INF/insurance-commcon-api.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/ThirdParty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/EmailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/MessageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/EmailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/MessageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/UserSpringBootApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/entity/InsuranceUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/target/test-classes/com/dm/est/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/Common.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +384,7 @@
       <workItem from="1594171366314" duration="615000" />
       <workItem from="1594172068883" duration="597000" />
       <workItem from="1594172736509" duration="3977000" />
-      <workItem from="1594254378336" duration="3018000" />
+      <workItem from="1594254378336" duration="4998000" />
     </task>
     <task id="LOCAL-00001" summary="zly6/24">
       <created>1592960444901</created>
@@ -495,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593933848469</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="czx 7/9 1">
+      <created>1594269175341</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594269175341</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +504,8 @@
     <MESSAGE value="zly  6.29" />
     <MESSAGE value="zly  6.29 01" />
     <MESSAGE value="zly  7.5 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="zly  7.5 01" />
+    <MESSAGE value="czx 7/9 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="czx 7/9 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Notifications" timestamp="1594172902082">
@@ -562,10 +552,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655893487" />
-    <state x="43" y="0" key="CommitChangelistDialog2" timestamp="1594005510389">
+    <state x="43" y="0" key="CommitChangelistDialog2" timestamp="1594269173601">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="43" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594005510389" />
+    <state x="43" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594269173601" />
     <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593933844620" />
     <state x="791" y="249" width="462" height="426" key="FileChooserDialogImpl" timestamp="1594169527730">
       <screen x="0" y="0" width="1366" height="738" />
@@ -670,9 +660,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="471" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593933589983">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="419" y="192" key="git4idea.merge.GitPullDialog" timestamp="1594277441282">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="419" y="192" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1594277441282" />
     <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593933589983" />
     <state x="246" y="145" key="new project wizard" timestamp="1593909266813">
       <screen x="0" y="0" width="1536" height="824" />
