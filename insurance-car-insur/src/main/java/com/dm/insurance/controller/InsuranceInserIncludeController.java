@@ -1,6 +1,7 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceInserInclude;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceInserIncludeService;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +14,7 @@ import javax.annotation.Resource;
  * @since 2020-06-27 11:09:43
  */
 @RestController
-@RequestMapping("/insur/incloud")
+@RequestMapping("/carInsur/incloud")
 public class InsuranceInserIncludeController {
     /**
      * 服务对象
@@ -28,8 +29,14 @@ public class InsuranceInserIncludeController {
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public InsuranceInserInclude selectOne(Integer id) {
-        return this.insuranceInserIncludeService.queryById(id);
+    public R selectOne(Integer id) {
+        return R.ok().put("data",this.insuranceInserIncludeService.queryById(id));
+    }
+
+    @PostMapping("/inserttaocan")
+    public R insertTaoCan(@RequestBody InsuranceInserInclude insuranceInserInclude){
+        InsuranceInserInclude insert = insuranceInserIncludeService.insert(insuranceInserInclude);
+        return R.ok().put("data",insert);
     }
 
 }

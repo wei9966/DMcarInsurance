@@ -191,7 +191,8 @@
             SELECT
               b.user_name,
               b.user_card,
-              b.user_email
+              b.user_email,
+              a.ic_addtime
             FROM
               `insurance_insur_contract` a
               INNER JOIN `insurance_user` b
