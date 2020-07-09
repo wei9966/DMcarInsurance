@@ -127,4 +127,12 @@
         from insurance.insurance_user
         where user_Phone = #{userPhone}
     </select>
+
+    <!--查询账号返回ID-->
+    <select id="queryId" resultMap="InsuranceUserMap">
+        SELECT
+          user_id,user_phone
+        FROM insurance.insurance_user
+        WHERE user_Phone =#{userPhone}OR user_name=#{userName} OR user_email=#{userEmail}
+    </select>
 </mapper>

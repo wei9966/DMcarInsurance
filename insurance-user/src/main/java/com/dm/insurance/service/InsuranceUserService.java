@@ -96,4 +96,14 @@ public interface InsuranceUserService {
      * @return 是否登录成功
      * */
     InsuranceUser queryPhone(String userPhone);
+
+    /**
+     * 查询账号
+     *
+     * @param userPhone
+     * @param userEmail
+     * @param userName
+     * @return ID
+     * */
+    InsuranceUser queryId( String userPhone,String userEmail,String userName);
 }

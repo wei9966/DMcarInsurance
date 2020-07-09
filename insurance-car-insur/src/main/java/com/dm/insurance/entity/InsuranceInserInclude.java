@@ -1,5 +1,7 @@
 package com.dm.insurance.entity;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +10,7 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-06-27 11:09:43
  */
+@Data
 public class InsuranceInserInclude implements Serializable {
     private static final long serialVersionUID = -64052047205359527L;
     /**

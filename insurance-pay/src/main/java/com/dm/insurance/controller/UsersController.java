@@ -7,9 +7,7 @@ import com.dm.insurance.config.AlipayTemplate;
 import com.dm.insurance.vo.PayVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
@@ -29,14 +27,15 @@ public class UsersController {
     @ResponseBody
     @RequestMapping(value = "/payorder",produces = "text/html")
     public String pay() throws AlipayApiException {
+        System.out.println("11");
         PayVo payVo = new PayVo();
         String Str1=UUID.randomUUID().toString().replace("-", "");
 
         System.out.println(payVo.getOut_trade_no());
 
-        payVo.setOut_trade_no(Str1);
+        /*payVo.setOut_trade_no(Str1);
         payVo.setTotal_amount("100");
-        payVo.setBody("熊大");
+        payVo.setBody("熊大");*/
         //payVo.setSubject("熊二");
         String pay = alipayTemplate.pay(payVo);
         System.out.println(pay);

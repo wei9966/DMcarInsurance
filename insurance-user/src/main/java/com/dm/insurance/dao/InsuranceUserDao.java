@@ -108,4 +108,14 @@ public interface InsuranceUserDao {
      * @return 是否存在
      * */
     InsuranceUser queryPhone(@Param("userPhone") String userPhone);
+
+    /**
+     * 查询账号
+     *
+     * @param userPhone
+     * @param userEmail
+     * @param userName
+     * @return ID
+     * */
+    InsuranceUser queryId(@Param("userPhone") String userPhone,@Param("userEmail") String userEmail,@Param("userName") String userName);
 }

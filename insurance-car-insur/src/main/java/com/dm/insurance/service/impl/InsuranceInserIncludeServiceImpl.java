@@ -74,6 +74,8 @@ public class InsuranceInserIncludeServiceImpl implements InsuranceInserIncludeSe
      */
     @Override
     public boolean deleteById(Integer iiId) {
+
         return this.insuranceInserIncludeDao.deleteById(iiId) > 0;
     }
+
 }
