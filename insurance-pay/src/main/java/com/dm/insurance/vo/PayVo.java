@@ -2,7 +2,9 @@ package com.dm.insurance.vo;
 
 
 import lombok.Data;
+import lombok.ToString;
 
+@ToString
 @Data
 public class PayVo {
     private String out_trade_no; // 商户订单号 必填

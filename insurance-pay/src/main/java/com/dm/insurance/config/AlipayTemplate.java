@@ -30,10 +30,11 @@ public class AlipayTemplate {
     public static String notify_url = "http://store.free.idcfengye.com/alipay.trade.page.pay-JAVA-UTF-8/notify_url.jsp";
 
     // 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-    public static String return_url = "http://localhost:8080/#/login";
+    public static String return_url = "http://localhost:8080/#/paySuccess";
 
     // 签名方式
     public static String sign_type = "RSA2";
+
 
     // 字符编码格式
     public static String charset = "utf-8";
