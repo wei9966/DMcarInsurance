@@ -131,8 +131,17 @@
     <!--查询账号返回ID-->
     <select id="queryId" resultMap="InsuranceUserMap">
         SELECT
-          user_id,user_phone
+          *
         FROM insurance.insurance_user
-        WHERE user_Phone =#{userPhone}OR user_name=#{userName} OR user_email=#{userEmail}
+        WHERE 1=1
+        <if test="userPhone != null and userPhone != ''">
+           and  user_Phone = #{userPhone}
+        </if>
+        <if test="userEmail != null and userEmail != ''">
+           and  user_email = #{userEmail}
+        </if>
+        <if test="userName != null and userName != ''">
+        and  user_name = #{userName}
+    </if>
     </select>
 </mapper>

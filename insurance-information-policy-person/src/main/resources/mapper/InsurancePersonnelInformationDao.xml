@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.insurance.dao.InsurancePersonnelInformationDao">
+
+    <resultMap type="com.dm.insurance.entity.InsurancePersonnelInformation" id="InsurancePersonnelInformationMap">
+        <result property="personnelId" column="personnel_id" jdbcType="INTEGER"/>
+        <result property="personnelCarPrice" column="personnel_car_price" jdbcType="NUMERIC"/>
+        <result property="personnelPhone" column="personnel_phone" jdbcType="VARCHAR"/>
+        <result property="insuranceInserIncludeId" column="insurance_inser_include_id" jdbcType="INTEGER"/>
+        <result property="personnelLicensePlate" column="personnel_license_plate" jdbcType="VARCHAR"/>
+        <result property="insuranceCityId" column="insurance_city_id" jdbcType="INTEGER"/>
+        <result property="personnelNewCarFlag" column="personnel_new_car_flag" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InsurancePersonnelInformationMap">
+        select
+          personnel_id, personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate, insurance_city_id, personnel_new_car_flag
+        from insurance.insurance_personnel_information
+        where personnel_id = #{personnelId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InsurancePersonnelInformationMap">
+        select
+          personnel_id, personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate, insurance_city_id, personnel_new_car_flag
+        from insurance.insurance_personnel_information
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="InsurancePersonnelInformationMap">
+        select
+          personnel_id, personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate, insurance_city_id, personnel_new_car_flag
+        from insurance.insurance_personnel_information
+        <where>
+            <if test="personnelId != null">
+                and personnel_id = #{personnelId}
+            </if>
+            <if test="personnelCarPrice != null">
+                and personnel_car_price = #{personnelCarPrice}
+            </if>
+            <if test="personnelPhone != null and personnelPhone != ''">
+                and personnel_phone = #{personnelPhone}
+            </if>
+            <if test="insuranceInserIncludeId != null">
+                and insurance_inser_include_id = #{insuranceInserIncludeId}
+            </if>
+            <if test="personnelLicensePlate != null and personnelLicensePlate != ''">
+                and personnel_license_plate = #{personnelLicensePlate}
+            </if>
+            <if test="insuranceCityId != null">
+                and insurance_city_id = #{insuranceCityId}
+            </if>
+            <if test="personnelNewCarFlag != null">
+                and personnel_new_car_flag = #{personnelNewCarFlag}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="personnelId" useGeneratedKeys="true">
+        insert into insurance.insurance_personnel_information(personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate, insurance_city_id, personnel_new_car_flag)
+        values (#{personnelCarPrice}, #{personnelPhone}, #{insuranceInserIncludeId}, #{personnelLicensePlate}, #{insuranceCityId}, #{personnelNewCarFlag})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update insurance.insurance_personnel_information
+        <set>
+            <if test="personnelCarPrice != null">
+                personnel_car_price = #{personnelCarPrice},
+            </if>
+            <if test="personnelPhone != null and personnelPhone != ''">
+                personnel_phone = #{personnelPhone},
+            </if>
+            <if test="insuranceInserIncludeId != null">
+                insurance_inser_include_id = #{insuranceInserIncludeId},
+            </if>
+            <if test="personnelLicensePlate != null and personnelLicensePlate != ''">
+                personnel_license_plate = #{personnelLicensePlate},
+            </if>
+            <if test="insuranceCityId != null">
+                insurance_city_id = #{insuranceCityId},
+            </if>
+            <if test="personnelNewCarFlag != null">
+                personnel_new_car_flag = #{personnelNewCarFlag},
+            </if>
+        </set>
+        where personnel_id = #{personnelId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from insurance.insurance_personnel_information where personnel_id = #{personnelId}
+    </delete>
+
+</mapper>

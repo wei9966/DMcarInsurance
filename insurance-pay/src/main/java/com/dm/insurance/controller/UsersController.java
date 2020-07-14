@@ -16,29 +16,44 @@ import java.util.UUID;
 public class UsersController {
     @Autowired
     AlipayTemplate alipayTemplate;
+
     @RequestMapping("/index")
-    public String toIndex(){
+    public String toIndex() {
         PayVo payVo = new PayVo();
-        String Str1=UUID.randomUUID().toString().replace("-", "");
+        String Str1 = UUID.randomUUID().toString().replace("-", "");
         payVo.setOut_trade_no(Str1);
         System.out.println(payVo.getOut_trade_no());
         return "index";
     }
+
     @ResponseBody
-    @RequestMapping(value = "/payorder",produces = "text/html")
-    public String pay() throws AlipayApiException {
-        System.out.println("11");
+    @RequestMapping(value = "/payorder", produces = "text/html", method = RequestMethod.POST)
+    public String pay(@RequestParam("outtradeno") String outtradeno,
+                      @RequestParam("totalamount") String totalamount
+    ) throws AlipayApiException {
+        System.out.println(totalamount);
+        System.out.println(outtradeno);
         PayVo payVo = new PayVo();
-        String Str1=UUID.randomUUID().toString().replace("-", "");
-
-        System.out.println(payVo.getOut_trade_no());
-
-        /*payVo.setOut_trade_no(Str1);
-        payVo.setTotal_amount("100");
-        payVo.setBody("熊大");*/
-        //payVo.setSubject("熊二");
+        payVo.setOut_trade_no(outtradeno);
+        payVo.setTotal_amount(totalamount);
+        payVo.setBody("");
+        payVo.setSubject("测试");
         String pay = alipayTemplate.pay(payVo);
-        System.out.println(pay);
+        // System.out.println(payVo);
+//        System.out.println("11");
+
+//        String Str1=UUID.randomUUID().toString().replace("-", "");
+//
+//
+//                payVo.setOut_trade_no(Str1);
+//
+//        System.out.println(payVo.getOut_trade_no());
+//                payVo.setTotal_amount("100");
+//               payVo.setBody("熊大");
+//               payVo.setSubject("熊二");
+//
+//        payVo.setBody("熊大");
+//        System.out.println(pay);
         return pay;
     }
 }
