@@ -14,36 +14,36 @@ import java.io.Serializable;
 public class InsuranceUser implements Serializable {
     private static final long serialVersionUID = 382553852510382191L;
     /**
-    * 用户id
-    */
+     * 用户id
+     */
     private Integer userId;
     /**
-    * 用户姓名
-    */
+     * 用户姓名
+     */
     private String userName;
     /**
-    * 密码
-    */
+     * 密码
+     */
     private String userPass;
     /**
-    * 手机
-    */
+     * 手机
+     */
     private String userPhone;
     /**
-    * 邮箱
-    */
+     * 邮箱
+     */
     private String userEmail;
     /**
-    * 性别
-    */
+     * 性别
+     */
     private String userSex;
     /**
-    * 住址
-    */
+     * 住址
+     */
     private String userAddress;
     /**
-    * 身份证号
-    */
+     * 身份证号
+     */
     private String userCard;
 
 

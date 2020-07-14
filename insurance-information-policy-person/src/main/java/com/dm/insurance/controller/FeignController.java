@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Create By WeiBin on 2020/7/4 17:06
+ *
  * @author WB
  */
 @RestController
@@ -24,7 +25,7 @@ public class FeignController {
     }
 
     @RequestMapping("user/update")
-    public R update(@RequestBody InsuranceUser user){
+    public R update(@RequestBody InsuranceUser user) {
         System.out.println(user);
         return feignClients.update(user);
     }

@@ -28,7 +28,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceInserIncludeMap">
         select
-          ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
+        ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
         from insurance.insurance_inser_include
         where ii_id = #{iiId}
     </select>
@@ -36,7 +36,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceInserIncludeMap">
         select
-          ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
+        ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
         from insurance.insurance_inser_include
         limit #{offset}, #{limit}
     </select>
@@ -44,7 +44,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceInserIncludeMap">
         select
-          ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
+        ii_id, ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20
         from insurance.insurance_inser_include
         <where>
             <if test="iiId != null">
@@ -112,8 +112,10 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="iiId" useGeneratedKeys="true">
-        insert into insurance.insurance_inser_include(ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12, ci13, ci14, ci15, ci16, ci17, ci19, ci20)
-        values (#{ci1}, #{ci2}, #{ci3}, #{ci4}, #{ci5}, #{ci6}, #{ci7}, #{ci8}, #{ci9}, #{ci10}, #{ci11}, #{ci12}, #{ci13}, #{ci14}, #{ci15}, #{ci16}, #{ci17}, #{ci19}, #{ci20})
+        insert into insurance.insurance_inser_include(ci1, ci2, ci3, ci4, ci5, ci6, ci7, ci8, ci9, ci10, ci11, ci12,
+        ci13, ci14, ci15, ci16, ci17, ci19, ci20)
+        values (#{ci1}, #{ci2}, #{ci3}, #{ci4}, #{ci5}, #{ci6}, #{ci7}, #{ci8}, #{ci9}, #{ci10}, #{ci11}, #{ci12},
+        #{ci13}, #{ci14}, #{ci15}, #{ci16}, #{ci17}, #{ci19}, #{ci20})
     </insert>
 
     <!--通过主键修改数据-->

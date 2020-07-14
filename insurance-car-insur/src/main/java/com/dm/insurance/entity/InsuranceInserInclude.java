@@ -14,68 +14,68 @@ import java.io.Serializable;
 public class InsuranceInserInclude implements Serializable {
     private static final long serialVersionUID = -64052047205359527L;
     /**
-    * 套餐编号，主键，唯一
-    */
+     * 套餐编号，主键，唯一
+     */
     private Integer iiId;
     /**
-    * 保险编号一（0无，保险id）
-    */
+     * 保险编号一（0无，保险id）
+     */
     private Integer ci1;
     /**
-    * 保险编号二（0无，1有）
-    */
+     * 保险编号二（0无，1有）
+     */
     private Integer ci2;
     /**
-    * 保险编号三（0无，1有）
-    */
+     * 保险编号三（0无，1有）
+     */
     private Integer ci3;
     /**
-    * 保险编号四（0无，1有）
-    */
+     * 保险编号四（0无，1有）
+     */
     private Integer ci4;
     /**
-    * 保险编号五（0无，1有）
-    */
+     * 保险编号五（0无，1有）
+     */
     private Integer ci5;
     /**
-    * 保险编号六（0无，1有）
-    */
+     * 保险编号六（0无，1有）
+     */
     private Integer ci6;
     /**
-    * 保险编号七（0无，1有）
-    */
+     * 保险编号七（0无，1有）
+     */
     private Integer ci7;
     /**
-    * 保险编号八（0无，1有）
-    */
+     * 保险编号八（0无，1有）
+     */
     private Integer ci8;
     /**
-    * 保险编号九（0无，1有）
-    */
+     * 保险编号九（0无，1有）
+     */
     private Integer ci9;
     /**
-    * 保险编号十（0无，1有）
-    */
+     * 保险编号十（0无，1有）
+     */
     private Integer ci10;
     /**
-    * 保险编号十一（0无，1有）
-    */
+     * 保险编号十一（0无，1有）
+     */
     private Integer ci11;
-    
+
     private Integer ci12;
-    
+
     private Integer ci13;
-    
+
     private Integer ci14;
-    
+
     private Integer ci15;
-    
+
     private Integer ci16;
-    
+
     private Integer ci17;
-    
+
     private Integer ci19;
-    
+
     private Integer ci20;
 
 

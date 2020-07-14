@@ -14,16 +14,16 @@ import java.io.Serializable;
 public class InsuranceClause implements Serializable {
     private static final long serialVersionUID = 417105149222617200L;
     /**
-    * 条款id
-    */
+     * 条款id
+     */
     private Integer clauseId;
     /**
-    * 条款类型
-    */
+     * 条款类型
+     */
     private String clauseType;
     /**
-    * 条款内容
-    */
+     * 条款内容
+     */
     private String clauseContent;
 
 

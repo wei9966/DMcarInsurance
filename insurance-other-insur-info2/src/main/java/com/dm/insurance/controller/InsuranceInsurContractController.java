@@ -36,16 +36,16 @@ public class InsuranceInsurContractController {
     }
 
     /*
-    * 通过保单表查询用户的基本信息
-    *
-    * */
+     * 通过保单表查询用户的基本信息
+     *
+     * */
     @GetMapping("/selectTwo")
-    public R selectTwo(Integer id){
+    public R selectTwo(Integer id) {
         List<InsuranceUser> insuranceUserList = insuranceInsurContractService.selectByinfo(id);
-        if (insuranceUserList == null || insuranceUserList.size()<=0){
-            return R.error(10001,"沒有保单");
+        if (insuranceUserList == null || insuranceUserList.size() <= 0) {
+            return R.error(10001, "沒有保单");
         } else {
-            return R.ok().put("data",insuranceUserList);
+            return R.ok().put("data", insuranceUserList);
         }
     }
 }

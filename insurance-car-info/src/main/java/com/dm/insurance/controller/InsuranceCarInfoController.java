@@ -34,8 +34,8 @@ public class InsuranceCarInfoController {
     }
 
     @PostMapping("insertOne")
-    public R insertOne(InsuranceCarInfo insuranceCarInfo){
+    public R insertOne(InsuranceCarInfo insuranceCarInfo) {
         InsuranceCarInfo insuranceCarInfo1 = insuranceCarInfoService.insert(insuranceCarInfo);
-        return R.ok().put("data",insuranceCarInfo);
+        return R.ok().put("data", insuranceCarInfo);
     }
 }

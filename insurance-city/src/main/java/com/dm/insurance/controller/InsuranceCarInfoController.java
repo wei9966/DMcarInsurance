@@ -32,6 +32,7 @@ public class InsuranceCarInfoController {
      */
     @Resource
     private InsuranceCarInfoService insuranceCarInfoService;
+
     /**
      * 通过主键查询单条数据
      *
@@ -46,14 +47,14 @@ public class InsuranceCarInfoController {
     @PostMapping("insertOne")
     public R selectOne2(@RequestBody InsuranceCarInfo insuranceCarInfo) {
 //        stringRedisTemplate.opsForValue().set("insuranceCarInfo", JSON.toJSONString(insuranceCarInfo, SerializerFeature.DisableCircularReferenceDetect), 1, TimeUnit.DAYS);
-        return R.ok().put("data",this.insuranceCarInfoService.insert(insuranceCarInfo));
+        return R.ok().put("data", this.insuranceCarInfoService.insert(insuranceCarInfo));
         //return R.ok();
     }
 
     @GetMapping("getRedisCarInfo")
-    public R selectTwo(String redsiKey){
+    public R selectTwo(String redsiKey) {
         String s = stringRedisTemplate.opsForValue().get(redsiKey);
         InsuranceCarInfo insuranceCarInfo = JSON.parseObject(s, InsuranceCarInfo.class);
-        return R.ok().put("data",insuranceCarInfo);
+        return R.ok().put("data", insuranceCarInfo);
     }
 }

@@ -16,20 +16,22 @@ import java.util.UUID;
 public class UsersController {
     @Autowired
     AlipayTemplate alipayTemplate;
+
     @RequestMapping("/index")
-    public String toIndex(){
+    public String toIndex() {
         PayVo payVo = new PayVo();
-        String Str1=UUID.randomUUID().toString().replace("-", "");
+        String Str1 = UUID.randomUUID().toString().replace("-", "");
         payVo.setOut_trade_no(Str1);
         System.out.println(payVo.getOut_trade_no());
         return "index";
     }
+
     @ResponseBody
-    @RequestMapping(value = "/payorder",produces = "text/html")
+    @RequestMapping(value = "/payorder", produces = "text/html")
     public String pay() throws AlipayApiException {
         System.out.println("11");
         PayVo payVo = new PayVo();
-        String Str1=UUID.randomUUID().toString().replace("-", "");
+        String Str1 = UUID.randomUUID().toString().replace("-", "");
 
         System.out.println(payVo.getOut_trade_no());
 

@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * Create By WeiBin on 2020/6/23 21:17
+ *
  * @author WB
  */
 @SpringBootApplication
@@ -16,6 +17,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class UserSpringBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserSpringBootApplication.class,args);
+        SpringApplication.run(UserSpringBootApplication.class, args);
     }
 }

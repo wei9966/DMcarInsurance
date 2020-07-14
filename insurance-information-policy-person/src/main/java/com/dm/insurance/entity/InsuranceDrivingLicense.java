@@ -14,16 +14,16 @@ import java.io.Serializable;
 public class InsuranceDrivingLicense implements Serializable {
     private static final long serialVersionUID = 496170648326228650L;
     /**
-    * 行驶证id
-    */
+     * 行驶证id
+     */
     private Integer drivingLicenseId;
     /**
-    * 行驶证名称
-    */
+     * 行驶证名称
+     */
     private String drivingLicenseName;
     /**
-    * 行驶证身份证
-    */
+     * 行驶证身份证
+     */
     private String drivingLicenseCard;
 
 

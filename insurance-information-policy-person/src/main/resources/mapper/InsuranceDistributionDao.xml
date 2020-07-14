@@ -10,7 +10,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceDistributionMap">
         select
-          distribution_id, distribution_type
+        distribution_id, distribution_type
         from insurance.insurance_distribution
         where distribution_id = #{distributionId}
     </select>
@@ -18,7 +18,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceDistributionMap">
         select
-          distribution_id, distribution_type
+        distribution_id, distribution_type
         from insurance.insurance_distribution
         limit #{offset}, #{limit}
     </select>
@@ -26,7 +26,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceDistributionMap">
         select
-          distribution_id, distribution_type
+        distribution_id, distribution_type
         from insurance.insurance_distribution
         <where>
             <if test="distributionId != null">

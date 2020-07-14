@@ -7,7 +7,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insurance-user/target/test-classes/META-INF/insurance-user.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/CarInfoSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/CarInfoSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/resources/mapper/InsuranceCarInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/resources/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceInserIncludeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceInserIncludeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceInserIncludeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceInserIncludeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceCarInsur.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceCarInsur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceInserInclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceInserInclude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/insuranceCarInsur.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/insuranceCarInsur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceInserIncludeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceInserIncludeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceInserIncludeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceInserIncludeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/InsuranceCityDmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/InsuranceCityDmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCityDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceBillingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceBillingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDrivingLicenseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDrivingLicenseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsuredDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsuredDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceBillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceClauseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceClauseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDistributionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDistributionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceInsuredService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceInsuredService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceBillingDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceBillingDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceClauseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceClauseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDistributionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDistributionDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceInsuredDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceInsuredDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/OtherSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/OtherSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/InsuranceInsurContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/InsuranceInsurContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/target/classes/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/PaySpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/PaySpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/config/AlipayTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/config/AlipayTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/mapper/InsuranceUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/target/classes/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/test-classes/com/dm/est/UserTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,21 +216,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1112347" />
     <property name="project.structure.side.proportion" value="0.29161453" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.25255623" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\resources\templates" />
-      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\java\com\dm\insurance\vo" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dm.insurance.pojo" />
       <recent name="com.dm.insurance.controller" />
       <recent name="com.dm.insurance.config" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\resources\templates" />
+      <recent name="E:\Springboot\DMcarInsurance\insurance-pay\src\main\java\com\dm\insurance\vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -134,7 +240,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ThirdParty">
+  <component name="RunManager" selected="Spring Boot.UserSpringBootApplication (1)">
     <configuration name="CarInfoSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="insurance-car-info" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dm.insurance.CarInfoSpringBootApplication" />
@@ -314,7 +420,6 @@
       <item itemvalue="Spring Boot.CarInfoSpringBootApplication" />
       <item itemvalue="Spring Boot.OtherSpringBootApplication (1)" />
       <item itemvalue="Spring Boot.PaySpringBootApplication" />
-      <item itemvalue="Tomcat Server.insurance-pay" />
     </list>
     <recent_temporary>
       <list>
@@ -333,11 +438,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -384,7 +484,13 @@
       <workItem from="1594171366314" duration="615000" />
       <workItem from="1594172068883" duration="597000" />
       <workItem from="1594172736509" duration="3977000" />
-      <workItem from="1594254378336" duration="4998000" />
+      <workItem from="1594254378336" duration="10033000" />
+      <workItem from="1594426657867" duration="2931000" />
+      <workItem from="1594514070544" duration="638000" />
+      <workItem from="1594627025095" duration="1562000" />
+      <workItem from="1594629698094" duration="70000" />
+      <workItem from="1594716764776" duration="1025000" />
+      <workItem from="1594718546996" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="zly6/24">
       <created>1592960444901</created>
@@ -484,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594269175341</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="czx 7/9 1">
+      <created>1594277493400</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594277493400</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,55 +665,55 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="648" y="170" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655893487" />
-    <state x="43" y="0" key="CommitChangelistDialog2" timestamp="1594269173601">
+    <state x="43" y="0" key="CommitChangelistDialog2" timestamp="1594277487251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="43" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594269173601" />
+    <state x="43" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594277487251" />
     <state x="48" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593933844620" />
-    <state x="791" y="249" width="462" height="426" key="FileChooserDialogImpl" timestamp="1594169527730">
+    <state x="791" y="248" width="462" height="426" key="FileChooserDialogImpl" timestamp="1594514462340">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="791" y="249" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594169527730" />
+    <state x="791" y="248" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594514462340" />
     <state x="889" y="278" width="462" height="426" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593915130882" />
-    <state width="990" height="182" key="GridCell.Tab.0.bottom" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.0.bottom" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.0.center" timestamp="1594259402821">
+    <state width="990" height="182" key="GridCell.Tab.0.center" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594259402821" />
+    <state width="990" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.0.left" timestamp="1594259402821">
+    <state width="990" height="182" key="GridCell.Tab.0.left" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594259402821" />
+    <state width="990" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.0.right" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.0.right" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.1.bottom" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.1.bottom" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.1.center" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.1.center" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.1.left" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.1.left" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
-    <state width="990" height="182" key="GridCell.Tab.1.right" timestamp="1594259402822">
+    <state width="990" height="182" key="GridCell.Tab.1.right" timestamp="1594514722195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="990" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1594259402822" />
+    <state width="990" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1594514722195" />
     <state width="1123" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593936140815" />
     <state width="1197" height="351" key="GridCell.Tab.2.bottom" timestamp="1593658741534">
       <screen x="0" y="0" width="1536" height="824" />
@@ -630,22 +743,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593655801335" />
-    <state x="147" y="65" key="MergeDialog" timestamp="1593218181448">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="131" y="58" key="MergeDialog" timestamp="1594277637287">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="131" y="58" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1594277637287" />
     <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593218181448" />
-    <state x="477" y="129" key="MultipleFileMergeDialog" timestamp="1593933657007">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="424" y="116" key="MultipleFileMergeDialog" timestamp="1594277637297">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="424" y="116" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1594277637297" />
     <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593933657007" />
     <state x="463" y="116" key="NewModule_or_Project.wizard" timestamp="1593658627899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1593658627899" />
-    <state x="302" y="22" width="1075" height="824" key="SettingsEditor" timestamp="1594172682795">
+    <state x="302" y="22" width="1075" height="824" key="SettingsEditor" timestamp="1594514083437">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="302" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594172682795" />
+    <state x="302" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594514083437" />
     <state x="380" y="0" width="1075" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593658997153" />
     <state x="321" y="133" key="Vcs.Push.Dialog.v2" timestamp="1594005521869">
       <screen x="0" y="0" width="1366" height="738" />
@@ -660,14 +775,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593251320140" />
-    <state x="419" y="192" key="git4idea.merge.GitPullDialog" timestamp="1594277441282">
+    <state x="419" y="192" key="git4idea.merge.GitPullDialog" timestamp="1594718971614">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="419" y="192" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1594277441282" />
+    <state x="419" y="192" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1594718971614" />
     <state x="471" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593933589983" />
-    <state x="246" y="145" key="new project wizard" timestamp="1593909266813">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="115" y="130" key="new project wizard" timestamp="1594452641525">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="115" y="130" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1594452641525" />
     <state x="246" y="145" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593909266813" />
     <state x="274" y="104" key="spring file set editor" timestamp="1593307008232">
       <screen x="0" y="0" width="1536" height="824" />

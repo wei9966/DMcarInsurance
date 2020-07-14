@@ -30,13 +30,13 @@ public class InsuranceInserIncludeController {
      */
     @GetMapping("selectOne")
     public R selectOne(Integer id) {
-        return R.ok().put("data",this.insuranceInserIncludeService.queryById(id));
+        return R.ok().put("data", this.insuranceInserIncludeService.queryById(id));
     }
 
     @PostMapping("/inserttaocan")
-    public R insertTaoCan(@RequestBody InsuranceInserInclude insuranceInserInclude){
+    public R insertTaoCan(@RequestBody InsuranceInserInclude insuranceInserInclude) {
         InsuranceInserInclude insert = insuranceInserIncludeService.insert(insuranceInserInclude);
-        return R.ok().put("data",insert);
+        return R.ok().put("data", insert);
     }
 
 }

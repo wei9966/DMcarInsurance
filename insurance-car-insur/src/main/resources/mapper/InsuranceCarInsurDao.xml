@@ -18,7 +18,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceCarInsurMap">
         select
-          ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
+        ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
         from insurance.insurance_car_insur
         where ci_id = #{ciId}
     </select>
@@ -26,16 +26,16 @@
     <!-- 通过ciType和ciState查询所有的商业险 -->
     <select id="queryAllType" resultMap="InsuranceCarInsurMap">
         SELECT
-            *
+        *
         FROM
-            insurance_car_insur
+        insurance_car_insur
         WHERE ci_type =#{ciType} AND ci_state =#{ciState}
     </select>
 
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceCarInsurMap">
         select
-          ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
+        ci_id, ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money
         from insurance.insurance_car_insur
         limit #{offset}, #{limit}
     </select>
@@ -81,8 +81,10 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="ciId" useGeneratedKeys="true">
-        insert into insurance.insurance_car_insur(ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id, ci_addtime, ci_money)
-        values (#{ciName}, #{ciType}, #{compRate}, #{maxmoney}, #{insRale}, #{ciState}, #{unId}, #{ciAddtime}, #{ciMoney})
+        insert into insurance.insurance_car_insur(ci_name, ci_type, comp_rate, maxmoney, ins_rale, ci_state, un_id,
+        ci_addtime, ci_money)
+        values (#{ciName}, #{ciType}, #{compRate}, #{maxmoney}, #{insRale}, #{ciState}, #{unId}, #{ciAddtime},
+        #{ciMoney})
     </insert>
 
     <!--通过主键修改数据-->

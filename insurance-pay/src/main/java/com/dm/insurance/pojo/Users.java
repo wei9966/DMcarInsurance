@@ -1,12 +1,13 @@
 package com.dm.insurance.pojo;
+
 import lombok.Data;
 
 @Data
 public class Users {
 
-    private  String name;
-    private  String sex;
-    private  Integer age;
+    private String name;
+    private String sex;
+    private Integer age;
 
     public Users() {
     }

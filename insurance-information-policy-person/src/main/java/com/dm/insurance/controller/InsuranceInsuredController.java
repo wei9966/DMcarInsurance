@@ -24,6 +24,7 @@ public class InsuranceInsuredController {
 
     /**
      * 通过主键查询单条数据
+     *
      * @param id 主键
      * @return 单条数据
      */
@@ -33,8 +34,8 @@ public class InsuranceInsuredController {
     }
 
     @PostMapping("insertOne")
-    public R insertOne(@RequestBody InsuranceInsured insuranceInsured){
+    public R insertOne(@RequestBody InsuranceInsured insuranceInsured) {
         InsuranceInsured insert = insuranceInsuredService.insert(insuranceInsured);
-        return R.ok().put("data",insert);
+        return R.ok().put("data", insert);
     }
 }

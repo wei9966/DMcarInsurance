@@ -34,8 +34,8 @@ public class InsuranceDrivingLicenseController {
     }
 
     @PostMapping("insertOne")
-    public R insertDrivingLicense(@RequestBody InsuranceDrivingLicense insuranceDrivingLicense){
+    public R insertDrivingLicense(@RequestBody InsuranceDrivingLicense insuranceDrivingLicense) {
         InsuranceDrivingLicense drivingLicense = insuranceDrivingLicenseService.insert(insuranceDrivingLicense);
-        return R.ok().put("data",drivingLicense);
+        return R.ok().put("data", drivingLicense);
     }
 }

@@ -40,7 +40,7 @@ public class InsuranceCarInsurController {
     public R queryAllType(@RequestParam("ciType") String ciType,
                           @RequestParam("ciState") Integer ciState) {
         List<InsuranceCarInsur> insuranceCarInsurs = insuranceCarInsurService.queryAllType(ciType, ciState);
-        return R.ok().put("data",insuranceCarInsurs);
+        return R.ok().put("data", insuranceCarInsurs);
     }
 
 }

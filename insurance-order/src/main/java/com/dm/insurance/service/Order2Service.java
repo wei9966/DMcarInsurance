@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value = "insurance-user")
 public interface Order2Service {
     @GetMapping("/user")
-    String  testUser();
+    String testUser();
 }

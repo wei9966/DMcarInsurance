@@ -13,51 +13,51 @@ spring:
         - id: insurance_user_route
           uri: lb://insurance-user
           predicates:
-              - Path=/api/user/**
+            - Path=/api/user/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_policy_person
           uri: lb://insurance-policy-person
           predicates:
-              - Path=/api/policy/**
+            - Path=/api/policy/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_third_party
           uri: lb://insurance-third-party
           predicates:
-              - Path=/api/third/**
+            - Path=/api/third/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_city
           uri: lb://insurance-city
           predicates:
-              - Path=/api/insuranceCity/**
+            - Path=/api/insuranceCity/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_car_insur
           uri: lb://insurance-car-insur
           predicates:
-              - Path=/api/carInsur/**
+            - Path=/api/carInsur/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_car_info
           uri: lb://insurance-car-info
           predicates:
-              - Path=/api/insuranceCarInfo/**
+            - Path=/api/insuranceCarInfo/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance_other_insur_info2
           uri: lb://insurance-other-insur-info2
           predicates:
-              - Path=/api/otherInsur/**
+            - Path=/api/otherInsur/**
           filters:
-              - RewritePath=/api/(?<segment>.*),/$\{segment}
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
 
         - id: insurance-pay
           uri: lb://insurance-pay
