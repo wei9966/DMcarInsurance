@@ -73,6 +73,27 @@ spring:
           filters:
             - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
 
+        - id: claim-indemnity
+          uri: lb://claims-indemnity
+          predicates:
+            - Path=/proxyApi/claim/indemnity/**
+          filters:
+            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+
+        - id: claim-loss-lossassessment
+          uri: lb://claims-loss-assessment
+          predicates:
+            - Path=/proxyApi/claim/lossassessment/**
+          filters:
+            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+
+        - id: claim-material
+          uri: lb://claims-material
+          predicates:
+            - Path=/proxyApi/claim/material/**
+          filters:
+            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+
         - id: renren-fast
           uri: lb://renren-fast
           predicates:
