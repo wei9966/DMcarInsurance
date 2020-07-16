@@ -69,36 +69,36 @@ spring:
         - id: claim-form
           uri: lb://claims-form
           predicates:
-            - Path=/proxyApi/claim/form/**
+            - Path=/Api/claim/form/**
           filters:
-            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
         - id: claim-indemnity
           uri: lb://claims-indemnity
           predicates:
-            - Path=/proxyApi/claim/indemnity/**
+            - Path=/Api/claim/indemnity/**
           filters:
-            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
         - id: claim-loss-lossassessment
           uri: lb://claims-loss-assessment
           predicates:
-            - Path=/proxyApi/claim/lossassessment/**
+            - Path=/Api/claim/lossassessment/**
           filters:
-            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
         - id: claim-material
           uri: lb://claims-material
           predicates:
-            - Path=/proxyApi/claim/material/**
+            - Path=/Api/claim/material/**
           filters:
-            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
         - id: renren-fast
           uri: lb://renren-fast
           predicates:
-            - Path=/proxyApi/renren-fast/**
+            - Path=/Api/**
           filters:
-            - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 server:
   port: 80
