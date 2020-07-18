@@ -79,5 +79,6 @@ spring:
             - Path=/proxyApi/renren-fast/**
           filters:
             - RewritePath=/proxyApi/(?<segment>.*),/$\{segment}
+
 server:
   port: 80
