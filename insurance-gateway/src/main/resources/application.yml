@@ -66,5 +66,39 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>.*),/$\{segment}
 
+        - id: claim-form
+          uri: lb://claims-form
+          predicates:
+            - Path=/Api/claim/form/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
+        - id: claim-indemnity
+          uri: lb://claims-indemnity
+          predicates:
+            - Path=/Api/claim/indemnity/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
+        - id: claim-loss-lossassessment
+          uri: lb://claims-loss-assessment
+          predicates:
+            - Path=/Api/claim/lossassessment/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
+        - id: claim-material
+          uri: lb://claims-material
+          predicates:
+            - Path=/Api/claim/material/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
+        - id: renren-fast
+          uri: lb://renren-fast
+          predicates:
+            - Path=/Api/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
 server:
   port: 80
