@@ -11,13 +11,13 @@
         <module name="insurance-city" />
         <module name="insurance-car-insur" />
         <module name="insurance-information-policy-person" />
-        <module name="insurance-order" />
         <module name="insurance-pay" />
         <module name="insurance-commcon-api" />
+        <module name="insurance-other-insur-info2" />
         <module name="insurance-user" />
         <module name="insurance-third-party" />
         <module name="insurance-gateway" />
-        <module name="insurance-other-insur-info2" />
+        <module name="insurance-order" />
       </profile>
     </annotationProcessing>
   </component>

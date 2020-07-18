@@ -22,6 +22,13 @@ public interface InsuranceUserService {
     InsuranceUser queryById(Integer userId);
 
     /**
+     * 通过ID查询单条数据
+     *
+     * @return 实例对象
+     */
+    InsuranceUser queryName(String userName,String userPass);
+
+    /**
      * 查询多条数据
      *
      * @param offset 查询起始位置

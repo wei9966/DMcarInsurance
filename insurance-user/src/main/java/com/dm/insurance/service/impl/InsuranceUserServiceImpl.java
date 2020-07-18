@@ -27,7 +27,14 @@ public class InsuranceUserServiceImpl implements InsuranceUserService {
      */
     @Override
     public InsuranceUser queryById(Integer userId) {
-        return this.insuranceUserDao.queryById(userId);
+        InsuranceUser dbUser=this.insuranceUserDao.queryById(userId);
+        return dbUser;
+    }
+
+    @Override
+    public InsuranceUser queryName(String userName, String userPass) {
+        InsuranceUser dbUser=this.insuranceUserDao.queryName(userName,userPass);
+        return dbUser;
     }
 
     /**
