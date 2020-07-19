@@ -24,6 +24,9 @@ public class TokenInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         //从请求头中获取token
         String token = request.getHeader("token");
+    System.out.println("token："+request.getHeader("token"));
+        System.out.println("token2："+token);
+
         //执行认证
         if(token == null){
             throw new RuntimeException("尚未登陆!");

@@ -188,7 +188,7 @@ public class InsuranceUserController {
         return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
 
-    @GetMapping("/admin")
+    @RequestMapping("/admin")
     public ResultUtil testMethod(){
         return ResultUtil.success();
     }

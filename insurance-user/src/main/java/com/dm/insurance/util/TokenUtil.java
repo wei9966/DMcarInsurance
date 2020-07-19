@@ -8,17 +8,31 @@ import java.util.Date;
 
 public class TokenUtil {
 
-    //设置过期时间为1个小时
-    private static final Long EXPIRE_TIME = Long.valueOf(630000);
 
-    public static String getToken(InsuranceUser insuranceUser){
-        String token="";
-        Date date = new Date();
-        date.setTime(System.currentTimeMillis() + EXPIRE_TIME);
-        token= JWT.create().withAudience(String.valueOf(insuranceUser.getUserId()))
-                .withExpiresAt(date)
-                .sign(Algorithm.HMAC256(insuranceUser.getUserPass()));
-        return token;
-    }
+  // 1 秒=1000 毫秒
+  private static final long second = 1000;
+  // 1 分=60000 毫秒
+  private static final long minute = 60000;
+  // 1 时=3600000 毫秒
+  private static final long hour = 3600000;
+  // 1 天=86400000 毫秒
+  private static final long day = 86400000;
+  // 1 周=604800000 毫秒
+  private static final long week = 604800000;
+  // 1 年=31536000000 毫秒
+  private static final long year = 31536000000L;
+  // 设置过期时间为
+  private static final Long EXPIRE_TIME = Long.valueOf(hour);
 
+  public static String getToken(InsuranceUser insuranceUser) {
+    String token = "";
+    Date date = new Date();
+    date.setTime(System.currentTimeMillis() + EXPIRE_TIME);
+    token =
+        JWT.create()
+            .withAudience(String.valueOf(insuranceUser.getUserId()))
+            .withExpiresAt(date)
+            .sign(Algorithm.HMAC256(insuranceUser.getUserPass()));
+    return token;
+  }
 }
