@@ -14,24 +14,24 @@ import java.io.Serializable;
 public class InsuranceInsured implements Serializable {
     private static final long serialVersionUID = -73039296092803476L;
     /**
-    * 被保险人id
-    */
+     * 被保险人id
+     */
     private Integer insuredId;
     /**
-    * 被保险人名称
-    */
+     * 被保险人名称
+     */
     private String insuredName;
     /**
-    * 被保险人身份证
-    */
+     * 被保险人身份证
+     */
     private String insuredCard;
     /**
-    * 被保险人地址
-    */
+     * 被保险人地址
+     */
     private String insuredAddress;
     /**
-    * 被保险人邮箱
-    */
+     * 被保险人邮箱
+     */
     private String insuredEmail;
 
 

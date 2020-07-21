@@ -25,7 +25,7 @@ public interface InsuranceInsurContractService {
      * 查询多条数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     List<InsuranceInsurContract> queryAllByLimit(int offset, int limit);
@@ -53,7 +53,8 @@ public interface InsuranceInsurContractService {
      * @return 是否成功
      */
     boolean deleteById(Integer policyId);
-     /*
+
+    /*
      * 通过用户id 关联表单id  查询是否买买保险
      * */
     List<InsuranceUser> selectByinfo(Integer userId);

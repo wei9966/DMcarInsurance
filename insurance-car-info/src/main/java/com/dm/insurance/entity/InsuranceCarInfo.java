@@ -11,48 +11,48 @@ import java.io.Serializable;
 public class InsuranceCarInfo implements Serializable {
     private static final long serialVersionUID = -68179530178444507L;
     /**
-    * 车辆id
-    */
+     * 车辆id
+     */
     private Integer carInfoId;
     /**
-    * 车辆品牌型号
-    */
+     * 车辆品牌型号
+     */
     private String carInfoBrand;
     /**
-    * 车辆投保城市
-    */
+     * 车辆投保城市
+     */
     private Integer cityId;
     /**
-    * 车辆车牌号
-    */
+     * 车辆车牌号
+     */
     private String carInfoCard;
     /**
-    * 车辆车架号
-    */
+     * 车辆车架号
+     */
     private String carInfoFrameNo;
     /**
-    * 车辆发动机号
-    */
+     * 车辆发动机号
+     */
     private String carInfoEnigneNumber;
     /**
-    * 车辆配置型号
-    */
+     * 车辆配置型号
+     */
     private String carInfoConfigurationModel;
     /**
-    * 初登日期
-    */
+     * 初登日期
+     */
     private Object carInfoDateFirst;
     /**
-    * 是否过户车辆
-    */
+     * 是否过户车辆
+     */
     private Integer carInfoTransfer;
     /**
-    * 过户日期
-    */
+     * 过户日期
+     */
     private Object carInfoTransferDate;
     /**
-    * 用户id
-    */
+     * 用户id
+     */
     private Integer userId;
 
 

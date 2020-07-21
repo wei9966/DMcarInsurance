@@ -11,7 +11,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceClauseMap">
         select
-          clause_id, clause_type, clause_content
+        clause_id, clause_type, clause_content
         from insurance.insurance_clause
         where clause_id = #{clauseId}
     </select>
@@ -19,7 +19,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceClauseMap">
         select
-          clause_id, clause_type, clause_content
+        clause_id, clause_type, clause_content
         from insurance.insurance_clause
         limit #{offset}, #{limit}
     </select>
@@ -27,7 +27,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceClauseMap">
         select
-          clause_id, clause_type, clause_content
+        clause_id, clause_type, clause_content
         from insurance.insurance_clause
         <where>
             <if test="clauseId != null">

@@ -22,10 +22,17 @@ public interface InsuranceUserService {
     InsuranceUser queryById(Integer userId);
 
     /**
+     * 通过ID查询单条数据
+     *
+     * @return 实例对象
+     */
+    InsuranceUser queryName(String userName,String userPass);
+
+    /**
      * 查询多条数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     List<InsuranceUser> queryAllByLimit(int offset, int limit);
@@ -59,8 +66,8 @@ public interface InsuranceUserService {
      *
      * @param userPhone
      * @return 是否登录成功
-     * */
-    InsuranceUser phoneCodeLogin( String userPhone);
+     */
+    InsuranceUser phoneCodeLogin(String userPhone);
 
     /**
      * 通过手机号登录
@@ -68,8 +75,8 @@ public interface InsuranceUserService {
      * @param userPhone
      * @param userPass
      * @return 是否登录成功
-     * */
-    InsuranceUser phoneLogin( String userPhone,  String userPass);
+     */
+    InsuranceUser phoneLogin(String userPhone, String userPass);
 
     /**
      * 通过用户名登录
@@ -77,7 +84,7 @@ public interface InsuranceUserService {
      * @param userName
      * @param userPass
      * @return 是否登录成功
-     * */
+     */
     InsuranceUser nameLogin(String userName, String userPass);
 
     /**
@@ -86,15 +93,15 @@ public interface InsuranceUserService {
      * @param userEmail
      * @param userPass
      * @return 是否登录成功
-     * */
-    InsuranceUser emailLogin( String userEmail,String userPass);
+     */
+    InsuranceUser emailLogin(String userEmail, String userPass);
 
     /**
      * 查询是否存在该手机号
      *
      * @param userPhone
      * @return 是否登录成功
-     * */
+     */
     InsuranceUser queryPhone(String userPhone);
 
     /**
@@ -104,6 +111,6 @@ public interface InsuranceUserService {
      * @param userEmail
      * @param userName
      * @return ID
-     * */
-    InsuranceUser queryId( String userPhone,String userEmail,String userName);
+     */
+    InsuranceUser queryId(String userPhone, String userEmail, String userName);
 }

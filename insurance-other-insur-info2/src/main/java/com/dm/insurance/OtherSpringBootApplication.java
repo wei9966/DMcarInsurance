@@ -13,6 +13,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class OtherSpringBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OtherSpringBootApplication.class,args);
+        SpringApplication.run(OtherSpringBootApplication.class, args);
     }
 }

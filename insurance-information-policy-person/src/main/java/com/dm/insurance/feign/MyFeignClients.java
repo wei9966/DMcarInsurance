@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Create By WeiBin on 2020/7/4 17:03
+ *
  * @author WB
  */
 @Component

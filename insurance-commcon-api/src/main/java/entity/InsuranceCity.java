@@ -11,20 +11,20 @@ import java.io.Serializable;
 public class InsuranceCity implements Serializable {
     private static final long serialVersionUID = -23126086513357634L;
     /**
-    * 地址ID
-    */
+     * 地址ID
+     */
     private Integer baseAreaid;
     /**
-    * 地区名字
-    */
+     * 地区名字
+     */
     private String name;
     /**
-    * 上级路径ID
-    */
+     * 上级路径ID
+     */
     private Integer parentid;
     /**
-    * 顺序
-    */
+     * 顺序
+     */
     private Integer vieworder;
 
 

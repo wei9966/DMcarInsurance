@@ -4,6 +4,7 @@ import com.dm.insurance.entity.InsuranceInsurContract;
 import com.dm.insurance.entity.InsuranceUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
 import java.util.List;
 
 /**
@@ -27,7 +28,7 @@ public interface InsuranceInsurContractDao {
      * 查询指定行数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     List<InsuranceInsurContract> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
@@ -64,10 +65,11 @@ public interface InsuranceInsurContractDao {
      * @return 影响行数
      */
     int deleteById(Integer policyId);
-      /*
-      * 通过用户id 关联表单id  查询是否买买保险
-      *
-      * */
-     List<InsuranceUser> selectByinfo(Integer userId);
+
+    /*
+     * 通过用户id 关联表单id  查询是否买买保险
+     *
+     * */
+    List<InsuranceUser> selectByinfo(Integer userId);
 
 }
