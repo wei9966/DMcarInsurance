@@ -2,113 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="wb 从token中获取用户id">
-      <change afterPath="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/config/InsuranceCorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/annotation/CurrentOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/config/WebMvcConfiguer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/interceptor/TokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/resolver/UserHandlerMethodArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/util/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/util/ResultSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/util/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/util/TokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/CarInfoSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/CarInfoSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-info/src/main/resources/mapper/InsuranceCarInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-info/src/main/resources/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceCarInsurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceInserIncludeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/controller/InsuranceInserIncludeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceCarInsurDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceInserIncludeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/dao/InsuranceInserIncludeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceCarInsur.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceCarInsur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceInserInclude.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/entity/InsuranceInserInclude.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/insuranceCarInsur.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/insuranceCarInsur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceInserIncludeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/InsuranceInserIncludeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/java/com/dm/insurance/service/impl/InsuranceInserIncludeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceCarInsurDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceInserIncludeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-car-insur/src/main/resources/mapper/InsuranceInserIncludeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/InsuranceCityDmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/InsuranceCityDmt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCarInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/controller/InsuranceCityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCarInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/dao/InsuranceCityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCarInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/entity/InsuranceCity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCarInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/InsuranceCityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCarInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/java/com/dm/insurance/service/impl/InsuranceCityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCarInfoDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-city/src/main/resources/mapper/InsuranceCityDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/java/com/dm/GateWaySpringBootApplication80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceClauseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDrivingLicenseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsuredController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceBillingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceBillingDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceClauseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDrivingLicenseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDrivingLicenseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsuredDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsuredDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceBilling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceClause.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceDrivingLicense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsuranceInsured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceBillingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceClauseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceClauseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDistributionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDistributionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceDrivingLicenseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceInsuredService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceInsuredService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceBillingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceClauseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDistributionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceDrivingLicenseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceInsuredServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceBillingDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceBillingDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceClauseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceClauseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDistributionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDistributionDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceDrivingLicenseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceInsuredDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceInsuredDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/test/java/com/dm/test/DriveLicenseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/Order2Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-order/src/main/java/com/dm/insurance/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/OtherSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/OtherSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/InsuranceInsurContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/InsuranceInsurContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/java/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-other-insur-info2/src/main/resources/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/PaySpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/PaySpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/config/AlipayTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/config/AlipayTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/vo/PayVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/java/com/dm/insurance/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-third-party/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/UserSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/dao/InsuranceUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/entity/InsuranceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/InsuranceUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/service/impl/InsuranceUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/insurance-user/src/main/resources/mapper/InsuranceUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/InsuranceInsurContractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/service/impl/InsuranceInsurContractServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insurance-information-policy-person/src/main/resources/mapper/InsuranceInsurContractDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/insurance-insurance_insur_contract.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/insurance-insurance_insur_contract.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/META-INF/insurance-commcon-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/InsuranceUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/com/dm/insurance/entity/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-commcon-api/target/classes/entity/InsuranceCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/com/dm/GateWaySpringBootApplication80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-gateway/target/classes/com/dm/config/InsuranceCorsConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/ThirdParty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/EmailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-third-party/target/classes/com/dm/insurance/service/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/META-INF/insurance-user.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/UserSpringBootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/config/WebMvcConfiguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/InsuranceUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/dao/InsuranceUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/entity/InsuranceUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/interceptor/TokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/InsuranceUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/service/impl/InsuranceUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/util/ResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/util/ResultUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/com/dm/insurance/util/TokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/classes/mapper/InsuranceUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insurance-user/target/test-classes/META-INF/insurance-user.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/insurance-user/target/" />
     <ignored path="$PROJECT_DIR$/insurance-car-info/target/" />
@@ -143,24 +76,31 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+        <item name="车险项目" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+        <item name="车险项目" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="insurance@47.100.79.206" type="feb32156:DbDataSourceImpl" />
+        <item name="车险项目" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="insurance: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="insurance: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="车险项目" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="insurance: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="insurance_insur_contract: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,6 +132,8 @@
         <option value="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/resolver/UserHandlerMethodArgumentResolver.java" />
         <option value="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/config/WebMvcConfiguer.java" />
         <option value="$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java" />
+        <option value="$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java" />
+        <option value="$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java" />
       </list>
     </option>
   </component>
@@ -250,8 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +234,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32413793" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -440,8 +382,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ThirdParty" />
         <item itemvalue="Spring Boot.PolicyPersonInformation" />
+        <item itemvalue="Spring Boot.ThirdParty" />
         <item itemvalue="JUnit.DriveLicenseTest.test1" />
         <item itemvalue="JUnit.CarTest.test1" />
       </list>
@@ -511,7 +453,9 @@
       <workItem from="1594454906925" duration="622000" />
       <workItem from="1594517880402" duration="4039000" />
       <workItem from="1594601163081" duration="10240000" />
-      <workItem from="1595291436216" duration="214000" />
+      <workItem from="1595291436216" duration="6241000" />
+      <workItem from="1595380783941" duration="2165000" />
+      <workItem from="1595551421067" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="网关整合用户服务">
       <created>1593001753758</created>
@@ -639,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594631998418</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="wb 从token中获取用户id">
+      <created>1595291760759</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595291760759</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,15 +617,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4789000" />
+    <option name="totallyTimeSpent" value="13216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5017373" side_tool="true" visible="true" weight="0.30449438" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5017373" side_tool="true" weight="0.30449438" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
@@ -684,16 +635,17 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
       <window_info anchor="right" id="Codota" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.4975978" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.3280899" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49826267" weight="0.30449438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49826267" visible="true" weight="0.30449438" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -702,7 +654,6 @@
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32921347" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32921347" />
@@ -858,46 +809,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java">
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-pay/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-pay/src/main/java/com/dm/insurance/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/entity/InsuranceCity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/Common.java" />
-    <entry file="file://$PROJECT_DIR$/insurance-gateway/src/main/assembly/bin/status.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="2464">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -957,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceEvaluationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceDistributionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -989,13 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceEvaluationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1025,13 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsurancePersonnelInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1133,13 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/annotation/CurrentOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/resolver/UserHandlerMethodArgumentResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1161,24 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/interceptor/TokenInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/config/WebMvcConfiguer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1196,5 +1069,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/annotation/CurrentOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/config/WebMvcConfiguer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-user/src/main/java/com/dm/insurance/controller/InsuranceUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5056">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/entity/InsurancePersonnelInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/feign/MyFeignClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceDistributionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceBillingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceEvaluationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceEvaluationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/dao/InsuranceInsurContractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-commcon-api/src/main/java/com/dm/insurance/entity/InsuranceInsurContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insurance-information-policy-person/src/main/java/com/dm/insurance/controller/InsuranceInsurContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>insurance-gateway:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32413793" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>insurance-commcon-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32413793" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
