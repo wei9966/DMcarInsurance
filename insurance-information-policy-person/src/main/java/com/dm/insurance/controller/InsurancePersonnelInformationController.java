@@ -34,7 +34,7 @@ public class InsurancePersonnelInformationController {
     }
 
     @PostMapping("insert")
-    public R insert(@RequestBody InsurancePersonnelInformation insurancePersonnelInformation){
-        return R.ok().put("data",this.insurancePersonnelInformationService.insert(insurancePersonnelInformation));
+    public R insert(@RequestBody InsurancePersonnelInformation insurancePersonnelInformation) {
+        return R.ok().put("data", this.insurancePersonnelInformationService.insert(insurancePersonnelInformation));
     }
 }

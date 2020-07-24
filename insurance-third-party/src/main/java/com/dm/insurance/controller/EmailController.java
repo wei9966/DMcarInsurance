@@ -26,7 +26,7 @@ public class EmailController {
         String checkCode = String.valueOf(new Random().nextInt(899990) + 100000);
         String message = "<br>您的注册码为:" + checkCode + "为确保您的账户安全,验证码不要随意发送给他人。";
         emailService.sendEmail("注册验证码", to, message);
-        return R.ok().put("data",checkCode);
+        return R.ok().put("data", checkCode);
     }
 
 }

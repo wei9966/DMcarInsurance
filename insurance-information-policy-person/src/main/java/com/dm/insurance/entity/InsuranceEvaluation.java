@@ -11,12 +11,12 @@ import java.io.Serializable;
 public class InsuranceEvaluation implements Serializable {
     private static final long serialVersionUID = -49510376966245975L;
     /**
-    * 估价id
-    */
+     * 估价id
+     */
     private Integer evaluationId;
     /**
-    * 估价类型
-    */
+     * 估价类型
+     */
     private String evaluationType;
 
 

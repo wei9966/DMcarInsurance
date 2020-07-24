@@ -26,7 +26,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceEvaluationMap">
         select
-          evaluation_id, evaluation_type
+        evaluation_id, evaluation_type
         from insurance.insurance_evaluation
         <where>
             <if test="evaluationId != null">

@@ -31,7 +31,8 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsurancePersonnelInformationMap">
         select
-          personnel_id, personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate, insurance_city_id, personnel_new_car_flag
+        personnel_id, personnel_car_price, personnel_phone, insurance_inser_include_id, personnel_license_plate,
+        insurance_city_id, personnel_new_car_flag
         from insurance.insurance_personnel_information
         <where>
             <if test="personnelId != null">

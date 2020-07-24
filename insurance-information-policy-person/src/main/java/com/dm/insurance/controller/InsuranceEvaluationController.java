@@ -29,6 +29,6 @@ public class InsuranceEvaluationController {
      */
     @GetMapping("select")
     public R selectOne() {
-        return R.ok().put("data",this.insuranceEvaluationService.queryAllByLimit(0,100));
+        return R.ok().put("data", this.insuranceEvaluationService.queryAllByLimit(0, 100));
     }
 }

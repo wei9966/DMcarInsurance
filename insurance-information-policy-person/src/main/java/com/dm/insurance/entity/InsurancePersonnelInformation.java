@@ -11,32 +11,32 @@ import java.io.Serializable;
 public class InsurancePersonnelInformation implements Serializable {
     private static final long serialVersionUID = -60295150597620612L;
     /**
-    * 预信息id
-    */
+     * 预信息id
+     */
     private Integer personnelId;
     /**
-    * 估价
-    */
+     * 估价
+     */
     private Double personnelCarPrice;
     /**
-    * 手机号
-    */
+     * 手机号
+     */
     private String personnelPhone;
     /**
-    * 套餐id
-    */
+     * 套餐id
+     */
     private Integer insuranceInserIncludeId;
     /**
-    * 车牌号
-    */
+     * 车牌号
+     */
     private String personnelLicensePlate;
     /**
-    * 城市id
-    */
+     * 城市id
+     */
     private Integer insuranceCityId;
     /**
-    * 新车是否上牌
-    */
+     * 新车是否上牌
+     */
     private Integer personnelNewCarFlag;
 
 

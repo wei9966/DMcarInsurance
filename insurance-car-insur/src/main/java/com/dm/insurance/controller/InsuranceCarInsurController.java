@@ -31,14 +31,15 @@ public class InsuranceCarInsurController {
      * @param id 主键
      * @return 单条数据
      */
-    @GetMapping("/selectOne")
+    @RequestMapping("/selectOne")
     public InsuranceCarInsur selectOne(Integer id) {
         return this.insuranceCarInsurService.queryById(id);
     }
 
-    @GetMapping("/selectAllType")
+    @RequestMapping("/selectAllType")
     public R queryAllType(@RequestParam("ciType") String ciType,
                           @RequestParam("ciState") Integer ciState) {
+
         List<InsuranceCarInsur> insuranceCarInsurs = insuranceCarInsurService.queryAllType(ciType, ciState);
         return R.ok().put("data", insuranceCarInsurs);
     }
