@@ -5,7 +5,9 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
+import com.dm.insurance.entity.InsuranceLogin;
 import com.dm.insurance.entity.InsuranceUser;
+import com.dm.insurance.service.InsuranceLoginService;
 import com.dm.insurance.service.InsuranceUserService;
 import com.dm.insurance.util.JwtUtils;
 import io.jsonwebtoken.Claims;
@@ -20,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 public class TokenInterceptor implements HandlerInterceptor {
 
     @Autowired
-    InsuranceUserService insuranceUserService;
+    InsuranceLoginService insuranceLoginService;
 
     @Autowired
     private JwtUtils jwtUtils;
@@ -43,13 +45,13 @@ public class TokenInterceptor implements HandlerInterceptor {
         } catch (JWTDecodeException j) {
             throw new JWTDecodeException("token异常!请重新登陆");
         }
-        InsuranceUser insuranceUser =insuranceUserService.queryById(Integer.valueOf(userId));
+        InsuranceLogin insuranceUser =insuranceLoginService.queryById(Integer.valueOf(userId));
 //        User user = userService.findUserById(Long.valueOf(userId));
         if (insuranceUser == null) {
             throw new RuntimeException("未找到该用户!");
         }
         // 验证 token
-        JWTVerifier jwtVerifier = JWT.require(Algorithm.HMAC256(insuranceUser.getUserPass())).build();
+        JWTVerifier jwtVerifier = JWT.require(Algorithm.HMAC256(insuranceUser.getInsuranceLoginPassword())).build();
         try {
             jwtVerifier.verify(token);
         } catch (JWTVerificationException e) {

@@ -11,6 +11,10 @@ spring:
     username: root
     url: jdbc:mysql://47.100.79.206:3306/insurance?characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 47.100.79.206
+    port: 6379
+    timeout: 5000
 server:
   port: 18884
 mybatis:

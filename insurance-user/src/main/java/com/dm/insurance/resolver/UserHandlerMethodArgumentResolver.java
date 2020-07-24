@@ -1,8 +1,10 @@
 package com.dm.insurance.resolver;
 
 import com.dm.insurance.annotation.CurrentOperator;
+import com.dm.insurance.entity.InsuranceLogin;
 import com.dm.insurance.entity.InsuranceUser;
 import com.dm.insurance.interceptor.TokenInterceptor;
+import com.dm.insurance.service.InsuranceLoginService;
 import com.dm.insurance.service.InsuranceUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
@@ -20,11 +22,11 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 public class UserHandlerMethodArgumentResolver implements HandlerMethodArgumentResolver {
 
     @Autowired
-    private InsuranceUserService insuranceUserService;
+    private InsuranceLoginService insuranceLoginService;
 
     @Override
     public boolean supportsParameter(MethodParameter methodParameter) {
-        return methodParameter.getParameterType().isAssignableFrom(InsuranceUser.class)
+        return methodParameter.getParameterType().isAssignableFrom(InsuranceLogin.class)
                 && methodParameter.hasParameterAnnotation(CurrentOperator.class);
     }
 
@@ -37,7 +39,8 @@ public class UserHandlerMethodArgumentResolver implements HandlerMethodArgumentR
             return null;
         }
         //获取用户信息
-        InsuranceUser insuranceUser = insuranceUserService.queryById(Integer.parseInt(attribute.toString()));
-        return insuranceUser;
+        InsuranceLogin insuranceLogin = insuranceLoginService.queryById(Integer.parseInt(attribute.toString()));
+        System.out.println("好像到的用户"+insuranceLogin);
+        return insuranceLogin;
     }
 }

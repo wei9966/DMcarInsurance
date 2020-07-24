@@ -22,7 +22,7 @@ public class WebMvcConfiguer implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(getTokenInterceptor())
-                .addPathPatterns("/user/insuranceUser/admin");
+                .addPathPatterns("/user/insuranceUser/**");
     }
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {

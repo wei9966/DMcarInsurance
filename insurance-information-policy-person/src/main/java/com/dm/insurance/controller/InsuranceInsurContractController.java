@@ -39,7 +39,7 @@ public class InsuranceInsurContractController {
      * @param insuranceInsurContract
      * @return 新增后的数据
      */
-    @GetMapping("selectOne")
+    @GetMapping("insertOne")
     public R insertOne(@RequestBody InsuranceInsurContract insuranceInsurContract) {
         InsuranceInsurContract insert = this.insuranceInsurContractService.insert(insuranceInsurContract);
         return R.ok().put("data",insert);
