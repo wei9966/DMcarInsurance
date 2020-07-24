@@ -29,7 +29,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceInsuredMap">
         select
-          insured_id, insured_name, insured_card, insured_address, insured_email
+        insured_id, insured_name, insured_card, insured_address, insured_email
         from insurance.insurance_insured
         <where>
             <if test="insuredId != null">

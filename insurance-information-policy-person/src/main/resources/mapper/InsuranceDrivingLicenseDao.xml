@@ -27,7 +27,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceDrivingLicenseMap">
         select
-          driving_license_id, driving_license_name, driving_license_card
+        driving_license_id, driving_license_name, driving_license_card
         from insurance.insurance_driving_license
         <where>
             <if test="drivingLicenseId != null">

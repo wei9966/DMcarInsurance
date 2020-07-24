@@ -18,12 +18,12 @@ public class DriveLicenseTest {
     private InsuranceDrivingLicenseService insuranceDrivingLicenseService;
 
     @Test
-    public void test1(){
-        InsuranceDrivingLicense insuranceDrivingLicense=new InsuranceDrivingLicense();
+    public void test1() {
+        InsuranceDrivingLicense insuranceDrivingLicense = new InsuranceDrivingLicense();
         insuranceDrivingLicense.setDrivingLicenseCard("430666616161");
         insuranceDrivingLicense.setDrivingLicenseName("王五");
         InsuranceDrivingLicense insert = insuranceDrivingLicenseService.insert(insuranceDrivingLicense);
-        System.out.println("添加后的结果"+insert);
+        System.out.println("添加后的结果" + insert);
     }
 
 }

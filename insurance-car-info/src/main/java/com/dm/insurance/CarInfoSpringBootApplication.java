@@ -13,6 +13,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class CarInfoSpringBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CarInfoSpringBootApplication.class,args);
+        SpringApplication.run(CarInfoSpringBootApplication.class, args);
     }
 }

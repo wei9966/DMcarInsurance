@@ -14,12 +14,12 @@ import java.io.Serializable;
 public class InsuranceDistribution implements Serializable {
     private static final long serialVersionUID = 822446469143485178L;
     /**
-    * 配送id
-    */
+     * 配送id
+     */
     private Integer distributionId;
     /**
-    * 配送方式
-    */
+     * 配送方式
+     */
     private String distributionType;
 
 

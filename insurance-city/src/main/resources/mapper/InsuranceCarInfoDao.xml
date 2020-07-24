@@ -37,7 +37,9 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+        car_info_id, car_info_brand, car_info_register_date, city_id, car_info_card, car_info_owner, car_info_frame_no,
+        car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer,
+        car_info_transfer_date, user_id
         from insurance.insurance_car_info
         <where>
             <if test="carInfoId != null">

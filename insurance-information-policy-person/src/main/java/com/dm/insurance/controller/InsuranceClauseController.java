@@ -26,11 +26,12 @@ public class InsuranceClauseController {
 
     /**
      * 查询所有条款
+     *
      * @return 单条数据
      */
     @GetMapping("select")
     public R selectOne() {
-        return R.ok().put("data",insuranceClauseService.queryAllByLimit(0,10));
+        return R.ok().put("data", insuranceClauseService.queryAllByLimit(0, 10));
     }
 
 

@@ -186,7 +186,6 @@
             <result property="userAddress" column="user_address"></result>
             <result property="userCard" column="user_card"></result>
         </association>
-
     </resultMap>
     <select id="selectByinfo" resultMap="insuranceInsurContract1" parameterType="int">
             SELECT
@@ -201,4 +200,12 @@
             WHERE a.user_id = #{id}
      </select>
 
+
+    <select id="getInsurContract" resultMap="insuranceInsurContract1" parameterType="java.lang.String">
+            select * from
+            insurance_insur_contract a
+            INNER JOIN insurance_user b
+             on a.user_id=b.user_id where
+             b.user_phone=#{phone}
+    </select>
 </mapper>

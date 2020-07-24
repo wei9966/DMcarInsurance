@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Create By WeiBin on 2020/6/26 23:20
  * 邮箱服务
+ *
  * @author WB
  */
 @Service

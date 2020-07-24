@@ -28,7 +28,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceBillingMap">
         select
-          billing_id, billing_customer_type, billing_taxpayer_type, billing_invoice_type
+        billing_id, billing_customer_type, billing_taxpayer_type, billing_invoice_type
         from insurance.insurance_billing
         <where>
             <if test="billingId != null">

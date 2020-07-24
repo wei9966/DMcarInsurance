@@ -35,7 +35,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceCityMap">
         select
-          base_areaid, name, parentid, vieworder
+        base_areaid, name, parentid, vieworder
         from insurance.insurance_city
         <where>
             <if test="baseAreaid != null">

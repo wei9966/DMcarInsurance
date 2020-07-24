@@ -31,7 +31,7 @@ public class InsuranceUserController {
     @GetMapping("selectOne")
     public R selectOne(Integer id) {
         InsuranceUser insuranceUser = this.insuranceUserService.queryById(id);
-        return R.ok().put("data",insuranceUser);
+        return R.ok().put("data", insuranceUser);
     }
 
 
@@ -40,13 +40,13 @@ public class InsuranceUserController {
      *
      * @param insuranceuser 对象
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/insert")
-    public R insert(@RequestBody InsuranceUser insuranceuser){
+    public R insert(@RequestBody InsuranceUser insuranceuser) {
 
         InsuranceUser insert = this.insuranceUserService.insert(insuranceuser);
 
-            return R.ok().put("data",insert);
+        return R.ok().put("data", insert);
 
     }
 
@@ -55,14 +55,14 @@ public class InsuranceUserController {
      *
      * @param insuranceuser 对象
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/update")
-    public R update(@RequestBody InsuranceUser insuranceuser){
+    public R update(@RequestBody InsuranceUser insuranceuser) {
         InsuranceUser update = this.insuranceUserService.update(insuranceuser);
-        if (update!=null){
+        if (update != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","连接服务器超时，请稍后重试");
+        } else {
+            return R.error().put("msg", "连接服务器超时，请稍后重试");
         }
     }
 
@@ -71,14 +71,14 @@ public class InsuranceUserController {
      *
      * @param userPhone
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/phoneCodeLogin")
-    public R phoneCodeLogin(String userPhone){
+    public R phoneCodeLogin(String userPhone) {
         InsuranceUser insuranceUser = this.insuranceUserService.phoneCodeLogin(userPhone);
-        if (insuranceUser!=null){
+        if (insuranceUser != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","用户名密码错误");
+        } else {
+            return R.error().put("msg", "用户名密码错误");
         }
     }
 
@@ -88,14 +88,14 @@ public class InsuranceUserController {
      * @param userPhone
      * @param userPass
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/phoneLogin")
-    public R phoneLogin(String userPhone,String userPass){
+    public R phoneLogin(String userPhone, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.phoneLogin(userPhone, userPass);
-        if (insuranceUser!=null){
+        if (insuranceUser != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","用户名密码错误");
+        } else {
+            return R.error().put("msg", "用户名密码错误");
         }
     }
 
@@ -105,46 +105,45 @@ public class InsuranceUserController {
      * @param userName
      * @param userPass
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/nameLogin")
-    public R nameLogin(String userName,String userPass){
+    public R nameLogin(String userName, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.nameLogin(userName, userPass);
-        if (insuranceUser!=null){
+        if (insuranceUser != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","用户名密码错误");
+        } else {
+            return R.error().put("msg", "用户名密码错误");
         }
     }
 
     /**
      * 通过邮箱登录
+     *
      * @param userPass
      * @param userEmail
      * @return 是否登录成功
-     * */
+     */
     @RequestMapping("/emailLogin")
-    public R emailLogin(String userEmail,String userPass){
+    public R emailLogin(String userEmail, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.emailLogin(userEmail, userPass);
-        if (insuranceUser!=null){
+        if (insuranceUser != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","登录失败");
+        } else {
+            return R.error().put("msg", "登录失败");
         }
     }
 
     /**
-     *
-     *
      * @param userPhone
      * @return
-     * */
+     */
     @RequestMapping("/queryPhone")
-    public R queryPhone(String userPhone){
+    public R queryPhone(String userPhone) {
         InsuranceUser insuranceUser = this.insuranceUserService.queryPhone(userPhone);
-        if (insuranceUser!=null){
+        if (insuranceUser != null) {
             return R.ok();
-        }else {
-            return R.error().put("msg","已存在该手机号");
+        } else {
+            return R.error().put("msg", "已存在该手机号");
         }
     }
 
@@ -155,14 +154,14 @@ public class InsuranceUserController {
      * @param userEmail
      * @param userName
      * @return ID
-     * */
-        @RequestMapping("/queryId")
-    public R queryId(String userPhone,String userEmail,String userName){
-        InsuranceUser queryId = this.insuranceUserService.queryId(userPhone,userEmail,userName);
-        if (queryId!=null){
-            return R.ok().put("data",queryId);
-        }else {
-            return R.error().put("data",0);
+     */
+    @RequestMapping("/queryId")
+    public R queryId(String userPhone, String userEmail, String userName) {
+        InsuranceUser queryId = this.insuranceUserService.queryId(userPhone, userEmail, userName);
+        if (queryId != null) {
+            return R.ok().put("data", queryId);
+        } else {
+            return R.error().put("data", 0);
         }
 
     }

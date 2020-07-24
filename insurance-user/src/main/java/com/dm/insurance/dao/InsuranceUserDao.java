@@ -28,7 +28,7 @@ public interface InsuranceUserDao {
      * 查询指定行数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     List<InsuranceUser> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
@@ -71,7 +71,7 @@ public interface InsuranceUserDao {
      *
      * @param userPhone
      * @return 是否登录成功
-     * */
+     */
     InsuranceUser phoneCodeLogin(String userPhone);
 
     /**
@@ -80,8 +80,8 @@ public interface InsuranceUserDao {
      * @param userPhone
      * @param userPass
      * @return 是否登录成功
-     * */
-    InsuranceUser phoneLogin(@Param("userPhone") String userPhone,@Param("userPass") String userPass);
+     */
+    InsuranceUser phoneLogin(@Param("userPhone") String userPhone, @Param("userPass") String userPass);
 
     /**
      * 通过用户名登录
@@ -89,8 +89,8 @@ public interface InsuranceUserDao {
      * @param userName
      * @param userPass
      * @return 是否登录成功
-     * */
-    InsuranceUser nameLogin(@Param("userName") String userName,@Param("userPass") String userPass);
+     */
+    InsuranceUser nameLogin(@Param("userName") String userName, @Param("userPass") String userPass);
 
     /**
      * 通过邮箱登录
@@ -98,15 +98,15 @@ public interface InsuranceUserDao {
      * @param userEmail
      * @param userPass
      * @return 是否登录成功
-     * */
-    InsuranceUser emailLogin(@Param("userEmail") String userEmail,@Param("userPass") String userPass);
+     */
+    InsuranceUser emailLogin(@Param("userEmail") String userEmail, @Param("userPass") String userPass);
 
     /**
      * 查询是否存在该手机号
      *
      * @param userPhone
      * @return 是否存在
-     * */
+     */
     InsuranceUser queryPhone(@Param("userPhone") String userPhone);
 
     /**
@@ -116,6 +116,6 @@ public interface InsuranceUserDao {
      * @param userEmail
      * @param userName
      * @return ID
-     * */
-    InsuranceUser queryId(@Param("userPhone") String userPhone,@Param("userEmail") String userEmail,@Param("userName") String userName);
+     */
+    InsuranceUser queryId(@Param("userPhone") String userPhone, @Param("userEmail") String userEmail, @Param("userName") String userName);
 }

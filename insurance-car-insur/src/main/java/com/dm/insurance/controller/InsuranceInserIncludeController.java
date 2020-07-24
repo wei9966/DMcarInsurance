@@ -28,15 +28,15 @@ public class InsuranceInserIncludeController {
      * @param id 主键
      * @return 单条数据
      */
-    @GetMapping("selectOne")
-    public R selectOne(Integer id) {
-        return R.ok().put("data",this.insuranceInserIncludeService.queryById(id));
+    @RequestMapping("selectOne")
+    public InsuranceInserInclude selectOne(Integer id) {
+        return this.insuranceInserIncludeService.queryById(id);
     }
 
     @PostMapping("/inserttaocan")
-    public R insertTaoCan(@RequestBody InsuranceInserInclude insuranceInserInclude){
+    public R insertTaoCan(@RequestBody InsuranceInserInclude insuranceInserInclude) {
         InsuranceInserInclude insert = insuranceInserIncludeService.insert(insuranceInserInclude);
-        return R.ok().put("data",insert);
+        return R.ok().put("data", insert);
     }
 
 }

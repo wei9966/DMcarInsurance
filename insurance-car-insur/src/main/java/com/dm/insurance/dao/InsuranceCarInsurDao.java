@@ -32,7 +32,7 @@ public interface InsuranceCarInsurDao {
      * @return
      */
     List<InsuranceCarInsur> queryAllType(@Param("ciType") String ciType,
-                   @Param("ciState") Integer ciState);
+                                         @Param("ciState") Integer ciState);
 
     /**
      * 查询指定行数据

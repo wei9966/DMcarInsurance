@@ -9,6 +9,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class insuranceCarInsur {
 
     public static void main(String[] args) {
-        SpringApplication.run(insuranceCarInsur.class,args);
+        SpringApplication.run(insuranceCarInsur.class, args);
     }
 }

@@ -37,6 +37,6 @@ public class InsuranceCityController {
     @GetMapping("selectOne2")
     public R selectOne2(Integer parentid) {
         List<InsuranceCity> list = this.insuranceCityService.ListqueryById(parentid);
-        return R.ok().put("data",list);
+        return R.ok().put("data", list);
     }
 }

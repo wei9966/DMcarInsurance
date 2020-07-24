@@ -14,20 +14,20 @@ import java.io.Serializable;
 public class InsuranceBilling implements Serializable {
     private static final long serialVersionUID = -57199548218189898L;
     /**
-    * 开票id
-    */
+     * 开票id
+     */
     private Integer billingId;
     /**
-    * 客户类型
-    */
+     * 客户类型
+     */
     private String billingCustomerType;
     /**
-    * 纳税人类型
-    */
+     * 纳税人类型
+     */
     private String billingTaxpayerType;
     /**
-    * 发票类型
-    */
+     * 发票类型
+     */
     private String billingInvoiceType;
 
 
