@@ -11,7 +11,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceDrivingLicenseMap">
         select
-          driving_license_id, driving_license_name, driving_license_card
+        driving_license_id, driving_license_name, driving_license_card
         from insurance.insurance_driving_license
         where driving_license_id = #{drivingLicenseId}
     </select>
@@ -19,7 +19,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceDrivingLicenseMap">
         select
-          driving_license_id, driving_license_name, driving_license_card
+        driving_license_id, driving_license_name, driving_license_card
         from insurance.insurance_driving_license
         limit #{offset}, #{limit}
     </select>

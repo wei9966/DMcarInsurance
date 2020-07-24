@@ -118,4 +118,12 @@ public interface InsuranceUserDao {
      * @return ID
      */
     InsuranceUser queryId(@Param("userPhone") String userPhone, @Param("userEmail") String userEmail, @Param("userName") String userName);
+
+    /**
+     *
+     * @param userName
+     * @param userPass
+     * @return
+     */
+    InsuranceUser queryName(@Param("userName") String userName, @Param("userPass") String userPass);
 }

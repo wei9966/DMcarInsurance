@@ -52,8 +52,8 @@ public class InsuranceCarInfoController {
     }
 
     @GetMapping("getRedisCarInfo")
-    public R selectTwo(String redisKey) {
-        String s = stringRedisTemplate.opsForValue().get(redisKey);
+    public R selectTwo(String redsiKey) {
+        String s = stringRedisTemplate.opsForValue().get(redsiKey);
         InsuranceCarInfo insuranceCarInfo = JSON.parseObject(s, InsuranceCarInfo.class);
         return R.ok().put("data", insuranceCarInfo);
     }

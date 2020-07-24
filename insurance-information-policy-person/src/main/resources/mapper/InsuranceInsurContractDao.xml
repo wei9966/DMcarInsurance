@@ -16,16 +16,15 @@
         <result property="icState" column="ic_state" jdbcType="INTEGER"/>
         <result property="unShenid" column="un_shenid" jdbcType="INTEGER"/>
         <result property="icIspayment" column="ic_ispayment" jdbcType="INTEGER"/>
-        <result property="icMoney" column="ic_money" jdbcType="OTHER"/>
-        <result property="maxMoney" column="max_money" jdbcType="OTHER"/>
+        <result property="icMoney" column="ic_money" jdbcType="NUMERIC"/>
+        <result property="maxMoney" column="max_money" jdbcType="NUMERIC"/>
         <result property="msgTable" column="msg_table" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceInsurContractMap">
         select
-        policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id,
-        ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
+          policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id, ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
         from insurance.insurance_insur_contract
         where policy_id = #{policyId}
     </select>
@@ -33,8 +32,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceInsurContractMap">
         select
-        policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id,
-        ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
+          policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id, ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
         from insurance.insurance_insur_contract
         limit #{offset}, #{limit}
     </select>
@@ -42,8 +40,7 @@
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InsuranceInsurContractMap">
         select
-        policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id,
-        ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
+          policy_id, user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id, ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table
         from insurance.insurance_insur_contract
         <where>
             <if test="policyId != null">
@@ -99,10 +96,8 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="policyId" useGeneratedKeys="true">
-        insert into insurance.insurance_insur_contract(user_id, car_info_id, insured_id, driving_license_id, ic_addtime,
-        ic_totime, ip_id, ci_id, un_id, ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table)
-        values (#{userId}, #{carInfoId}, #{insuredId}, #{drivingLicenseId}, #{icAddtime}, #{icTotime}, #{ipId}, #{ciId},
-        #{unId}, #{icState}, #{unShenid}, #{icIspayment}, #{icMoney}, #{maxMoney}, #{msgTable})
+        insert into insurance.insurance_insur_contract(user_id, car_info_id, insured_id, driving_license_id, ic_addtime, ic_totime, ip_id, ci_id, un_id, ic_state, un_shenid, ic_ispayment, ic_money, max_money, msg_table)
+        values (#{userId}, #{carInfoId}, #{insuredId}, #{drivingLicenseId}, #{icAddtime}, #{icTotime}, #{ipId}, #{ciId}, #{unId}, #{icState}, #{unShenid}, #{icIspayment}, #{icMoney}, #{maxMoney}, #{msgTable})
     </insert>
 
     <!--通过主键修改数据-->
@@ -162,47 +157,5 @@
     <delete id="deleteById">
         delete from insurance.insurance_insur_contract where policy_id = #{policyId}
     </delete>
-    <!-- 通过用户id 关联保单id-->
-    <resultMap id="insuranceInsurContract1" type="com.dm.insurance.entity.InsuranceInsurContract">
-        <result property="policyId" column="policy_id" jdbcType="INTEGER"/>
-        <result property="userId" column="user_id" jdbcType="INTEGER"/>
-        <result property="carInfoId" column="car_info_id" jdbcType="INTEGER"/>
-        <result property="insuredId" column="insured_id" jdbcType="INTEGER"/>
-        <result property="drivingLicenseId" column="driving_license_id" jdbcType="INTEGER"/>
-        <result property="icAddtime" column="ic_addtime" jdbcType="TIMESTAMP"/>
-        <result property="icTotime" column="ic_totime" jdbcType="TIMESTAMP"/>
-        <result property="ipId" column="ip_id" jdbcType="INTEGER"/>
-        <result property="ciId" column="ci_id" jdbcType="VARCHAR"/>
-        <result property="unId" column="un_id" jdbcType="INTEGER"/>
-        <result property="icState" column="ic_state" jdbcType="INTEGER"/>
-        <result property="unShenid" column="un_shenid" jdbcType="INTEGER"/>
-        <result property="icIspayment" column="ic_ispayment" jdbcType="INTEGER"/>
-        <result property="icMoney" column="ic_money" jdbcType="OTHER"/>
-        <result property="maxMoney" column="max_money" jdbcType="OTHER"/>
-        <result property="msgTable" column="msg_table" jdbcType="VARCHAR"/>
-        <association property="insuranceUser" javaType="com.dm.insurance.entity.InsuranceUser">
-            <id property="userId" column="user_id"></id>
-            <result property="userName" column="user_name"></result>
-            <result property="userPass" column="user_pass"></result>
-            <result property="userPhone" column="user_phone"></result>
-            <result property="userEmail" column="user_email"></result>
-            <result property="userSex" column="user_sex"></result>
-            <result property="userAddress" column="user_address"></result>
-            <result property="userCard" column="user_card"></result>
-        </association>
-
-    </resultMap>
-    <select id="selectByinfo" resultMap="insuranceInsurContract1" parameterType="int">
-        SELECT
-        b.user_name,
-        b.user_card,
-        b.user_email,
-        a.ic_addtime
-        FROM
-        `insurance_insur_contract` a
-        INNER JOIN `insurance_user` b
-        ON a.user_id = b.user_id
-        WHERE a.user_id = #{id}
-    </select>
 
 </mapper>

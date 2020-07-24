@@ -1,8 +1,11 @@
 package com.dm.insurance.controller;
 
+import com.dm.insurance.annotation.CurrentOperator;
 import com.dm.insurance.entity.InsuranceUser;
 import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceUserService;
+import com.dm.insurance.util.ResultUtil;
+import com.dm.insurance.util.TokenUtil;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -73,13 +76,15 @@ public class InsuranceUserController {
      * @return 是否登录成功
      */
     @RequestMapping("/phoneCodeLogin")
-    public R phoneCodeLogin(String userPhone) {
+    public ResultUtil phoneCodeLogin(String userPhone) {
         InsuranceUser insuranceUser = this.insuranceUserService.phoneCodeLogin(userPhone);
-        if (insuranceUser != null) {
-            return R.ok();
-        } else {
-            return R.error().put("msg", "用户名密码错误");
+        if (insuranceUser == null) {
+            return ResultUtil.failure().addObject("err", "用户名或密码错误!");
         }
+        //获取token
+        String token = TokenUtil.getToken(insuranceUser);
+        //返回给客户端保存
+        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
 
     /**
@@ -90,13 +95,15 @@ public class InsuranceUserController {
      * @return 是否登录成功
      */
     @RequestMapping("/phoneLogin")
-    public R phoneLogin(String userPhone, String userPass) {
+    public ResultUtil phoneLogin(String userPhone, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.phoneLogin(userPhone, userPass);
-        if (insuranceUser != null) {
-            return R.ok();
-        } else {
-            return R.error().put("msg", "用户名密码错误");
+        if (insuranceUser == null) {
+            return ResultUtil.failure().addObject("err", "用户名或密码错误!");
         }
+        //获取token
+        String token = TokenUtil.getToken(insuranceUser);
+        //返回给客户端保存
+        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
 
     /**
@@ -107,13 +114,15 @@ public class InsuranceUserController {
      * @return 是否登录成功
      */
     @RequestMapping("/nameLogin")
-    public R nameLogin(String userName, String userPass) {
+    public ResultUtil nameLogin(String userName, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.nameLogin(userName, userPass);
-        if (insuranceUser != null) {
-            return R.ok();
-        } else {
-            return R.error().put("msg", "用户名密码错误");
+        if (insuranceUser == null) {
+            return ResultUtil.failure().addObject("err", "用户名或密码错误!");
         }
+        //获取token
+        String token = TokenUtil.getToken(insuranceUser);
+        //返回给客户端保存
+        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
 
     /**
@@ -124,13 +133,15 @@ public class InsuranceUserController {
      * @return 是否登录成功
      */
     @RequestMapping("/emailLogin")
-    public R emailLogin(String userEmail, String userPass) {
+    public ResultUtil emailLogin(String userEmail, String userPass) {
         InsuranceUser insuranceUser = this.insuranceUserService.emailLogin(userEmail, userPass);
-        if (insuranceUser != null) {
-            return R.ok();
-        } else {
-            return R.error().put("msg", "登录失败");
+        if (insuranceUser == null) {
+            return ResultUtil.failure().addObject("err", "用户名或密码错误!");
         }
+        //获取token
+        String token = TokenUtil.getToken(insuranceUser);
+        //返回给客户端保存
+        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
 
     /**
@@ -164,6 +175,24 @@ public class InsuranceUserController {
             return R.error().put("data", 0);
         }
 
+    }
+
+    @PostMapping("/login")
+    public ResultUtil login(String userName, String userPass){
+        InsuranceUser insuranceUser = insuranceUserService.queryName(userName, userPass);
+        if (insuranceUser == null) {
+            return ResultUtil.failure().addObject("err", "用户名或密码错误!");
+        }
+        //获取token
+        String token = TokenUtil.getToken(insuranceUser);
+        //返回给客户端保存
+        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
+    }
+
+    @RequestMapping("/admin")
+    public R testMethod(@CurrentOperator InsuranceUser user){
+        System.out.println("当前登录的用户"+user);
+        return R.ok().put("user",user);
     }
 
 }

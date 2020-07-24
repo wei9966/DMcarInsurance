@@ -13,7 +13,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceInsuredMap">
         select
-          insured_id, insured_name, insured_card, insured_address, insured_email
+        insured_id, insured_name, insured_card, insured_address, insured_email
         from insurance.insurance_insured
         where insured_id = #{insuredId}
     </select>
@@ -21,7 +21,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceInsuredMap">
         select
-          insured_id, insured_name, insured_card, insured_address, insured_email
+        insured_id, insured_name, insured_card, insured_address, insured_email
         from insurance.insurance_insured
         limit #{offset}, #{limit}
     </select>

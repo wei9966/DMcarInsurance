@@ -1,1 +1,122 @@
-{"comment":"\u4fdd\u5355\u8868","pkColumn":null,"obj":null,"fullColumn":[{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":true,"obj":null,"name":"policyId"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"userId"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"carInfoId"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"insuredId"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"drivingLicenseId"},{"type":null,"ext":{},"comment":null,"jdbcType":"datetime","notNull":false,"obj":null,"name":"icAddtime"},{"type":null,"ext":{},"comment":null,"jdbcType":"datetime","notNull":false,"obj":null,"name":"icTotime"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"ipId"},{"type":null,"ext":{},"comment":null,"jdbcType":"VARCHAR","notNull":false,"obj":null,"name":"ciId"},{"type":null,"ext":{"query":true},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"unId"},{"type":null,"ext":{"query":true},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"icState"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"unShenid"},{"type":null,"ext":{},"comment":null,"jdbcType":"INTEGER","notNull":false,"obj":null,"name":"icIspayment"},{"type":"java.lang.Double","ext":{},"comment":null,"jdbcType":"double","notNull":false,"obj":null,"name":"icMoney"},{"type":"java.lang.Double","ext":{},"comment":null,"jdbcType":"double","notNull":false,"obj":null,"name":"maxMoney"},{"type":null,"ext":{},"comment":null,"jdbcType":"VARCHAR","notNull":false,"obj":null,"name":"msgTable"}],"otherColumn":null,"name":"InsuranceInsurContract"}
+{
+  "name" : "InsuranceInsurContract",
+  "comment" : "保单表",
+  "fullColumn" : [ {
+    "name" : "policyId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "userId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "carInfoId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "insuredId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "drivingLicenseId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "icAddtime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "icTotime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "ipId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "ciId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "unId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "icState",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "unShenid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "icIspayment",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "icMoney",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "maxMoney",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "msgTable",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.dm.insurance",
+  "savePath" : "./insurance-information-policy-person/src/main/java/com/dm/insurance",
+  "saveModelName" : "insurance-information-policy-person"
+}

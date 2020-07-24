@@ -19,7 +19,8 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+        car_info_id, car_info_brand, city_id, car_info_card, car_info_frame_no, car_info_enigne_number,
+        car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
         from insurance.insurance_car_info
         where car_info_id = #{carInfoId}
     </select>
@@ -27,7 +28,8 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceCarInfoMap">
         select
-          car_info_id, car_info_brand, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
+        car_info_id, car_info_brand, city_id, car_info_card, car_info_frame_no, car_info_enigne_number,
+        car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id
         from insurance.insurance_car_info
         limit #{offset}, #{limit}
     </select>
@@ -77,8 +79,11 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="carInfoId" useGeneratedKeys="true">
-        insert into insurance.insurance_car_info(car_info_brand, city_id, car_info_card, car_info_frame_no, car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer, car_info_transfer_date, user_id)
-        values (#{carInfoBrand}, #{cityId}, #{carInfoCard}, #{carInfoFrameNo}, #{carInfoEnigneNumber}, #{carInfoConfigurationModel}, #{carInfoDateFirst}, #{carInfoTransfer}, #{carInfoTransferDate}, #{userId})
+        insert into insurance.insurance_car_info(car_info_brand, city_id, car_info_card, car_info_frame_no,
+        car_info_enigne_number, car_info_configuration_model, car_info_date_first, car_info_transfer,
+        car_info_transfer_date, user_id)
+        values (#{carInfoBrand}, #{cityId}, #{carInfoCard}, #{carInfoFrameNo}, #{carInfoEnigneNumber},
+        #{carInfoConfigurationModel}, #{carInfoDateFirst}, #{carInfoTransfer}, #{carInfoTransferDate}, #{userId})
     </insert>
 
     <!--通过主键修改数据-->

@@ -12,14 +12,14 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InsuranceCityMap">
         select
-          base_areaid, name, parentid, vieworder
+        base_areaid, name, parentid, vieworder
         from insurance.insurance_city
         where parentid = #{parentid}
     </select>
 
     <select id="ListqueryById" resultMap="InsuranceCityMap">
         select
-          base_areaid, name, parentid, vieworder
+        base_areaid, name, parentid, vieworder
         from insurance.insurance_city
         where parentid = #{parentid}
     </select>
@@ -27,7 +27,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="InsuranceCityMap">
         select
-          base_areaid, name, parentid, vieworder
+        base_areaid, name, parentid, vieworder
         from insurance.insurance_city
         limit #{offset}, #{limit}
     </select>
