@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="wb-投保模块最终整合初版" />
+    <list default="true" id="2d014919-2784-43bb-8330-0239de5394bf" name="Default Changelist" comment="wb-投保模块最终整合初版">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/insurance-user/target/" />
     <ignored path="$PROJECT_DIR$/insurance-car-info/target/" />
     <ignored path="$PROJECT_DIR$/insurance-other-insur-info2/target/" />
@@ -446,7 +448,7 @@
       <workItem from="1595380783941" duration="2165000" />
       <workItem from="1595551421067" duration="6805000" />
       <workItem from="1595567175618" duration="15258000" />
-      <workItem from="1595598922944" duration="4794000" />
+      <workItem from="1595598922944" duration="5037000" />
     </task>
     <task id="LOCAL-00001" summary="网关整合用户服务">
       <created>1593001753758</created>
@@ -602,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595604204738</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="wb-投保模块最终整合初版">
+      <created>1595604386285</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1595604386285</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,14 +638,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39838000" />
+    <option name="totallyTimeSpent" value="40081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5023537" side_tool="true" visible="true" weight="0.30449438" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5023537" side_tool="true" weight="0.30449438" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Designer" order="2" />
@@ -653,7 +662,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.4975978" weight="0.34157303" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49834326" weight="0.3280899" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49764627" visible="true" weight="0.30449438" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49764627" weight="0.30449438" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
