@@ -5,6 +5,9 @@ spring:
     nacos:
       discovery:
         server-addr: 47.100.79.206:8848
+    inetutils:
+      ignored-interfaces: eth.*
+      preferred-networks: 47.100.79.206:8848
     gateway:
       discovery:
         locator:
