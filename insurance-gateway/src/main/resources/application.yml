@@ -101,6 +101,13 @@ spring:
           filters:
             - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
+        - id: claim_third_party
+          uri: lb://claims-third-party
+          predicates:
+            - Path=/Api/claim/third/party/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
         - id: renren-fast
           uri: lb://renren-fast
           predicates:
