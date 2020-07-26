@@ -1,8 +1,10 @@
 package com.dm.insurance.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.dm.insurance.entity.InsuranceInsurContract;
 import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceInsurContractService;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -14,14 +16,18 @@ import javax.annotation.Resource;
  * @since 2020-07-21 14:21:33
  */
 @RestController
-@RequestMapping("insuranceInsurContract")
+@RequestMapping("policy/insuranceInsurContract")
 public class InsuranceInsurContractController {
     /**
      * 服务对象
      */
     @Resource
     private InsuranceInsurContractService insuranceInsurContractService;
-
+    /**
+     * redis模板
+     */
+    @Resource
+    private StringRedisTemplate stringRedisTemplate;
     /**
      * 通过主键查询单条数据
      *
@@ -45,4 +51,29 @@ public class InsuranceInsurContractController {
         return R.ok().put("data",insert);
     }
 
+    /**
+     * 将投保单数据添加到redis
+     * @param insuranceInsurContract 投保单
+     * @return 是否存入成功
+     */
+    @PostMapping("/add/contract")
+    public R addContractRedis(@RequestBody InsuranceInsurContract insuranceInsurContract){
+        stringRedisTemplate.opsForValue().set(insuranceInsurContract.getCiId(),JSON.toJSONString(insuranceInsurContract));
+        System.out.println("存入的键"+insuranceInsurContract.getCiId()+"\t值"+JSON.toJSONString(insuranceInsurContract));
+        return  R.ok().put("data",insuranceInsurContract);
+    }
+
+    /**
+     * 将投保单从缓存中拿出来，并且存入到数据库中
+     * @param redisKey 缓存中的键
+     * @return 返回存入后的结果
+     */
+    @GetMapping("/get/contract")
+    public R getContractByRedis(String redisKey){
+        String rs = stringRedisTemplate.opsForValue().get(redisKey);
+        InsuranceInsurContract insuranceInsurContract = JSON.parseObject(rs, InsuranceInsurContract.class);
+        // TODO 保存到数据库中,生成两个时间类,一个开始时间，一个结束时间,同时将此条信息的订单支付状态更改
+        System.out.println("查到的值"+insuranceInsurContract);
+        return R.ok().put("data",insuranceInsurContract);
+    }
 }

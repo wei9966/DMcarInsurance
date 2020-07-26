@@ -142,7 +142,7 @@ public class InsuranceLoginController {
     @RequestMapping("/redisInsert")
     public R insertRedis(@CurrentOperator InsuranceLogin user){
         String s = UUID.randomUUID().toString();
-        stringRedisTemplate.opsForValue().set(s+user.getInsuranceLoginId(),JSON.toJSONString(user),5,TimeUnit.MINUTES);
+        stringRedisTemplate.opsForValue().set(s+user.getInsuranceLoginId(),JSON.toJSONString(user),60,TimeUnit.MINUTES);
         System.out.println("需要缓存的用户的id"+s+user.getInsuranceLoginId());
         return R.ok().put("key",s+user.getInsuranceLoginId());
     }
