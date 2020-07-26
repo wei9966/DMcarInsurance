@@ -170,4 +170,10 @@ public class InsuranceLoginServiceImpl implements InsuranceLoginService {
         InsuranceLogin dbUser=this.insuranceLoginDao.queryName(userName,md5.digestHex(userPass));
         return dbUser;
     }
+
+    @Override
+    public InsuranceLogin queryEmail(String email) {
+        InsuranceLogin insuranceLogin = this.insuranceLoginDao.queryEmail(email);
+        return insuranceLogin;
+    }
 }

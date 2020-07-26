@@ -1,12 +1,11 @@
 package com.dm.insurance.controller;
 
 import com.dm.insurance.entity.InsuranceLogin;
+import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceLoginService;
 import com.dm.insurance.util.ResultUtil;
 import com.dm.insurance.util.TokenUtil;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -36,8 +35,8 @@ public class UserLoginController {
      * @param userPhone
      * @return 是否登录成功
      */
-    @RequestMapping("/phoneCodeLogin")
-    public ResultUtil phoneCodeLogin(String userPhone) {
+    @RequestMapping("/phoneCodeLogin/{phone}")
+    public ResultUtil phoneCodeLogin(@PathVariable("phone") String userPhone) {
         InsuranceLogin insuranceUser = this.insuranceLoginService.phoneCodeLogin(userPhone);
         if (insuranceUser == null) {
             return ResultUtil.failure().addObject("err", "用户名或密码错误!");
@@ -104,4 +103,34 @@ public class UserLoginController {
         //返回给客户端保存
         return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
     }
+
+    @GetMapping("/checkPhone/{phone}")
+    public R checkPhone(@PathVariable("phone") String phone){
+        InsuranceLogin insuranceLogin = this.insuranceLoginService.queryPhone(phone);
+        System.out.println("a"+insuranceLogin!=null+"\t");
+        if (insuranceLogin!=null){
+            return  R.ok();
+        }else{
+            return  R.error();
+        }
+    }
+
+    @GetMapping("/checkEmail/{email}")
+    public R checkEmail(@PathVariable("email") String email){
+        InsuranceLogin insuranceLogin = this.insuranceLoginService.queryEmail(email);
+        System.out.println("a"+insuranceLogin!=null+"\t"+email);
+        if (insuranceLogin!=null){
+            return  R.ok();
+        }else{
+            return  R.error();
+        }
+    }
+//    @RequestMapping("/codeLogin")
+//    public ResultUtil codeLogin(String userEmail, String userPass) {
+//        //获取token
+//        String token = TokenUtil.getToken(insuranceUser);
+//        //返回给客户端保存
+//        return ResultUtil.success().addObject("token", token).addObject("user",insuranceUser);
+//    }
+
 }

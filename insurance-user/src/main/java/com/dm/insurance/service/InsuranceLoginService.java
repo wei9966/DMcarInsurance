@@ -112,4 +112,6 @@ public interface InsuranceLoginService {
      * @return 实例对象
      */
     InsuranceLogin queryName(String userName,String userPass);
+
+    InsuranceLogin queryEmail(String email);
 }

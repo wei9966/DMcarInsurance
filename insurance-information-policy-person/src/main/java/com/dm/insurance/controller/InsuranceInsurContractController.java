@@ -4,10 +4,12 @@ import com.alibaba.fastjson.JSON;
 import com.dm.insurance.entity.InsuranceInsurContract;
 import com.dm.insurance.entity.R;
 import com.dm.insurance.service.InsuranceInsurContractService;
+import com.dm.insurance.util.InsuranceDateUtils;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 保单表(InsuranceInsurContract)表控制层
@@ -58,7 +60,7 @@ public class InsuranceInsurContractController {
      */
     @PostMapping("/add/contract")
     public R addContractRedis(@RequestBody InsuranceInsurContract insuranceInsurContract){
-        stringRedisTemplate.opsForValue().set(insuranceInsurContract.getCiId(),JSON.toJSONString(insuranceInsurContract));
+        stringRedisTemplate.opsForValue().set(insuranceInsurContract.getCiId(),JSON.toJSONString(insuranceInsurContract),24,TimeUnit.HOURS);
         System.out.println("存入的键"+insuranceInsurContract.getCiId()+"\t值"+JSON.toJSONString(insuranceInsurContract));
         return  R.ok().put("data",insuranceInsurContract);
     }
@@ -68,12 +70,17 @@ public class InsuranceInsurContractController {
      * @param redisKey 缓存中的键
      * @return 返回存入后的结果
      */
-    @GetMapping("/get/contract")
-    public R getContractByRedis(String redisKey){
+    @GetMapping("/get/contract/{orderId}")
+    public R getContractByRedis(@PathVariable("orderId") String redisKey){
         String rs = stringRedisTemplate.opsForValue().get(redisKey);
         InsuranceInsurContract insuranceInsurContract = JSON.parseObject(rs, InsuranceInsurContract.class);
         // TODO 保存到数据库中,生成两个时间类,一个开始时间，一个结束时间,同时将此条信息的订单支付状态更改
+        insuranceInsurContract.setIcAddtime(InsuranceDateUtils.getNowDate());
+        insuranceInsurContract.setIcTotime(InsuranceDateUtils.getToDate());
         System.out.println("查到的值"+insuranceInsurContract);
-        return R.ok().put("data",insuranceInsurContract);
+        InsuranceInsurContract insert = this.insuranceInsurContractService.insert(insuranceInsurContract);
+        stringRedisTemplate.opsForValue().set(redisKey,"",1,TimeUnit.SECONDS);
+        System.out.println("增加后的值"+insert);
+        return R.ok().put("data",insert);
     }
 }

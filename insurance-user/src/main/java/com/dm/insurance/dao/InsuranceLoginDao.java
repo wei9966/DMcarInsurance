@@ -125,4 +125,11 @@ public interface InsuranceLoginDao {
      * @return
      */
     InsuranceLogin queryName(@Param("userName") String userName, @Param("userPass") String userPass);
+
+    /**
+     * 判断邮箱是否存 在
+     * @param email 邮箱
+     * @return 是否存在用户
+     */
+    InsuranceLogin queryEmail(@Param("email") String email);
 }

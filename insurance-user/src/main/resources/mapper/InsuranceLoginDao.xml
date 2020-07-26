@@ -109,7 +109,7 @@
     <!--查询用户手机号是否存在-->
     <select id="queryPhone" resultMap="InsuranceLoginMap">
         select
-          user_id,insurance_login_phone
+          insurance_login_id,insurance_login_phone
         from insurance.insurance_login
         where insurance_login_phone = #{userPhone}
     </select>
@@ -136,5 +136,13 @@
           insurance_login_id, insurance_login_emai, insurance_login_password, insurance_login_phone, insurance_login_emai
         from insurance.insurance_login
         where insurance_login_emai = #{userName} and insurance_login_password = #{userPass}
+    </select>
+
+    <!--查询用户邮箱是否存在-->
+    <select id="queryEmail" resultMap="InsuranceLoginMap">
+        select
+          insurance_login_id,insurance_login_phone
+        from insurance.insurance_login
+        where insurance_login_emai = #{email}
     </select>
 </mapper>

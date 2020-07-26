@@ -94,6 +94,13 @@ spring:
           filters:
             - RewritePath=/Api/(?<segment>.*),/$\{segment}
 
+        - id: claim_login_user
+          uri: lb://claims-login-user
+          predicates:
+            - Path=/Api/claim/login/**
+          filters:
+            - RewritePath=/Api/(?<segment>.*),/$\{segment}
+
         - id: renren-fast
           uri: lb://renren-fast
           predicates:
