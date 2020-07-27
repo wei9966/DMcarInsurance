@@ -99,7 +99,7 @@
     </select>
     <!--通过用户名登录-->
     <select id="nameLogin" resultMap="InsuranceLoginMap">
-        select * from insurance.insurance_login where insurance_login_emai=#{userName} and insurance_login_password =#{userPass}
+        select * from insurance.insurance_login where insurance_login_user=#{userName} and insurance_login_password =#{userPass}
     </select>
     <!--通过邮箱登录-->
     <select id="emailLogin" resultMap="InsuranceLoginMap">
@@ -127,7 +127,7 @@
             and  insurance_login_emai = #{userEmail}
         </if>
         <if test="userName != null and userName != ''">
-            and  insurance_login_emai = #{userName}
+            and  insurance_login_user = #{userName}
         </if>
     </select>
     <!--查询账号-->
@@ -135,7 +135,7 @@
         select
           insurance_login_id, insurance_login_emai, insurance_login_password, insurance_login_phone, insurance_login_emai
         from insurance.insurance_login
-        where insurance_login_emai = #{userName} and insurance_login_password = #{userPass}
+        where insurance_login_user = #{userName} and insurance_login_password = #{userPass}
     </select>
 
     <!--查询用户邮箱是否存在-->

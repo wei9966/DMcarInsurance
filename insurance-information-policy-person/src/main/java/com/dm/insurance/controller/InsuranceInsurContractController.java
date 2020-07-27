@@ -74,13 +74,19 @@ public class InsuranceInsurContractController {
     public R getContractByRedis(@PathVariable("orderId") String redisKey){
         String rs = stringRedisTemplate.opsForValue().get(redisKey);
         InsuranceInsurContract insuranceInsurContract = JSON.parseObject(rs, InsuranceInsurContract.class);
-        // TODO 保存到数据库中,生成两个时间类,一个开始时间，一个结束时间,同时将此条信息的订单支付状态更改
-        insuranceInsurContract.setIcAddtime(InsuranceDateUtils.getNowDate());
-        insuranceInsurContract.setIcTotime(InsuranceDateUtils.getToDate());
-        System.out.println("查到的值"+insuranceInsurContract);
-        InsuranceInsurContract insert = this.insuranceInsurContractService.insert(insuranceInsurContract);
-        stringRedisTemplate.opsForValue().set(redisKey,"",1,TimeUnit.SECONDS);
-        System.out.println("增加后的值"+insert);
-        return R.ok().put("data",insert);
+        // 保存到数据库中,生成两个时间类,一个开始时间，一个结束时间,同时将此条信息的订单支付状态更改
+        if(insuranceInsurContract!=null){
+            insuranceInsurContract.setIcAddtime(InsuranceDateUtils.getNowDate());
+            insuranceInsurContract.setIcTotime(InsuranceDateUtils.getToDate());
+            System.out.println("查到的值"+insuranceInsurContract);
+            InsuranceInsurContract insert = this.insuranceInsurContractService.insert(insuranceInsurContract);
+            stringRedisTemplate.opsForValue().set(redisKey,"",1,TimeUnit.SECONDS);
+            System.out.println("增加后的值"+insert);
+            return R.ok().put("data",insert);
+        }else{
+            return  R.error();
+        }
+
+
     }
 }
