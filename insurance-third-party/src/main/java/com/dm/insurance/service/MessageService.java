@@ -19,8 +19,8 @@ import java.util.Random;
  */
 @Service
 public class MessageService {
-    private String accessKeyId = "LTAI4GHFKLj3dD1rtCinpE7n";
-    private String accessSecret = "KJqI4jtgmes9RgeOiEds6PawJloKYI";
+    private String accessKeyId = "LTAI4GHDJij1sEtCinpE7n";
+    private String accessSecret = "KJqI4jtgmesdwIjsloKYI";
     public static String pNumber = null;
 
     public void SendMessage(String phoneNumber) {
